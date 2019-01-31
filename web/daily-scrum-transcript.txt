@@ -1,0 +1,74 @@
+# Copyright 2016-17 DichteFideleLurche
+
+This file contains a transcript of DichteFideleLurche's daily
+scrum meetings.
+
+Q1: What did you do yesterday?
+Q2: What will you do today?
+Q3: Are there any impediments in your way?
+
+================================================================
+2016-12-27: Second daily scrum meeting
+
+-- Andreas Ellwanger (scrum master)
+
+   Q1: -
+   Q2: -
+   Q3: -
+
+-- Ha-Vy Ha
+
+   Q1:
+   Q2:
+   Q3:
+
+-- Thi Y Nhi Nguyen
+
+   Q1:
+   Q2:
+   Q3:
+
+-- Christian Reiner
+
+   Q1:
+   Q2:
+   Q3:
+
+-- Lisa Stephan
+
+   Q1:
+   Q2:
+   Q3:
+
+================================================================
+2016-12-15: First daily scrum meeting
+
+-- Andreas Ellwanger (scrum master)
+
+   Q1: -
+   Q2: -
+   Q3: -
+
+-- Ha-Vy Ha
+
+   Q1: informed herself about observer, worked at model
+   Q2: connect model view via observer patten, update myself about network
+   Q3: too many notifications (smartphone), lack of certain java knowledge
+
+-- Thi Y Nhi Nguyen
+
+   Q1: implemented trade and build window at view, general work a view, development cards
+   Q2: property bindings, update myself about network and general project
+   Q3: lack of certain java knowledge
+
+-- Christian Reiner
+
+   Q1: tried to use netty package, educated myself about log4j
+   Q2: implement status update at network (player)
+   Q3: lack of certain java knowledge
+
+-- Lisa Stephan
+
+   Q1: continued work at observer pattern, started documenting model
+   Q2: fix andis bug at model (random board) later on connect model with view
+   Q3: cannot continue work because of missing network

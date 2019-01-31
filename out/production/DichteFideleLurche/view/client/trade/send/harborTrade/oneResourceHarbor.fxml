@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" minHeight="550.0" minWidth="650.0" prefHeight="550.0"
+      prefWidth="650.0" spacing="30.0" xmlns="http://javafx.com/javafx/8.0.60"
+      fx:controller="view.client.trade.send.harborTrade.oneResourceHarborController">
+   <children>
+       <HBox prefHeight="40.0" prefWidth="650.0">
+         <children>
+             <Button maxHeight="40.0" maxWidth="100.0" minHeight="40.0" minWidth="100.0" mnemonicParsing="false"
+                     onAction="#goBack" prefHeight="40.0" prefWidth="100.0" text="Go Back"/>
+         </children>
+       </HBox>
+       <HBox alignment="CENTER">
+           <children>
+               <VBox alignment="TOP_CENTER" minHeight="230.0" minWidth="78.0" prefHeight="230.0" prefWidth="78.0"
+                     spacing="50.0">
+                   <children>
+                       <ImageView fx:id="arrowIn" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                  preserveRatio="true"/>
+                       <ImageView fx:id="arrowOut" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                  preserveRatio="true"/>
+                   </children>
+               </VBox>
+               <VBox alignment="CENTER" maxHeight="230.0" maxWidth="476.0" minHeight="230.0" minWidth="476.0"
+                     prefHeight="230.0" prefWidth="476.0" spacing="20.0">
+                   <children>
+                       <VBox maxHeight="105.0" maxWidth="484.0" minHeight="105.0" minWidth="484.0" spacing="5.0">
+                           <children>
+                               <HBox alignment="CENTER" prefHeight="30.0" prefWidth="586.0" spacing="20.0">
+                                   <children>
+                                       <ImageView fx:id="lumberImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="383.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                       <ImageView fx:id="brickImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="208.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                       <ImageView fx:id="grainImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="278.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                       <ImageView fx:id="woolImgV1" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                                  preserveRatio="true"/>
+                                       <ImageView fx:id="oreImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="313.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                   </children>
+                               </HBox>
+                               <HBox alignment="BOTTOM_CENTER" prefHeight="19.0" prefWidth="484.0" spacing="20.0">
+                                   <children>
+                                       <Spinner fx:id="lumberCnt1" layoutX="353.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                       <Spinner fx:id="brickCnt1" layoutX="328.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                       <Spinner fx:id="grainCnt1" layoutX="278.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                       <Spinner fx:id="woolCnt1" prefHeight="25.0" prefWidth="75.0"/>
+                                       <Spinner fx:id="oreCnt1" layoutX="303.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                   </children>
+                               </HBox>
+                           </children>
+                       </VBox>
+                       <VBox maxHeight="105.0" maxWidth="484.0" minHeight="105.0" minWidth="484.0" prefHeight="105.0"
+                             prefWidth="484.0" spacing="5.0">
+                           <children>
+                               <HBox alignment="CENTER" prefHeight="30.0" prefWidth="586.0" spacing="60.0">
+                                   <children>
+                                       <ImageView fx:id="resourceImg" fitHeight="75.0" fitWidth="75.0" layoutX="278.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                   </children>
+                               </HBox>
+                               <HBox alignment="BOTTOM_CENTER" prefHeight="42.0" prefWidth="574.0" spacing="20.0">
+                                   <children>
+                                       <Spinner fx:id="resourceCnt" layoutX="278.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                   </children>
+                               </HBox>
+                           </children>
+                       </VBox>
+                   </children>
+               </VBox>
+               <VBox alignment="TOP_CENTER" minHeight="230.0" minWidth="78.0" prefHeight="230.0" prefWidth="78.0"
+                     spacing="50.0">
+                   <children>
+                       <Label fx:id="down1" alignment="CENTER" minHeight="75.0" minWidth="75.0" text="1"/>
+                       <Label fx:id="up1" alignment="CENTER" minHeight="75.0" minWidth="75.0" text="2"/>
+                   </children>
+               </VBox>
+           </children>
+           <stylesheets>
+               <URL value="@/css/catanBoxes.css"/>
+           </stylesheets>
+       </HBox>
+       <HBox alignment="CENTER" prefHeight="0.0" prefWidth="574.0">
+           <children>
+               <VBox alignment="CENTER_LEFT" minHeight="120.0" minWidth="230.0" prefHeight="120.0" prefWidth="230.0">
+                   <children>
+                       <Label prefHeight="17.0" prefWidth="230.0" text="Chosen resources:"/>
+                       <Label prefHeight="17.0" prefWidth="230.0" text="Required cards of you:"/>
+                       <Label prefHeight="17.0" prefWidth="230.0" text="Selected:"/>
+                       <Label prefHeight="17.0" prefWidth="230.0" text="Cards Left:"/>
+                   </children>
+               </VBox>
+               <VBox alignment="CENTER_LEFT" minHeight="120.0" minWidth="55.0" prefHeight="120.0" prefWidth="55.0">
+                   <children>
+                       <Label fx:id="managementLabel" maxWidth="55.0" minWidth="55.0" prefWidth="55.0" text="Label"/>
+                       <Label fx:id="requiredLabel" maxWidth="55.0" minWidth="55.0" prefWidth="55.0" text="Label"/>
+                       <Label fx:id="selectedLabel" maxWidth="55.0" minWidth="55.0" prefWidth="55.0" text="Label"/>
+                       <Label fx:id="leftLabel" maxWidth="55.0" minWidth="55.0" prefWidth="55.0" text="Label"/>
+                   </children>
+               </VBox>
+           </children>
+       </HBox>
+       <Button fx:id="confirmButton" maxHeight="40.0" maxWidth="100.0" minHeight="40.0" minWidth="100.0"
+               mnemonicParsing="false" onAction="#confirm" prefHeight="40.0" prefWidth="100.0" text="OK">
+           <font>
+               <Font size="9.0"/>
+           </font>
+       </Button>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+</VBox>

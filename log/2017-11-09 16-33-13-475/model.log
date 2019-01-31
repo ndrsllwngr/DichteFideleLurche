@@ -1,0 +1,1135 @@
+2017-11-09 16:33:35.603 INFO  model.board.RandomBoard 129 setNumberTokensRandom - 
+ outerTerrains :
+{{20}=model.board.Mountain@751ff4b9, {13}=model.board.Field@1a13d3e8, {6}=model.board.Field@5bdc501e, {7}=model.board.Mountain@2ca730c7, {10}=model.board.Forest@2617b3d6, {23}=model.board.Pasture@221fa86f, {26}=model.board.Pasture@1b7a4092, {29}=model.board.Hill@e4e7a32, {30}=model.board.Hill@155ce12e, {16}=model.board.Forest@4a5f6f3a, {5}=model.board.Field@368c833}
+2017-11-09 16:33:35.608 INFO  model.board.Board 263 printBoardIDs - 
+  null  null  null   {0}   {1}   {2}   {3}
+  null  null   {4}   {5}   {6}   {7}   {8}
+  null   {9}  {10}  {11}  {12}  {13}  {14}
+  {15}  {16}  {17}  {18}  {19}  {20}  {21}
+  {22}  {23}  {24}  {25}  {26}  {27}  null
+  {28}  {29}  {30}  {31}  {32}  null  null
+  {33}  {34}  {35}  {36}  null  null  null
+
+2017-11-09 16:33:35.610 INFO  model.board.Board 340 printNumberTokens - 
+  null  null  null  null  null  null  null
+  null  null  null     9    10     8  null
+  null  null    12     6     5     3  null
+  null    11     0    11     4     6  null
+  null     4     3     9     2  null  null
+  null     8    10     5  null  null  null
+  null  null  null  null  null  null  null
+
+2017-11-09 16:33:35.613 INFO  model.board.Board 281 printBoardSpecialCo - 
+(     )(     )(     )( 0,-3)( 1,-3)( 2,-3)( 3,-3)
+(     )(     )(-1,-2)( 0,-2)( 1,-2)( 2,-2)( 3,-2)
+(     )(-2,-1)(-1,-1)( 0,-1)( 1,-1)( 2,-1)( 3,-1)
+(-3, 0)(-2, 0)(-1, 0)( 0, 0)( 1, 0)( 2, 0)( 3, 0)
+(-3, 1)(-2, 1)(-1, 1)( 0, 1)( 1, 1)( 2, 1)(     )
+(-3, 2)(-2, 2)(-1, 2)( 0, 2)( 1, 2)(     )(     )
+(-3, 3)(-2, 3)(-1, 3)( 0, 3)(     )(     )(     )
+
+2017-11-09 16:33:35.617 INFO  model.board.Board 301 printTileNeighbors - 
+Row: 0
+                          null : 
+                          null : 
+                          null : 
+      model.board.Sea@7e0abd86 : [model.board.Sea@cad66f8, model.board.Field@368c833, model.board.Sea@3d3afee8]
+       model.board.Sea@cad66f8 : [model.board.Field@5bdc501e, model.board.Field@368c833, model.board.Sea@7e0abd86, model.board.Sea@7856902c]
+      model.board.Sea@7856902c : [model.board.Sea@cad66f8, model.board.Mountain@2ca730c7, model.board.Field@5bdc501e, model.board.Sea@531be42d]
+      model.board.Sea@531be42d : [model.board.Sea@34e6d210, model.board.Mountain@2ca730c7, model.board.Sea@7856902c]
+Row: 1
+                          null : 
+                          null : 
+      model.board.Sea@3d3afee8 : [model.board.Field@368c833, model.board.Forest@2617b3d6, model.board.Sea@5e41a7da, model.board.Sea@7e0abd86]
+     model.board.Field@368c833 : [model.board.Sea@cad66f8, model.board.Field@5bdc501e, model.board.Pasture@12da8bce, model.board.Forest@2617b3d6, model.board.Sea@3d3afee8, model.board.Sea@7e0abd86]
+    model.board.Field@5bdc501e : [model.board.Sea@cad66f8, model.board.Mountain@2ca730c7, model.board.Forest@1e6c3f34, model.board.Pasture@12da8bce, model.board.Field@368c833, model.board.Sea@7856902c]
+ model.board.Mountain@2ca730c7 : [model.board.Sea@34e6d210, model.board.Field@1a13d3e8, model.board.Forest@1e6c3f34, model.board.Field@5bdc501e, model.board.Sea@7856902c, model.board.Sea@531be42d]
+      model.board.Sea@34e6d210 : [model.board.Sea@1c1808bb, model.board.Field@1a13d3e8, model.board.Mountain@2ca730c7, model.board.Sea@531be42d]
+Row: 2
+                          null : 
+      model.board.Sea@5e41a7da : [model.board.Sea@3d3afee8, model.board.Forest@2617b3d6, model.board.Sea@4f341395, model.board.Forest@4a5f6f3a]
+   model.board.Forest@2617b3d6 : [model.board.Desert@9767546, model.board.Sea@3d3afee8, model.board.Field@368c833, model.board.Pasture@12da8bce, model.board.Sea@5e41a7da, model.board.Forest@4a5f6f3a]
+  model.board.Pasture@12da8bce : [model.board.Desert@9767546, model.board.Field@368c833, model.board.Field@5bdc501e, model.board.Forest@1e6c3f34, model.board.Forest@2617b3d6, model.board.Forest@761c7ec3]
+   model.board.Forest@1e6c3f34 : [model.board.Field@5bdc501e, model.board.Mountain@2ca730c7, model.board.Field@1a13d3e8, model.board.Pasture@12da8bce, model.board.Forest@761c7ec3, model.board.Pasture@2a1ded6b]
+    model.board.Field@1a13d3e8 : [model.board.Mountain@2ca730c7, model.board.Sea@34e6d210, model.board.Sea@1c1808bb, model.board.Mountain@751ff4b9, model.board.Forest@1e6c3f34, model.board.Pasture@2a1ded6b]
+      model.board.Sea@1c1808bb : [model.board.Sea@34e6d210, model.board.Sea@45daeb06, model.board.Mountain@751ff4b9, model.board.Field@1a13d3e8]
+Row: 3
+      model.board.Sea@4f341395 : [model.board.Sea@5e41a7da, model.board.Sea@7fbc6abe, model.board.Forest@4a5f6f3a]
+   model.board.Forest@4a5f6f3a : [model.board.Desert@9767546, model.board.Sea@5e41a7da, model.board.Forest@2617b3d6, model.board.Pasture@221fa86f, model.board.Sea@7fbc6abe, model.board.Sea@4f341395]
+    model.board.Desert@9767546 : [model.board.Forest@2617b3d6, model.board.Pasture@12da8bce, model.board.Mountain@6a43e9ec, model.board.Pasture@221fa86f, model.board.Forest@4a5f6f3a, model.board.Forest@761c7ec3]
+   model.board.Forest@761c7ec3 : [model.board.Desert@9767546, model.board.Pasture@12da8bce, model.board.Forest@1e6c3f34, model.board.Field@2f70277a, model.board.Mountain@6a43e9ec, model.board.Pasture@2a1ded6b]
+  model.board.Pasture@2a1ded6b : [model.board.Forest@1e6c3f34, model.board.Field@1a13d3e8, model.board.Mountain@751ff4b9, model.board.Pasture@1b7a4092, model.board.Field@2f70277a, model.board.Forest@761c7ec3]
+ model.board.Mountain@751ff4b9 : [model.board.Field@1a13d3e8, model.board.Sea@1c1808bb, model.board.Sea@45daeb06, model.board.Sea@3de07b49, model.board.Pasture@1b7a4092, model.board.Pasture@2a1ded6b]
+      model.board.Sea@45daeb06 : [model.board.Sea@1c1808bb, model.board.Sea@3de07b49, model.board.Mountain@751ff4b9]
+Row: 4
+      model.board.Sea@7fbc6abe : [model.board.Sea@4f341395, model.board.Pasture@221fa86f, model.board.Sea@21950fd1, model.board.Forest@4a5f6f3a]
+  model.board.Pasture@221fa86f : [model.board.Desert@9767546, model.board.Mountain@6a43e9ec, model.board.Hill@e4e7a32, model.board.Sea@21950fd1, model.board.Sea@7fbc6abe, model.board.Forest@4a5f6f3a]
+ model.board.Mountain@6a43e9ec : [model.board.Desert@9767546, model.board.Field@2f70277a, model.board.Hill@155ce12e, model.board.Hill@e4e7a32, model.board.Pasture@221fa86f, model.board.Forest@761c7ec3]
+    model.board.Field@2f70277a : [model.board.Pasture@1b7a4092, model.board.Hill@54ec9e86, model.board.Hill@155ce12e, model.board.Mountain@6a43e9ec, model.board.Forest@761c7ec3, model.board.Pasture@2a1ded6b]
+  model.board.Pasture@1b7a4092 : [model.board.Mountain@751ff4b9, model.board.Sea@3de07b49, model.board.Hill@54ec9e86, model.board.Field@2f70277a, model.board.Sea@7a093896, model.board.Pasture@2a1ded6b]
+      model.board.Sea@3de07b49 : [model.board.Mountain@751ff4b9, model.board.Sea@45daeb06, model.board.Pasture@1b7a4092, model.board.Sea@7a093896]
+                          null : 
+Row: 5
+      model.board.Sea@21950fd1 : [model.board.Sea@440d3ead, model.board.Sea@7fbc6abe, model.board.Pasture@221fa86f, model.board.Hill@e4e7a32]
+      model.board.Hill@e4e7a32 : [model.board.Sea@440d3ead, model.board.Pasture@221fa86f, model.board.Mountain@6a43e9ec, model.board.Hill@155ce12e, model.board.Sea@21950fd1, model.board.Sea@4def5a7a]
+     model.board.Hill@155ce12e : [model.board.Mountain@6a43e9ec, model.board.Field@2f70277a, model.board.Hill@54ec9e86, model.board.Hill@e4e7a32, model.board.Sea@4def5a7a, model.board.Sea@7d47e5ef]
+     model.board.Hill@54ec9e86 : [model.board.Field@2f70277a, model.board.Pasture@1b7a4092, model.board.Sea@4eb9bf59, model.board.Hill@155ce12e, model.board.Sea@7a093896, model.board.Sea@7d47e5ef]
+      model.board.Sea@7a093896 : [model.board.Pasture@1b7a4092, model.board.Sea@3de07b49, model.board.Sea@4eb9bf59, model.board.Hill@54ec9e86]
+                          null : 
+                          null : 
+Row: 6
+      model.board.Sea@440d3ead : [model.board.Sea@21950fd1, model.board.Hill@e4e7a32, model.board.Sea@4def5a7a]
+      model.board.Sea@4def5a7a : [model.board.Sea@440d3ead, model.board.Hill@e4e7a32, model.board.Hill@155ce12e, model.board.Sea@7d47e5ef]
+      model.board.Sea@7d47e5ef : [model.board.Hill@155ce12e, model.board.Hill@54ec9e86, model.board.Sea@4eb9bf59, model.board.Sea@4def5a7a]
+      model.board.Sea@4eb9bf59 : [model.board.Hill@54ec9e86, model.board.Sea@7a093896, model.board.Sea@7d47e5ef]
+                          null : 
+                          null : 
+                          null : 
+
+2017-11-09 16:33:35.620 INFO  model.board.Board 322 printPorts - 
+         {4} : GENERIC
+        {36} : GENERIC
+         {1} : GRAIN
+        {14} : BRICK
+        {15} : WOOL
+        {27} : LUMBER
+        {28} : GENERIC
+        {34} : GENERIC
+         {3} : ORE
+
+{22, 23, 28} : GENERIC
+{15, 16, 22} : WOOL
+   {1, 2, 6} : GRAIN
+   {1, 5, 6} : GRAIN
+{13, 14, 20} : BRICK
+{20, 26, 27} : LUMBER
+{31, 32, 36} : GENERIC
+{31, 35, 36} : GENERIC
+ {8, 13, 14} : BRICK
+{23, 28, 29} : GENERIC
+ {9, 15, 16} : WOOL
+{29, 30, 34} : GENERIC
+   {3, 7, 8} : ORE
+   {2, 3, 7} : ORE
+{30, 34, 35} : GENERIC
+  {4, 5, 10} : GENERIC
+{20, 21, 27} : LUMBER
+   {0, 4, 5} : GENERIC
+
+2017-11-09 16:33:35.708 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@173742bc
+2017-11-09 16:33:35.710 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:35.711 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:35.748 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@4f45731a
+2017-11-09 16:33:35.749 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:35.750 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:35.856 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@276fd996
+2017-11-09 16:33:35.857 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:35.858 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.326 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     BLUE      name      KI (1)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.327 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:36.454 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.463 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:36.651 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.653 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:36.700 INFO  model.Management 59 rollDices - 
+ Dice [ 6, 6 ]
+ Resources [ BRICK 19, LUMBER 19, ORE 19, GRAIN 19, WOOL 19 ]
+2017-11-09 16:33:36.724 INFO  model.Management 59 rollDices - 
+ Dice [ 3, 5 ]
+ Resources [ BRICK 19, LUMBER 19, ORE 19, GRAIN 19, WOOL 19 ]
+2017-11-09 16:33:36.769 INFO  model.Management 59 rollDices - 
+ Dice [ 6, 2 ]
+ Resources [ BRICK 19, LUMBER 19, ORE 19, GRAIN 19, WOOL 19 ]
+2017-11-09 16:33:36.792 INFO  model.Management 59 rollDices - 
+ Dice [ 6, 6 ]
+ Resources [ BRICK 19, LUMBER 19, ORE 19, GRAIN 19, WOOL 19 ]
+2017-11-09 16:33:36.810 INFO  model.Management 59 rollDices - 
+ Dice [ 2, 2 ]
+ Resources [ BRICK 19, LUMBER 19, ORE 19, GRAIN 19, WOOL 19 ]
+2017-11-09 16:33:36.830 INFO  model.Management 59 rollDices - 
+ Dice [ 1, 2 ]
+ Resources [ BRICK 19, LUMBER 19, ORE 19, GRAIN 19, WOOL 19 ]
+2017-11-09 16:33:36.855 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     BLUE      name      KI (1)    status    BUILD_SETTLEMENT
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.856 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:36.857 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    WAIT      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.858 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:36.875 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    WAIT      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:36.876 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:37.764 INFO  model.players.Ai 446 buildStartSettlement - bau Startsiedlung von KI (1)
+2017-11-09 16:33:37.851 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.855 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.856 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.858 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.860 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.861 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.864 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.865 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.867 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.868 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.869 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.872 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.874 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.875 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.876 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.878 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.880 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.881 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.882 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.884 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.885 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-11-09 16:33:37.887 INFO  model.players.Ai 450 buildStartSettlement - model.board.Corner@1e19411e
+2017-11-09 16:33:37.916 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     BLUE      name      KI (1)    status    BUILD_STREET
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      4         built     [{6, 11, 12}]
+Cities         left      4         built     []
+2017-11-09 16:33:37.917 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:37.940 INFO  model.Management 286 longestRoad - KI (1) longest road: 0
+2017-11-09 16:33:37.941 INFO  model.Management 286 longestRoad - KI (2) longest road: 0
+2017-11-09 16:33:37.943 INFO  model.Management 286 longestRoad - KI (3) longest road: 0
+2017-11-09 16:33:37.944 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:37.944 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:37.945 INFO  model.Management 398 finish - offene Siegpunkte: 0, Siegpunktkarten: 0
+2017-11-09 16:33:37.945 INFO  model.Management 398 finish - offene Siegpunkte: 0, Siegpunktkarten: 0
+2017-11-09 16:33:38.155 INFO  model.players.Ai 460 buildStartRoad - bau Startstraße von KI (1)
+2017-11-09 16:33:38.258 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:38.259 INFO  model.Management 286 longestRoad - KI (2) longest road: 0
+2017-11-09 16:33:38.259 INFO  model.Management 286 longestRoad - KI (3) longest road: 0
+2017-11-09 16:33:38.259 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:38.259 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:38.260 INFO  model.Management 398 finish - offene Siegpunkte: 0, Siegpunktkarten: 0
+2017-11-09 16:33:38.260 INFO  model.Management 398 finish - offene Siegpunkte: 0, Siegpunktkarten: 0
+2017-11-09 16:33:38.260 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    BUILD_SETTLEMENT
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:38.261 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:38.261 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     BLUE      name      KI (1)    status    WAIT      
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{6, 12}]
+Settlements    left      4         built     [{6, 11, 12}]
+Cities         left      4         built     []
+2017-11-09 16:33:38.262 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:38.422 INFO  model.players.Ai 446 buildStartSettlement - bau Startsiedlung von KI (2)
+2017-11-09 16:33:38.508 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.508 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.509 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.510 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.511 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.511 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.512 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.513 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.513 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.514 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.515 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.516 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.516 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.517 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.518 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.518 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.519 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.520 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.521 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.521 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.522 INFO  model.players.Player 892 getBuildableSettlements - start settlement 50
+2017-11-09 16:33:38.522 INFO  model.players.Ai 450 buildStartSettlement - model.board.Corner@3c8a2155
+2017-11-09 16:33:38.526 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    BUILD_STREET
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      4         built     [{7, 12, 13}]
+Cities         left      4         built     []
+2017-11-09 16:33:38.527 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:38.548 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:38.549 INFO  model.Management 286 longestRoad - KI (2) longest road: 0
+2017-11-09 16:33:38.549 INFO  model.Management 286 longestRoad - KI (3) longest road: 0
+2017-11-09 16:33:38.549 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:38.549 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:38.549 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:38.550 INFO  model.Management 398 finish - offene Siegpunkte: 0, Siegpunktkarten: 0
+2017-11-09 16:33:38.790 INFO  model.players.Ai 460 buildStartRoad - bau Startstraße von KI (2)
+2017-11-09 16:33:38.898 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:38.900 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:38.901 INFO  model.Management 286 longestRoad - KI (3) longest road: 0
+2017-11-09 16:33:38.903 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:38.903 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:38.904 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:38.904 INFO  model.Management 398 finish - offene Siegpunkte: 0, Siegpunktkarten: 0
+2017-11-09 16:33:38.904 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    BUILD_SETTLEMENT
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:38.905 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:38.905 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    WAIT      
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{12, 13}]
+Settlements    left      4         built     [{7, 12, 13}]
+Cities         left      4         built     []
+2017-11-09 16:33:38.906 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:39.075 INFO  model.players.Ai 446 buildStartSettlement - bau Startsiedlung von KI (3)
+2017-11-09 16:33:39.160 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.161 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.161 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.162 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.162 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.163 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.164 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.164 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.165 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.166 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.167 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.168 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.169 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.170 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.170 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.171 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.171 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.172 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.172 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.173 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.174 INFO  model.players.Player 892 getBuildableSettlements - start settlement 47
+2017-11-09 16:33:39.174 INFO  model.players.Ai 450 buildStartSettlement - model.board.Corner@a0dea45
+2017-11-09 16:33:39.178 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    BUILD_STREET
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      4         built     [{5, 10, 11}]
+Cities         left      4         built     []
+2017-11-09 16:33:39.178 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:39.199 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:39.200 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:39.200 INFO  model.Management 286 longestRoad - KI (3) longest road: 0
+2017-11-09 16:33:39.200 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:39.200 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.201 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.201 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.444 INFO  model.players.Ai 460 buildStartRoad - bau Startstraße von KI (3)
+2017-11-09 16:33:39.550 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:39.551 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:39.552 INFO  model.Management 286 longestRoad - KI (3) longest road: 1
+2017-11-09 16:33:39.552 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:39.552 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.552 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.553 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.553 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    BUILD_SETTLEMENT
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{5, 10}]
+Settlements    left      4         built     [{5, 10, 11}]
+Cities         left      4         built     []
+2017-11-09 16:33:39.555 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:39.796 INFO  model.players.Ai 446 buildStartSettlement - bau Startsiedlung von KI (3)
+2017-11-09 16:33:39.880 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.880 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.881 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.881 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.882 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.882 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.883 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.883 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.883 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.884 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.884 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.884 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.885 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.885 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.885 INFO  model.players.Player 892 getBuildableSettlements - start settlement 44
+2017-11-09 16:33:39.886 INFO  model.players.Ai 450 buildStartSettlement - model.board.Corner@4ca0574
+2017-11-09 16:33:39.889 DEBUG model.players.Player 255 setWool - model.players.Ai@276fd996 [ id: 3 ] old: 0, new: 1
+2017-11-09 16:33:39.898 INFO  model.Management 504 setWool - vorher Wool: 18
+2017-11-09 16:33:39.898 INFO  model.Management 506 setWool - nacher Wool: 18
+2017-11-09 16:33:39.898 DEBUG model.players.Player 211 setOre - model.players.Ai@276fd996 [ id: 3 ] old: 0, new: 1
+2017-11-09 16:33:39.899 INFO  model.Management 462 setOre - vorher Ore: 18
+2017-11-09 16:33:39.899 INFO  model.Management 464 setOre - nacher Ore: 18
+2017-11-09 16:33:39.899 DEBUG model.players.Player 167 setBrick - model.players.Ai@276fd996 [ id: 3 ] old: 0, new: 1
+2017-11-09 16:33:39.899 INFO  model.Management 421 setBrick - vorher Brick: 18
+2017-11-09 16:33:39.899 INFO  model.Management 423 setBrick - nacher Brick: 18
+2017-11-09 16:33:39.900 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    BUILD_STREET
+vp        2         road      false     army      false     
+dev       0         dice      0         
+res       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{5, 10}]
+Settlements    left      3         built     [{5, 10, 11}, {23, 24, 29}]
+Cities         left      4         built     []
+2017-11-09 16:33:39.900 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+[ M ]     sum       92        lumber    19        brick     18        grain     19        wool      18        ore       18        
+2017-11-09 16:33:39.950 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:39.950 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:39.950 INFO  model.Management 286 longestRoad - KI (3) longest road: 1
+2017-11-09 16:33:39.950 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:39.951 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.951 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:39.951 INFO  model.Management 398 finish - offene Siegpunkte: 2, Siegpunktkarten: 0
+2017-11-09 16:33:40.244 INFO  model.players.Ai 460 buildStartRoad - bau Startstraße von KI (3)
+2017-11-09 16:33:40.352 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:40.355 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:40.355 INFO  model.Management 286 longestRoad - KI (3) longest road: 1
+2017-11-09 16:33:40.355 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:40.356 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:40.356 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:40.356 INFO  model.Management 398 finish - offene Siegpunkte: 2, Siegpunktkarten: 0
+2017-11-09 16:33:40.356 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    BUILD_SETTLEMENT
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{12, 13}]
+Settlements    left      4         built     [{7, 12, 13}]
+Cities         left      4         built     []
+2017-11-09 16:33:40.357 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+[ M ]     sum       92        lumber    19        brick     18        grain     19        wool      18        ore       18        
+2017-11-09 16:33:40.357 DEBUG model.players.Player 62 printPlayer - model.players.Ai@276fd996
+id        3         color     ORANGE    name      KI (3)    status    WAIT      
+vp        2         road      false     army      false     
+dev       0         dice      0         
+res       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      13        built     [{5, 10}, {23, 29}]
+Settlements    left      3         built     [{5, 10, 11}, {23, 24, 29}]
+Cities         left      4         built     []
+2017-11-09 16:33:40.358 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (3)    sum       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+[ M ]     sum       92        lumber    19        brick     18        grain     19        wool      18        ore       18        
+2017-11-09 16:33:40.521 INFO  model.players.Ai 446 buildStartSettlement - bau Startsiedlung von KI (2)
+2017-11-09 16:33:40.602 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.603 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.603 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.604 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.604 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.604 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.606 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.609 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.611 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.612 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.614 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.615 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.615 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.616 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.617 INFO  model.players.Player 892 getBuildableSettlements - start settlement 40
+2017-11-09 16:33:40.617 INFO  model.players.Ai 450 buildStartSettlement - model.board.Corner@324dc8b4
+2017-11-09 16:33:40.622 DEBUG model.players.Player 233 setGrain - model.players.Ai@4f45731a [ id: 2 ] old: 0, new: 1
+2017-11-09 16:33:40.622 INFO  model.Management 483 setGrain - vorher Grain: 18
+2017-11-09 16:33:40.622 INFO  model.Management 485 setGrain - nacher Grain: 18
+2017-11-09 16:33:40.622 DEBUG model.players.Player 255 setWool - model.players.Ai@4f45731a [ id: 2 ] old: 0, new: 1
+2017-11-09 16:33:40.622 INFO  model.Management 504 setWool - vorher Wool: 17
+2017-11-09 16:33:40.622 INFO  model.Management 506 setWool - nacher Wool: 17
+2017-11-09 16:33:40.623 DEBUG model.players.Player 167 setBrick - model.players.Ai@4f45731a [ id: 2 ] old: 0, new: 1
+2017-11-09 16:33:40.623 INFO  model.Management 421 setBrick - vorher Brick: 17
+2017-11-09 16:33:40.625 INFO  model.Management 423 setBrick - nacher Brick: 17
+2017-11-09 16:33:40.625 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    BUILD_STREET
+vp        2         road      false     army      false     
+dev       0         dice      0         
+res       3         lumber    0         brick     1         grain     1         wool      1         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{12, 13}]
+Settlements    left      3         built     [{7, 12, 13}, {25, 26, 31}]
+Cities         left      4         built     []
+2017-11-09 16:33:40.626 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       3         lumber    0         brick     1         grain     1         wool      1         ore       0         
+KI (3)    sum       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+[ M ]     sum       89        lumber    19        brick     17        grain     18        wool      17        ore       18        
+2017-11-09 16:33:40.672 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:40.672 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:40.673 INFO  model.Management 286 longestRoad - KI (3) longest road: 1
+2017-11-09 16:33:40.675 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:40.677 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:40.678 INFO  model.Management 398 finish - offene Siegpunkte: 2, Siegpunktkarten: 0
+2017-11-09 16:33:40.678 INFO  model.Management 398 finish - offene Siegpunkte: 2, Siegpunktkarten: 0
+2017-11-09 16:33:40.978 INFO  model.players.Ai 460 buildStartRoad - bau Startstraße von KI (2)
+2017-11-09 16:33:41.063 INFO  model.players.Player 979 buildStreetFORCE - KI (2): {25, 31}
+2017-11-09 16:33:41.077 INFO  model.players.Player 979 buildStreetFORCE - KI (2): {25, 31}
+2017-11-09 16:33:41.082 INFO  model.Management 286 longestRoad - KI (1) longest road: 1
+2017-11-09 16:33:41.083 INFO  model.Management 286 longestRoad - KI (2) longest road: 1
+2017-11-09 16:33:41.083 INFO  model.Management 286 longestRoad - KI (3) longest road: 1
+2017-11-09 16:33:41.084 INFO  model.Management 332 longestRoad - longest road: nothing changed
+2017-11-09 16:33:41.084 INFO  model.Management 398 finish - offene Siegpunkte: 1, Siegpunktkarten: 0
+2017-11-09 16:33:41.084 INFO  model.Management 398 finish - offene Siegpunkte: 2, Siegpunktkarten: 0
+2017-11-09 16:33:41.084 INFO  model.Management 398 finish - offene Siegpunkte: 2, Siegpunktkarten: 0
+2017-11-09 16:33:41.085 DEBUG model.players.Player 62 printPlayer - model.players.Ai@173742bc
+id        1         color     BLUE      name      KI (1)    status    BUILD_SETTLEMENT
+vp        1         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{6, 12}]
+Settlements    left      4         built     [{6, 11, 12}]
+Cities         left      4         built     []
+2017-11-09 16:33:41.085 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       3         lumber    0         brick     1         grain     1         wool      1         ore       0         
+KI (3)    sum       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+[ M ]     sum       89        lumber    19        brick     17        grain     18        wool      17        ore       18        
+2017-11-09 16:33:41.086 DEBUG model.players.Player 62 printPlayer - model.players.Ai@4f45731a
+id        2         color     RED       name      KI (2)    status    WAIT      
+vp        2         road      false     army      false     
+dev       0         dice      0         
+res       3         lumber    0         brick     1         grain     1         wool      1         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      11        built     [{12, 13}, {25, 31}, {25, 31}, {25, 31}]
+Settlements    left      3         built     [{7, 12, 13}, {25, 26, 31}]
+Cities         left      4         built     []
+2017-11-09 16:33:41.087 DEBUG model.Management 43 printManagement - model.Management@636c0875
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       3         lumber    0         brick     1         grain     1         wool      1         ore       0         
+KI (3)    sum       3         lumber    0         brick     1         grain     0         wool      1         ore       1         
+[ M ]     sum       89        lumber    19        brick     17        grain     18        wool      17        ore       18        
+2017-11-09 16:33:41.236 INFO  model.players.Player 979 buildStreetFORCE - KI (2): {25, 31}
+2017-11-09 16:33:48.848 INFO  model.board.RandomBoard 129 setNumberTokensRandom - 
+ outerTerrains :
+{{20}=model.board.Field@2d3f732, {13}=model.board.Field@7b4765d4, {6}=model.board.Forest@1cf3e182, {7}=model.board.Hill@669e64fe, {10}=model.board.Pasture@7b697578, {31}=model.board.Desert@3b40d604, {23}=model.board.Mountain@383cdf1f, {26}=model.board.Pasture@2d90e572, {29}=model.board.Forest@1d62870d, {30}=model.board.Field@20af9253, {16}=model.board.Mountain@7e35657e}
+2017-11-09 16:33:48.850 INFO  model.board.Board 263 printBoardIDs - 
+  null  null  null   {0}   {1}   {2}   {3}
+  null  null   {4}   {5}   {6}   {7}   {8}
+  null   {9}  {10}  {11}  {12}  {13}  {14}
+  {15}  {16}  {17}  {18}  {19}  {20}  {21}
+  {22}  {23}  {24}  {25}  {26}  {27}  null
+  {28}  {29}  {30}  {31}  {32}  null  null
+  {33}  {34}  {35}  {36}  null  null  null
+
+2017-11-09 16:33:48.851 INFO  model.board.Board 340 printNumberTokens - 
+  null  null  null  null  null  null  null
+  null  null  null     5     8     4  null
+  null  null     2    10     3    11  null
+  null     6     9    11     6    12  null
+  null     3     4     5     9  null  null
+  null     8    10     0  null  null  null
+  null  null  null  null  null  null  null
+
+2017-11-09 16:33:48.852 INFO  model.board.Board 281 printBoardSpecialCo - 
+(     )(     )(     )( 0,-3)( 1,-3)( 2,-3)( 3,-3)
+(     )(     )(-1,-2)( 0,-2)( 1,-2)( 2,-2)( 3,-2)
+(     )(-2,-1)(-1,-1)( 0,-1)( 1,-1)( 2,-1)( 3,-1)
+(-3, 0)(-2, 0)(-1, 0)( 0, 0)( 1, 0)( 2, 0)( 3, 0)
+(-3, 1)(-2, 1)(-1, 1)( 0, 1)( 1, 1)( 2, 1)(     )
+(-3, 2)(-2, 2)(-1, 2)( 0, 2)( 1, 2)(     )(     )
+(-3, 3)(-2, 3)(-1, 3)( 0, 3)(     )(     )(     )
+
+2017-11-09 16:33:48.853 INFO  model.board.Board 301 printTileNeighbors - 
+Row: 0
+                          null : 
+                          null : 
+                          null : 
+      model.board.Sea@54a4b4bf : [model.board.Sea@5d771bc9, model.board.Pasture@196273e, model.board.Sea@54ddbce7]
+      model.board.Sea@5d771bc9 : [model.board.Forest@1cf3e182, model.board.Pasture@196273e, model.board.Sea@54a4b4bf, model.board.Sea@252deb8f]
+      model.board.Sea@252deb8f : [model.board.Sea@5d771bc9, model.board.Hill@669e64fe, model.board.Forest@1cf3e182, model.board.Sea@406115b0]
+      model.board.Sea@406115b0 : [model.board.Sea@70fe7555, model.board.Hill@669e64fe, model.board.Sea@252deb8f]
+Row: 1
+                          null : 
+                          null : 
+      model.board.Sea@54ddbce7 : [model.board.Pasture@196273e, model.board.Pasture@7b697578, model.board.Sea@49fdd529, model.board.Sea@54a4b4bf]
+   model.board.Pasture@196273e : [model.board.Sea@5d771bc9, model.board.Forest@1cf3e182, model.board.Pasture@3c62e0a, model.board.Pasture@7b697578, model.board.Sea@54ddbce7, model.board.Sea@54a4b4bf]
+   model.board.Forest@1cf3e182 : [model.board.Sea@5d771bc9, model.board.Hill@669e64fe, model.board.Forest@4bc26757, model.board.Pasture@3c62e0a, model.board.Pasture@196273e, model.board.Sea@252deb8f]
+     model.board.Hill@669e64fe : [model.board.Sea@70fe7555, model.board.Field@7b4765d4, model.board.Forest@4bc26757, model.board.Forest@1cf3e182, model.board.Sea@252deb8f, model.board.Sea@406115b0]
+      model.board.Sea@70fe7555 : [model.board.Sea@4895e7a7, model.board.Field@7b4765d4, model.board.Hill@669e64fe, model.board.Sea@406115b0]
+Row: 2
+                          null : 
+      model.board.Sea@49fdd529 : [model.board.Sea@54ddbce7, model.board.Pasture@7b697578, model.board.Sea@6fe62701, model.board.Mountain@7e35657e]
+  model.board.Pasture@7b697578 : [model.board.Hill@5de2e289, model.board.Sea@54ddbce7, model.board.Pasture@196273e, model.board.Pasture@3c62e0a, model.board.Sea@49fdd529, model.board.Mountain@7e35657e]
+   model.board.Pasture@3c62e0a : [model.board.Hill@5de2e289, model.board.Pasture@196273e, model.board.Forest@1cf3e182, model.board.Forest@4bc26757, model.board.Pasture@7b697578, model.board.Field@542debd]
+   model.board.Forest@4bc26757 : [model.board.Forest@1cf3e182, model.board.Hill@669e64fe, model.board.Field@7b4765d4, model.board.Pasture@3c62e0a, model.board.Field@542debd, model.board.Forest@620db96d]
+    model.board.Field@7b4765d4 : [model.board.Hill@669e64fe, model.board.Sea@70fe7555, model.board.Sea@4895e7a7, model.board.Field@2d3f732, model.board.Forest@4bc26757, model.board.Forest@620db96d]
+      model.board.Sea@4895e7a7 : [model.board.Sea@70fe7555, model.board.Sea@3c8d4402, model.board.Field@2d3f732, model.board.Field@7b4765d4]
+Row: 3
+      model.board.Sea@6fe62701 : [model.board.Sea@49fdd529, model.board.Sea@76b11fb0, model.board.Mountain@7e35657e]
+ model.board.Mountain@7e35657e : [model.board.Hill@5de2e289, model.board.Sea@49fdd529, model.board.Pasture@7b697578, model.board.Mountain@383cdf1f, model.board.Sea@76b11fb0, model.board.Sea@6fe62701]
+     model.board.Hill@5de2e289 : [model.board.Pasture@7b697578, model.board.Pasture@3c62e0a, model.board.Mountain@659580ed, model.board.Mountain@383cdf1f, model.board.Mountain@7e35657e, model.board.Field@542debd]
+     model.board.Field@542debd : [model.board.Hill@5de2e289, model.board.Pasture@3c62e0a, model.board.Forest@4bc26757, model.board.Hill@6a5c9be3, model.board.Mountain@659580ed, model.board.Forest@620db96d]
+   model.board.Forest@620db96d : [model.board.Forest@4bc26757, model.board.Field@7b4765d4, model.board.Field@2d3f732, model.board.Pasture@2d90e572, model.board.Hill@6a5c9be3, model.board.Field@542debd]
+     model.board.Field@2d3f732 : [model.board.Field@7b4765d4, model.board.Sea@4895e7a7, model.board.Sea@3c8d4402, model.board.Sea@3ca76ffe, model.board.Pasture@2d90e572, model.board.Forest@620db96d]
+      model.board.Sea@3c8d4402 : [model.board.Sea@4895e7a7, model.board.Sea@3ca76ffe, model.board.Field@2d3f732]
+Row: 4
+      model.board.Sea@76b11fb0 : [model.board.Sea@6fe62701, model.board.Mountain@383cdf1f, model.board.Sea@4295bb45, model.board.Mountain@7e35657e]
+ model.board.Mountain@383cdf1f : [model.board.Hill@5de2e289, model.board.Mountain@659580ed, model.board.Forest@1d62870d, model.board.Sea@4295bb45, model.board.Sea@76b11fb0, model.board.Mountain@7e35657e]
+ model.board.Mountain@659580ed : [model.board.Hill@5de2e289, model.board.Hill@6a5c9be3, model.board.Field@20af9253, model.board.Forest@1d62870d, model.board.Mountain@383cdf1f, model.board.Field@542debd]
+     model.board.Hill@6a5c9be3 : [model.board.Pasture@2d90e572, model.board.Desert@3b40d604, model.board.Field@20af9253, model.board.Mountain@659580ed, model.board.Field@542debd, model.board.Forest@620db96d]
+  model.board.Pasture@2d90e572 : [model.board.Field@2d3f732, model.board.Sea@3ca76ffe, model.board.Desert@3b40d604, model.board.Hill@6a5c9be3, model.board.Sea@bcec912, model.board.Forest@620db96d]
+      model.board.Sea@3ca76ffe : [model.board.Field@2d3f732, model.board.Sea@3c8d4402, model.board.Pasture@2d90e572, model.board.Sea@bcec912]
+                          null : 
+Row: 5
+      model.board.Sea@4295bb45 : [model.board.Sea@5c3d80b, model.board.Sea@76b11fb0, model.board.Mountain@383cdf1f, model.board.Forest@1d62870d]
+   model.board.Forest@1d62870d : [model.board.Sea@5c3d80b, model.board.Mountain@383cdf1f, model.board.Mountain@659580ed, model.board.Field@20af9253, model.board.Sea@4295bb45, model.board.Sea@21c9fd2]
+    model.board.Field@20af9253 : [model.board.Mountain@659580ed, model.board.Hill@6a5c9be3, model.board.Desert@3b40d604, model.board.Forest@1d62870d, model.board.Sea@21c9fd2, model.board.Sea@6dbc4347]
+   model.board.Desert@3b40d604 : [model.board.Hill@6a5c9be3, model.board.Pasture@2d90e572, model.board.Sea@10c781bb, model.board.Field@20af9253, model.board.Sea@bcec912, model.board.Sea@6dbc4347]
+       model.board.Sea@bcec912 : [model.board.Pasture@2d90e572, model.board.Sea@3ca76ffe, model.board.Sea@10c781bb, model.board.Desert@3b40d604]
+                          null : 
+                          null : 
+Row: 6
+       model.board.Sea@5c3d80b : [model.board.Sea@4295bb45, model.board.Forest@1d62870d, model.board.Sea@21c9fd2]
+       model.board.Sea@21c9fd2 : [model.board.Sea@5c3d80b, model.board.Forest@1d62870d, model.board.Field@20af9253, model.board.Sea@6dbc4347]
+      model.board.Sea@6dbc4347 : [model.board.Field@20af9253, model.board.Desert@3b40d604, model.board.Sea@10c781bb, model.board.Sea@21c9fd2]
+      model.board.Sea@10c781bb : [model.board.Desert@3b40d604, model.board.Sea@bcec912, model.board.Sea@6dbc4347]
+                          null : 
+                          null : 
+                          null : 
+
+2017-11-09 16:33:48.854 INFO  model.board.Board 322 printPorts - 
+        {33} : LUMBER
+         {9} : WOOL
+         {8} : GENERIC
+        {22} : GENERIC
+         {0} : BRICK
+        {32} : ORE
+         {2} : GENERIC
+        {35} : GENERIC
+        {21} : GRAIN
+
+{22, 23, 28} : GENERIC
+{16, 22, 23} : GENERIC
+   {1, 2, 6} : GENERIC
+   {2, 6, 7} : GENERIC
+{31, 35, 36} : GENERIC
+{28, 29, 33} : LUMBER
+  {7, 8, 13} : GENERIC
+ {9, 10, 16} : WOOL
+ {9, 15, 16} : WOOL
+{26, 27, 32} : ORE
+{26, 31, 32} : ORE
+{29, 33, 34} : LUMBER
+   {3, 7, 8} : GENERIC
+{30, 31, 35} : GENERIC
+{14, 20, 21} : GRAIN
+{20, 21, 27} : GRAIN
+   {0, 4, 5} : BRICK
+   {0, 1, 5} : BRICK
+
+2017-11-09 16:33:48.862 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@55fa4a66
+2017-11-09 16:33:48.864 DEBUG model.players.Player 62 printPlayer - model.players.Ai@55fa4a66
+id        1         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:48.864 DEBUG model.players.Player 62 printPlayer - model.players.Ai@55fa4a66
+id        1         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:48.945 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@56c6ece3
+2017-11-09 16:33:48.946 DEBUG model.players.Player 62 printPlayer - model.players.Ai@56c6ece3
+id        2         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:48.946 DEBUG model.players.Player 62 printPlayer - model.players.Ai@56c6ece3
+id        2         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:49.410 DEBUG model.players.Player 62 printPlayer - model.players.Ai@55fa4a66
+id        1         color     BLUE      name      KI (1)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:49.411 DEBUG model.Management 43 printManagement - model.Management@bdf0028
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:33:49.577 DEBUG model.players.Player 62 printPlayer - model.players.Ai@56c6ece3
+id        2         color     RED       name      KI (2)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:33:49.577 DEBUG model.Management 43 printManagement - model.Management@bdf0028
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:34:15.146 INFO  model.board.RandomBoard 129 setNumberTokensRandom - 
+ outerTerrains :
+{{20}=model.board.Hill@c62254e, {13}=model.board.Field@26489b6f, {6}=model.board.Hill@77c755b, {10}=model.board.Forest@14ceaa08, {31}=model.board.Pasture@91ba58a, {23}=model.board.Mountain@6bead425, {26}=model.board.Forest@f58a2ae, {29}=model.board.Field@6e27d7a7, {30}=model.board.Desert@3ac4081c, {16}=model.board.Forest@7b2b89d, {5}=model.board.Pasture@4d352717}
+2017-11-09 16:34:15.147 INFO  model.board.Board 263 printBoardIDs - 
+  null  null  null   {0}   {1}   {2}   {3}
+  null  null   {4}   {5}   {6}   {7}   {8}
+  null   {9}  {10}  {11}  {12}  {13}  {14}
+  {15}  {16}  {17}  {18}  {19}  {20}  {21}
+  {22}  {23}  {24}  {25}  {26}  {27}  null
+  {28}  {29}  {30}  {31}  {32}  null  null
+  {33}  {34}  {35}  {36}  null  null  null
+
+2017-11-09 16:34:15.148 INFO  model.board.Board 340 printNumberTokens - 
+  null  null  null  null  null  null  null
+  null  null  null     6     2     5  null
+  null  null     3     9    10     8  null
+  null     8     4    11     3     4  null
+  null    10     5     6    11  null  null
+  null     9     0    12  null  null  null
+  null  null  null  null  null  null  null
+
+2017-11-09 16:34:15.149 INFO  model.board.Board 281 printBoardSpecialCo - 
+(     )(     )(     )( 0,-3)( 1,-3)( 2,-3)( 3,-3)
+(     )(     )(-1,-2)( 0,-2)( 1,-2)( 2,-2)( 3,-2)
+(     )(-2,-1)(-1,-1)( 0,-1)( 1,-1)( 2,-1)( 3,-1)
+(-3, 0)(-2, 0)(-1, 0)( 0, 0)( 1, 0)( 2, 0)( 3, 0)
+(-3, 1)(-2, 1)(-1, 1)( 0, 1)( 1, 1)( 2, 1)(     )
+(-3, 2)(-2, 2)(-1, 2)( 0, 2)( 1, 2)(     )(     )
+(-3, 3)(-2, 3)(-1, 3)( 0, 3)(     )(     )(     )
+
+2017-11-09 16:34:15.150 INFO  model.board.Board 301 printTileNeighbors - 
+Row: 0
+                          null : 
+                          null : 
+                          null : 
+      model.board.Sea@1d7f4bf9 : [model.board.Sea@7e124a2, model.board.Pasture@4d352717, model.board.Sea@15050293]
+       model.board.Sea@7e124a2 : [model.board.Hill@77c755b, model.board.Pasture@4d352717, model.board.Sea@1d7f4bf9, model.board.Sea@716c82bb]
+      model.board.Sea@716c82bb : [model.board.Sea@7e124a2, model.board.Mountain@16ab3fec, model.board.Hill@77c755b, model.board.Sea@1861cdaf]
+      model.board.Sea@1861cdaf : [model.board.Sea@25cd45aa, model.board.Mountain@16ab3fec, model.board.Sea@716c82bb]
+Row: 1
+                          null : 
+                          null : 
+      model.board.Sea@15050293 : [model.board.Pasture@4d352717, model.board.Forest@14ceaa08, model.board.Sea@302172f2, model.board.Sea@1d7f4bf9]
+  model.board.Pasture@4d352717 : [model.board.Sea@7e124a2, model.board.Hill@77c755b, model.board.Field@7f3a7f45, model.board.Forest@14ceaa08, model.board.Sea@15050293, model.board.Sea@1d7f4bf9]
+      model.board.Hill@77c755b : [model.board.Sea@7e124a2, model.board.Mountain@16ab3fec, model.board.Pasture@6920c9b8, model.board.Field@7f3a7f45, model.board.Pasture@4d352717, model.board.Sea@716c82bb]
+ model.board.Mountain@16ab3fec : [model.board.Sea@25cd45aa, model.board.Field@26489b6f, model.board.Pasture@6920c9b8, model.board.Hill@77c755b, model.board.Sea@716c82bb, model.board.Sea@1861cdaf]
+      model.board.Sea@25cd45aa : [model.board.Sea@260f3123, model.board.Field@26489b6f, model.board.Mountain@16ab3fec, model.board.Sea@1861cdaf]
+Row: 2
+                          null : 
+      model.board.Sea@302172f2 : [model.board.Sea@15050293, model.board.Forest@14ceaa08, model.board.Sea@1d8271f2, model.board.Forest@7b2b89d]
+   model.board.Forest@14ceaa08 : [model.board.Forest@31eef550, model.board.Sea@15050293, model.board.Pasture@4d352717, model.board.Field@7f3a7f45, model.board.Sea@302172f2, model.board.Forest@7b2b89d]
+    model.board.Field@7f3a7f45 : [model.board.Forest@31eef550, model.board.Pasture@4d352717, model.board.Hill@77c755b, model.board.Pasture@6920c9b8, model.board.Forest@14ceaa08, model.board.Pasture@5eec97dc]
+  model.board.Pasture@6920c9b8 : [model.board.Hill@77c755b, model.board.Mountain@16ab3fec, model.board.Field@26489b6f, model.board.Field@7f3a7f45, model.board.Pasture@5eec97dc, model.board.Mountain@1b5330b]
+    model.board.Field@26489b6f : [model.board.Mountain@16ab3fec, model.board.Sea@25cd45aa, model.board.Sea@260f3123, model.board.Hill@c62254e, model.board.Pasture@6920c9b8, model.board.Mountain@1b5330b]
+      model.board.Sea@260f3123 : [model.board.Sea@25cd45aa, model.board.Sea@f36cf2e, model.board.Hill@c62254e, model.board.Field@26489b6f]
+Row: 3
+      model.board.Sea@1d8271f2 : [model.board.Sea@302172f2, model.board.Sea@4934ffed, model.board.Forest@7b2b89d]
+    model.board.Forest@7b2b89d : [model.board.Forest@31eef550, model.board.Sea@302172f2, model.board.Forest@14ceaa08, model.board.Mountain@6bead425, model.board.Sea@4934ffed, model.board.Sea@1d8271f2]
+   model.board.Forest@31eef550 : [model.board.Forest@14ceaa08, model.board.Field@7f3a7f45, model.board.Hill@735cd360, model.board.Mountain@6bead425, model.board.Forest@7b2b89d, model.board.Pasture@5eec97dc]
+  model.board.Pasture@5eec97dc : [model.board.Forest@31eef550, model.board.Field@7f3a7f45, model.board.Pasture@6920c9b8, model.board.Field@5b599b6b, model.board.Hill@735cd360, model.board.Mountain@1b5330b]
+  model.board.Mountain@1b5330b : [model.board.Pasture@6920c9b8, model.board.Field@26489b6f, model.board.Hill@c62254e, model.board.Forest@f58a2ae, model.board.Field@5b599b6b, model.board.Pasture@5eec97dc]
+      model.board.Hill@c62254e : [model.board.Field@26489b6f, model.board.Sea@260f3123, model.board.Sea@f36cf2e, model.board.Sea@62af6091, model.board.Forest@f58a2ae, model.board.Mountain@1b5330b]
+       model.board.Sea@f36cf2e : [model.board.Sea@260f3123, model.board.Sea@62af6091, model.board.Hill@c62254e]
+Row: 4
+      model.board.Sea@4934ffed : [model.board.Sea@1d8271f2, model.board.Mountain@6bead425, model.board.Sea@c8a20be, model.board.Forest@7b2b89d]
+ model.board.Mountain@6bead425 : [model.board.Forest@31eef550, model.board.Hill@735cd360, model.board.Field@6e27d7a7, model.board.Sea@c8a20be, model.board.Sea@4934ffed, model.board.Forest@7b2b89d]
+     model.board.Hill@735cd360 : [model.board.Forest@31eef550, model.board.Field@5b599b6b, model.board.Desert@3ac4081c, model.board.Field@6e27d7a7, model.board.Mountain@6bead425, model.board.Pasture@5eec97dc]
+    model.board.Field@5b599b6b : [model.board.Forest@f58a2ae, model.board.Pasture@91ba58a, model.board.Desert@3ac4081c, model.board.Hill@735cd360, model.board.Pasture@5eec97dc, model.board.Mountain@1b5330b]
+    model.board.Forest@f58a2ae : [model.board.Hill@c62254e, model.board.Sea@62af6091, model.board.Pasture@91ba58a, model.board.Field@5b599b6b, model.board.Sea@19d8359c, model.board.Mountain@1b5330b]
+      model.board.Sea@62af6091 : [model.board.Hill@c62254e, model.board.Sea@f36cf2e, model.board.Forest@f58a2ae, model.board.Sea@19d8359c]
+                          null : 
+Row: 5
+       model.board.Sea@c8a20be : [model.board.Sea@ecd670f, model.board.Sea@4934ffed, model.board.Mountain@6bead425, model.board.Field@6e27d7a7]
+    model.board.Field@6e27d7a7 : [model.board.Sea@ecd670f, model.board.Mountain@6bead425, model.board.Hill@735cd360, model.board.Desert@3ac4081c, model.board.Sea@c8a20be, model.board.Sea@17ff25af]
+   model.board.Desert@3ac4081c : [model.board.Hill@735cd360, model.board.Field@5b599b6b, model.board.Pasture@91ba58a, model.board.Field@6e27d7a7, model.board.Sea@17ff25af, model.board.Sea@4a2d683e]
+   model.board.Pasture@91ba58a : [model.board.Field@5b599b6b, model.board.Forest@f58a2ae, model.board.Sea@1201d032, model.board.Desert@3ac4081c, model.board.Sea@19d8359c, model.board.Sea@4a2d683e]
+      model.board.Sea@19d8359c : [model.board.Forest@f58a2ae, model.board.Sea@62af6091, model.board.Sea@1201d032, model.board.Pasture@91ba58a]
+                          null : 
+                          null : 
+Row: 6
+       model.board.Sea@ecd670f : [model.board.Sea@c8a20be, model.board.Field@6e27d7a7, model.board.Sea@17ff25af]
+      model.board.Sea@17ff25af : [model.board.Sea@ecd670f, model.board.Field@6e27d7a7, model.board.Desert@3ac4081c, model.board.Sea@4a2d683e]
+      model.board.Sea@4a2d683e : [model.board.Desert@3ac4081c, model.board.Pasture@91ba58a, model.board.Sea@1201d032, model.board.Sea@17ff25af]
+      model.board.Sea@1201d032 : [model.board.Pasture@91ba58a, model.board.Sea@19d8359c, model.board.Sea@4a2d683e]
+                          null : 
+                          null : 
+                          null : 
+
+2017-11-09 16:34:15.150 INFO  model.board.Board 322 printPorts - 
+        {33} : GENERIC
+         {9} : GENERIC
+         {8} : LUMBER
+        {22} : WOOL
+         {0} : GENERIC
+        {32} : BRICK
+         {2} : ORE
+        {35} : GRAIN
+        {21} : GENERIC
+
+{22, 23, 28} : WOOL
+{16, 22, 23} : WOOL
+   {2, 6, 7} : ORE
+  {4, 9, 10} : GENERIC
+{28, 29, 33} : GENERIC
+  {7, 8, 13} : LUMBER
+ {9, 10, 16} : GENERIC
+{26, 27, 32} : BRICK
+{26, 31, 32} : BRICK
+{29, 33, 34} : GENERIC
+   {3, 7, 8} : LUMBER
+{30, 31, 35} : GRAIN
+   {2, 3, 7} : ORE
+{30, 34, 35} : GRAIN
+{14, 20, 21} : GENERIC
+{20, 21, 27} : GENERIC
+   {0, 4, 5} : GENERIC
+   {0, 1, 5} : GENERIC
+
+2017-11-09 16:34:15.159 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@117ad326
+2017-11-09 16:34:15.160 DEBUG model.players.Player 62 printPlayer - model.players.Ai@117ad326
+id        1         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:15.160 DEBUG model.players.Player 62 printPlayer - model.players.Ai@117ad326
+id        1         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:15.243 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@5d6ae31
+2017-11-09 16:34:15.243 DEBUG model.players.Player 62 printPlayer - model.players.Ai@5d6ae31
+id        2         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:15.243 DEBUG model.players.Player 62 printPlayer - model.players.Ai@5d6ae31
+id        2         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:15.700 DEBUG model.players.Player 62 printPlayer - model.players.Ai@117ad326
+id        1         color     BLUE      name      KI (1)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:15.701 DEBUG model.Management 43 printManagement - model.Management@77912862
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:34:15.854 DEBUG model.players.Player 62 printPlayer - model.players.Ai@5d6ae31
+id        2         color     RED       name      KI (2)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:15.854 DEBUG model.Management 43 printManagement - model.Management@77912862
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-11-09 16:34:46.735 TRACE model.players.Human 11 <init> - Enter model.players.Human@755e647
+2017-11-09 16:34:46.736 DEBUG model.players.Player 62 printPlayer - model.players.Human@755e647
+id        3         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-11-09 16:34:46.738 DEBUG model.players.Player 62 printPlayer - model.players.Human@755e647
+id        3         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []

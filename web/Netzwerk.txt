@@ -1,0 +1,31 @@
+# TCP - version 0.1
+
+## Verbindungsaufbau
+
+- Server starten mit 3 oder 4 möglichen Verbindungen und Default/Random Board
+
+- Client verbindet sich
+
+- Server > Client { "Hallo" : { "Version" : "..." , "Protokoll" : "0.1" } }
+
+- Client > Server {"Hallo":{"Version":"JavaFXClient 0.1 (DichteFideleLurche)"}}     KI?
+
+- Server > Client {"Willkommen":{"id":6}}
+
+- Client > Server { "Spieler" : {"Name" : "Princess Leia Organa","Farbe" : "Orange"} }
+
+  - Server > Client { "Fehler" : {"Meldung" : "Farbe bereits vergeben"} }
+
+
+- Server > Client { "Statusupdate" : {Spieler:{"id" : 42,"Farbe" : "Orange","Name" : "Princess Leia Organa","Status" : "Spiel starten","Siegpunkte" : 0,"Rohstoffe" : { }}}}
+- Client > Server { "Spiel starten" : { } }
+- Server > Client { "Statusupdate" : {Spieler:{"id" : 42,"Farbe" : "Orange","Name" : "Princess Leia Organa","Status" : "Wartet auf Spielbeginn","Siegpunkte" : 0,"Rohstoffe" : { }}}}
+- Sobald 3 oder 4 Clients im Modus "Wartet auf Spielbeginn"
+
+## Start
+
+- Erstelle im Model ein Default/Random Board
+- Server legt Reihenfolge der Spieler fest
+- Server > Clients { "Spiel gestartet" : {"Karte": // Objekt vom Typ Karte} }
+
+-

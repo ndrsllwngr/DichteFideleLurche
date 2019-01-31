@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="myContainer" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0"
+            xmlns="http://javafx.com/javafx/8.0.60" fx:controller="view.startServer.Controller">
+   <center>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="1000.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="50.0" />
+         </padding>
+         <children>
+            <VBox fx:id="singleBox">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <children>
+                  <HBox>
+                     <children>
+                        <ComboBox fx:id="comboBoxPlayers" prefHeight="40.0" prefWidth="200.0" promptText="Players">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </ComboBox>
+                         <ComboBox fx:id="comboBoxBoard" prefHeight="40.0" prefWidth="200.0" promptText="Board">
+                             <HBox.margin>
+                                 <Insets right="20.0"/>
+                             </HBox.margin>
+                         </ComboBox>
+                         <ComboBox fx:id="comboBoxAi" layoutX="230.0" layoutY="10.0" prefHeight="40.0" prefWidth="200.0"
+                                   promptText="AIs"/>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </VBox>
+            <TextArea fx:id="console" editable="false" prefHeight="300.0" wrapText="false">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="50.0" right="50.0" />
+               </VBox.margin>
+            </TextArea>
+            <HBox>
+               <children>
+                   <Button fx:id="startServer" mnemonicParsing="false" onAction="#startServer" prefHeight="40.0"
+                           prefWidth="199.0" text="Start Server">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+       <VBox spacing="15.0" BorderPane.alignment="TOP_LEFT">
+         <BorderPane.margin>
+             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+         </BorderPane.margin>
+           <children>
+               <HBox alignment="TOP_RIGHT" prefHeight="17.0" prefWidth="950.0" spacing="5.0">
+                   <children>
+                       <Button fx:id="play" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0"
+                               mnemonicParsing="false"/>
+                   </children>
+               </HBox>
+               <HBox>
+                   <children>
+                       <Button fx:id="goBack" minWidth="199.0" mnemonicParsing="false" onAction="#startOrJoinHandler"
+                               prefHeight="40.0" prefWidth="199.0" text="Go Back">
+                           <font>
+                               <Font size="20.0"/>
+                           </font>
+                       </Button>
+                   </children>
+                   <padding>
+                       <Insets left="50.0"/>
+                   </padding>
+               </HBox>
+           </children>
+       </VBox>
+   </top>
+    <stylesheets>
+        <URL value="@/css/openingWindow.css"/>
+    </stylesheets>
+</BorderPane>

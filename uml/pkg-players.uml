@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.players.Ai</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">model.players.Player</node>
+    <node x="323.5" y="566.0">model.players.Human</node>
+    <node x="135.5" y="566.0">model.players.Ai</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.players.Human" target="model.players.Player">
+      <point x="0.0" y="-48.5" />
+      <point x="407.5" y="541.0" />
+      <point x="470.25" y="541.0" />
+      <point x="156.75" y="258.0" />
+    </edge>
+    <edge source="model.players.Ai" target="model.players.Player">
+      <point x="0.0" y="-48.5" />
+      <point x="219.5" y="541.0" />
+      <point x="156.75" y="541.0" />
+      <point x="-156.75" y="258.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9502196193265008" x="313.5" y="331.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

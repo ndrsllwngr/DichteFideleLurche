@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="myContainer" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0"
+            xmlns="http://javafx.com/javafx/8.0.60" fx:controller="view.joinServer.Controller">
+   <center>
+      <VBox alignment="CENTER" prefHeight="404.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="50.0" />
+         </padding>
+         <children>
+            <VBox fx:id="singleBox" prefWidth="600.0">
+               <children>
+                  <HBox prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="hostname" prefWidth="400.0" promptText="Hostname">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="port" prefWidth="200.0" promptText="Port">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                        <CheckBox fx:id="ai" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="AI">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                         <Button fx:id="connect" mnemonicParsing="false" onAction="#connectHandler" prefWidth="150.0"
+                                 text="Connect">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox layoutX="60.0" layoutY="10.0" prefWidth="200.0">
+                     <children>
+                         <TextField fx:id="name" maxHeight="43.0" minHeight="43.0" prefHeight="43.0" prefWidth="400.0"
+                                    promptText="Name">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                        <ComboBox fx:id="comboBoxColors" minHeight="43.0" prefHeight="43.0" prefWidth="200.0">
+                           <HBox.margin>
+                              <Insets right="130.0" />
+                           </HBox.margin>
+                        </ComboBox>
+                         <Button fx:id="join" mnemonicParsing="false" onAction="#connectHandler" prefWidth="150.0"
+                                 text="Join">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </VBox>
+             <TextArea fx:id="console" editable="false" prefWidth="200.0" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="50.0" right="50.0" />
+               </VBox.margin>
+                <font>
+                   <Font name="Monospaced Regular" size="10.0" />
+                </font>
+            </TextArea>
+            <HBox>
+               <children>
+                   <TextField fx:id="messageField" minHeight="51.0" onKeyPressed="#enterSend" prefHeight="51.0"
+                              prefWidth="730.0" promptText="Message">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                   <Button fx:id="sendMsg" mnemonicParsing="false" onAction="#connectHandler" prefWidth="150.0"
+                           text="Send">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="TOP_RIGHT">
+               <children>
+                   <Button fx:id="startGame" maxWidth="150.0" minWidth="150.0" mnemonicParsing="false"
+                           onAction="#connectHandler" prefHeight="40.0" prefWidth="150.0" text="Start Game">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+       <VBox BorderPane.alignment="TOP_LEFT">
+         <BorderPane.margin>
+             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+         </BorderPane.margin>
+           <children>
+               <HBox alignment="TOP_RIGHT" prefHeight="44.0" prefWidth="494.0" spacing="5.0">
+                   <children>
+                       <Button fx:id="play" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0"
+                               mnemonicParsing="false"/>
+                   </children>
+               </HBox>
+               <HBox>
+                   <children>
+                       <Button fx:id="goBack" mnemonicParsing="false" onAction="#startOrJoinHandler" prefWidth="150.0"
+                               text="Go Back">
+                           <font>
+                               <Font size="20.0"/>
+                           </font>
+                       </Button>
+                   </children>
+                   <padding>
+                       <Insets left="45.0"/>
+                   </padding>
+               </HBox>
+           </children>
+       </VBox>
+   </top>
+   <stylesheets>
+       <URL value="@/css/openingWindow.css"/>
+   </stylesheets>
+</BorderPane>

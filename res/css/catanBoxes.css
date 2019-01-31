@@ -1,0 +1,127 @@
+/* buttons */
+@font-face {
+    font-family: Martel, serif;
+    src: url("../fonts/martel/Martel-Regular.ttf");
+}
+
+/* labels, general information, user input */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/open_sans/OpenSans-Regular.ttf");
+}
+
+/* textarea only (chat, console) */
+@font-face {
+    font-family: 'Roboto Mono', monospace;
+    src: url("../fonts/roboto_mono/RobotoMono-Regular.ttf");
+}
+
+.root {
+    -fx-background-color: goldenrod;
+    -fx-border-color: maroon;
+    -fx-border-width: 10px;
+}
+
+.button {
+    -fx-background-color: #FFDEAD;
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: Martel;
+    -fx-font-size: 16px;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+.button:hover {
+    -fx-background-color: #c8ae88;
+}
+
+.button:focused {
+    -fx-background-color: #FFDEAD, -fx-focus-color, -fx-inner-border;
+    -fx-background-insets: -0.2, 1, 2, -1.4, 2.6;
+    -fx-background-radius: 3, 2, 1, 4, 1;
+}
+
+.spinner .increment-arrow-button {
+    -fx-background-color: #FFDEAD;
+    -fx-border-color: black;
+}
+
+.spinner .decrement-arrow-button {
+    -fx-background-color: #FFDEAD;
+    -fx-border-color: black;
+}
+
+.spinner > .text-field {
+    -fx-background-color: #FFDEAD;
+}
+
+.combo-box {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 20px;
+}
+
+.label {
+    -fx-font-family: Martel;
+    -fx-font-size: 16px;
+}
+
+.progress-indicator:indeterminate > .spinner {
+    /** Applying to undo styling from .spinner, reported in RT-37965 */
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    /* originally was */
+    /*-fx-background-color: transparent;*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 4;
+}
+
+.root {
+    -fx-focus-color: #bca67d;
+    -fx-inner-border: #e7c99c;
+}
+
+#delMyButton {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../delete-1.png");
+    -fx-background-size: cover;
+}
+
+#delOppButton {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../delete-1.png");
+    -fx-background-size: cover;
+}
+
+#clearButton {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../delete-all.png");
+    -fx-background-size: cover;
+}
+
+#down {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../icons/tradeArrowDown.png");
+    -fx-background-size: cover;
+}
+
+#up {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../icons/tradeArrowUp.png");
+    -fx-background-size: cover;
+}
+

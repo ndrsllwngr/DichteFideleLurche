@@ -1,0 +1,7 @@
+2017-02-12 16:35:47.489 DEBUG controller.Register 155 setViewStartServerController - view.startServer.Controller@4ad18d47
+2017-02-12 16:35:47.490 DEBUG controller.Register 194 setRelevantTextArea - 2
+2017-02-12 16:35:53.813 DEBUG controller.Register 104 setNtwrkServer - network.server.Server@804f9d9
+2017-02-12 16:35:53.814 INFO  controller.Controller 28 <init> - controller.Controller@d389eb1
+2017-02-12 16:35:53.815 DEBUG controller.Register 60 setController - controller.Controller@d389eb1
+2017-02-12 16:35:53.826 TRACE controller.Controller 149 setBoard - Enter
+2017-02-12 16:35:53.847 INFO  controller.Controller 46 setManagement - model.Management@1fb3d93

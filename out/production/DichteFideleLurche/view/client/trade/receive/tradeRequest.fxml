@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--suppress XmlPathReference -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" maxHeight="340.0" maxWidth="655.0" minHeight="340.0" minWidth="655.0"
+      prefHeight="340.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/8.0.112"
+      fx:controller="view.client.trade.receive.TradeRequestController">
+   <children>
+       <Label alignment="CENTER" prefHeight="30.0" prefWidth="664.0" textAlignment="CENTER"/>
+      <HBox alignment="CENTER" spacing="20.0">
+         <children>
+            <VBox prefHeight="120.0" prefWidth="320.0">
+               <children>
+                   <HBox alignment="CENTER" prefHeight="30.0" prefWidth="586.0" spacing="20.0">
+                       <children>
+                           <ImageView fx:id="arrowIn" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                      preserveRatio="true"/>
+                           <ImageView fx:id="lumberImgV" fitHeight="75.0" fitWidth="75.0" layoutX="383.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <ImageView fx:id="brickImgV" fitHeight="75.0" fitWidth="75.0" layoutX="208.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <ImageView fx:id="grainImgV" fitHeight="75.0" fitWidth="75.0" layoutX="278.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <ImageView fx:id="woolImgV" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                      preserveRatio="true"/>
+                           <ImageView fx:id="oreImgV" fitHeight="75.0" fitWidth="75.0" layoutX="313.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <VBox maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" prefHeight="75.0"
+                                 prefWidth="75.0"/>
+                       </children>
+                   </HBox>
+                   <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="586.0" spacing="20.0">
+                       <children>
+                           <Label fx:id="lumberLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0"
+                                  layoutY="10.0" minWidth="75.0" prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="brickLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="75.0"
+                                  prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="grainLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="75.0"
+                                  prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="woolLabel" alignment="CENTER" minWidth="75.0" prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="oreLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="75.0"
+                                  prefWidth="75.0" text="x 0"/>
+                       </children>
+                   </HBox>
+               </children>
+      
+                                    </VBox>
+         </children>
+      </HBox>
+       <Label alignment="CENTER" prefHeight="17.0" prefWidth="738.0" textAlignment="CENTER"/>
+      <HBox alignment="CENTER" spacing="20.0">
+         <children>
+            <VBox prefHeight="120.0" prefWidth="320.0">
+               <children>
+                   <HBox alignment="CENTER" prefHeight="30.0" prefWidth="586.0" spacing="20.0">
+                       <children>
+                           <ImageView fx:id="arrowOut" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                      preserveRatio="true"/>
+                           <ImageView fx:id="lumberImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="383.0"
+                                      layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                           <ImageView fx:id="brickImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="208.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <ImageView fx:id="grainImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="278.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <ImageView fx:id="woolImgV1" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                      preserveRatio="true"/>
+                           <ImageView fx:id="oreImgV1" fitHeight="75.0" fitWidth="75.0" layoutX="313.0" layoutY="14.0"
+                                      pickOnBounds="true" preserveRatio="true"/>
+                           <VBox maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" prefHeight="75.0"
+                                 prefWidth="75.0"/>
+                       </children>
+                   </HBox>
+                   <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="586.0" spacing="20.0">
+                       <children>
+                           <Label fx:id="lumberLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0"
+                                  layoutY="10.0" minWidth="75.0" prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="brickLabel1" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="75.0"
+                                  prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="grainLabel1" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="75.0"
+                                  prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="woolLabel1" alignment="CENTER" minWidth="75.0" prefWidth="75.0" text="x 0"/>
+                           <Label fx:id="oreLabel1" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="75.0"
+                                  prefWidth="75.0" text="x 0"/>
+                       </children>
+                   </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+       <HBox alignment="CENTER" prefHeight="39.0" prefWidth="590.0" spacing="30.0">
+         <children>
+            <!--<fx:include source="client.fxml"/>-->
+             <Button fx:id="acceptButton" mnemonicParsing="false" onAction="#buttonHandler" text="Accept" />
+             <Button fx:id="declineButton" mnemonicParsing="false" onAction="#buttonHandler" text="Decline" />
+         </children>
+      </HBox>
+   </children>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</VBox>

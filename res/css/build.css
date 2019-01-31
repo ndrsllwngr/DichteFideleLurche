@@ -1,0 +1,40 @@
+/* labels, general information, user input */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/open_sans/OpenSans-Regular.ttf");
+}
+
+.button {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: #FFDEAD;
+    -fx-background-size: cover;
+}
+
+#settleButton {
+    -fx-background-image: url("../icons/buildSettlementButton.png");
+    -fx-background-size: cover;
+}
+
+#cityButton {
+    -fx-background-image: url("../icons/buildCityButton.png");
+    -fx-background-size: cover;
+}
+
+#streetButton {
+    -fx-background-image: url("../icons/buildStreetButton.png");
+    -fx-background-size: cover;
+}
+
+#developmentCardButton {
+    -fx-background-image: url("../icons/buyDevCardButton.png");
+    -fx-background-size: cover;
+}
+
+.label {
+    /*-fx-background-color: #FFDEAD;*/
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 18px;
+}

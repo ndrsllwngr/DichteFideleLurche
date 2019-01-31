@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--suppress XmlPathReference -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" maxWidth="586.0" minHeight="203.0" prefHeight="203.0"
+      prefWidth="586.0" spacing="55.0" xmlns="http://javafx.com/javafx/8.0.112"
+      fx:controller="view.client.devCardsPopUp.MonopolyController">
+   <children>
+       <ComboBox fx:id="comboResource" minWidth="200.0" prefHeight="40.0" prefWidth="200.0" promptText="Resource"/>
+       <Button fx:id="confirmButton" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" onAction="#send"
+               prefHeight="40.0" prefWidth="100.0" text="OK"/>
+   </children>
+   <padding>
+       <Insets bottom="5.0" left="5.0" right="5.0" top="40.0"/>
+   </padding>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+</VBox>

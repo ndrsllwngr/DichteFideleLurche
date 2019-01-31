@@ -1,0 +1,2145 @@
+2017-10-24 13:19:18.970 INFO  view.client.CanvasBoard 862 lambda$setRobber$8 - Robber is drawn at new position: 18
+2017-10-24 13:19:18.975 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:18.976 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:19.007 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:19.008 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:19.008 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:19.008 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:19.073 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:19.073 INFO  view.client.Controller 725 buildSettlement - entered buildSettlement()
+2017-10-24 13:19:19.073 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:19.077 INFO  view.client.CanvasBoard 587 lambda$showPossibleSettlements$3 - buildable settlements empty /not empty?[model.board.Corner@27dd9ed0, model.board.Corner@72f22f3d, model.board.Corner@52c310b4, model.board.Corner@45ba63b2, model.board.Corner@e5a5ecb, model.board.Corner@6d3203fa, model.board.Corner@27bef858, model.board.Corner@318fb8ee, model.board.Corner@6d7f1412, model.board.Corner@10afe794, model.board.Corner@4083b1e1, model.board.Corner@c8729d7, model.board.Corner@19cd63d1, model.board.Corner@76b1b43b, model.board.Corner@2b601fb5, model.board.Corner@1e1c429f, model.board.Corner@6cbd6966, model.board.Corner@17d608a6, model.board.Corner@3c60305e, model.board.Corner@401495f7, model.board.Corner@47e522ca, model.board.Corner@605191a8, model.board.Corner@5d0eaf3c, model.board.Corner@39d13247, model.board.Corner@57ccb4c5, model.board.Corner@3b7ca345, model.board.Corner@13238c59, model.board.Corner@23d0d770, model.board.Corner@11082553, model.board.Corner@4f30dabc, model.board.Corner@40fec647, model.board.Corner@6530f27f, model.board.Corner@35c27137, model.board.Corner@7c6ea809, model.board.Corner@4a14953d, model.board.Corner@28d5250a, model.board.Corner@eb8b2ee, model.board.Corner@79f6dd0, model.board.Corner@694cbd63, model.board.Corner@68b02835, model.board.Corner@23d4d80f, model.board.Corner@5f59d048, model.board.Corner@5372c965, model.board.Corner@3aeab2be, model.board.Corner@3ffb014c, model.board.Corner@2e314d6b, model.board.Corner@6bcd9029, model.board.Corner@4ddb0ac, model.board.Corner@63cb301a, model.board.Corner@4735731d, model.board.Corner@40feff0a, model.board.Corner@29cf7f69, model.board.Corner@13bed1aa, model.board.Corner@7f7fe55b]
+2017-10-24 13:19:19.079 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@48ce4311
+2017-10-24 13:19:19.079 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.079 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1aa85956
+2017-10-24 13:19:19.079 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7f7ef828
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7fab9fa1
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@45c79d8e
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.080 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1d7d1e89
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@154a0ab6
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@36bfc929
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@4fed199d
+2017-10-24 13:19:19.081 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3a11dfbf
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7f4b6df1
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@37f505b0
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1073c322
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.082 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@24ab0ab4
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@2bcf35
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1fec8205
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@11082809
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.083 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6d8a7e36
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@330646d5
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@4801061a
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@18192773
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@265c9188
+2017-10-24 13:19:19.084 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@27ed4b78
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@679cb849
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@366f3976
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@747d3ee2
+2017-10-24 13:19:19.085 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@39061d9e
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3b5ab407
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@74b19e93
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@692634c9
+2017-10-24 13:19:19.086 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@60c53e9e
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@ed1440d
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@766c1642
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@2eb4e43a
+2017-10-24 13:19:19.087 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@67cc1ebc
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6339cf64
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@75f11b47
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7cedb4f7
+2017-10-24 13:19:19.088 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7bd36c28
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@563cded9
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@2beadc7a
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3a318ffc
+2017-10-24 13:19:19.089 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@5ae316be
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6a99c12d
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@176dd908
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@2195fa76
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.090 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@63815e1c
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@47357be8
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3ee95f9f
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@30a1447e
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.091 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@59399dc8
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@35bf473c
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@415ef3b3
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 590 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7b66dd52
+2017-10-24 13:19:19.092 INFO  view.client.CanvasBoard 593 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-10-24 13:19:32.829 INFO  view.client.Controller 895 contains - 
+
+2017-10-24 13:19:32.835 DEBUG view.client.Point 96 getTheRightPoint - Calculated Point in List  216.28  197.0
+2017-10-24 13:19:32.860 DEBUG view.client.Point 66 getAdjacentHexagons - 
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  283.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    30.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    30.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   551.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   551.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+
+2017-10-24 13:19:32.861 INFO  view.client.Point 71 getAdjacentHexagons - {10, 11, 17}
+2017-10-24 13:19:32.880 INFO  view.client.Controller 752 lambda$null$13 - MouseEvent - Clicked at: 216.0, 198.0
+Will build settlement
+2017-10-24 13:19:32.973 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:32.974 INFO  view.client.CanvasBoard 628 lambda$showPossibleStreets2$5 - possible streets at: view.client.Edge@594d5792
+2017-10-24 13:19:32.974 INFO  view.client.CanvasBoard 628 lambda$showPossibleStreets2$5 - possible streets at: view.client.Edge@574a204a
+2017-10-24 13:19:32.974 INFO  view.client.CanvasBoard 628 lambda$showPossibleStreets2$5 - possible streets at: view.client.Edge@3221ae2d
+2017-10-24 13:19:32.975 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:34.267 INFO  view.client.Controller 919 lambda$null$17 - Inside -:1 street
+2017-10-24 13:19:34.275 DEBUG view.client.Point 66 getAdjacentHexagons - 
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons           [10]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  133.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  154.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  283.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    30.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    30.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons       [10, 11]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   551.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  197.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   551.0  219.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list    67.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   514.0  283.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   105.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   477.0  348.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   142.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  477.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  455.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [10, 11, 17]
+                 Searching for   216.0  197.0
+     Coordinates found in list   440.0  412.0
+      IDs of adjacent hexagons   [10, 11, 17]
+
+2017-10-24 13:19:34.276 INFO  view.client.Point 71 getAdjacentHexagons - {10, 11, 17}
+2017-10-24 13:19:34.283 DEBUG view.client.Point 66 getAdjacentHexagons - 
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0    4.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0   25.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0   68.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0   90.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list    67.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list    67.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  133.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons             []
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  133.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  133.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  133.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   514.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  133.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   514.0  154.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list    67.0  283.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list    30.0  262.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list    30.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list    67.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  219.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  197.0
+      IDs of adjacent hexagons           [11]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons       [11, 17]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons       [11, 17]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons       [11, 17]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons       [11, 17]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  197.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  197.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  197.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   551.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   514.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   514.0  197.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   551.0  219.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list    67.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list    67.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   514.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  262.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   514.0  283.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   105.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  326.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   477.0  348.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  477.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   142.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   179.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  477.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   216.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   254.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  477.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   291.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   328.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  477.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  455.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   365.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   402.0  391.0
+      IDs of adjacent hexagons   [11, 17, 18]
+                 Searching for   254.0  219.0
+     Coordinates found in list   440.0  412.0
+      IDs of adjacent hexagons   [11, 17, 18]
+
+2017-10-24 13:19:34.284 INFO  view.client.Point 71 getAdjacentHexagons - {11, 17, 18}
+2017-10-24 13:19:34.390 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:34.390 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:34.407 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:34.408 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:34.600 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:34.600 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!
+2017-10-24 13:19:34.958 INFO  view.client.Controller 420 lambda$deactivateButtons$3 - Case not covered!
+2017-10-24 13:19:34.958 INFO  view.client.build.BuildController 107 lambda$deactivateButtons$0 - Case not covered!

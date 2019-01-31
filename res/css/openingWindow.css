@@ -1,0 +1,101 @@
+/* buttons */
+@font-face {
+    font-family: Martel, serif;
+    src: url("../fonts/Martel/Martel-Regular.ttf");
+}
+
+/* labels, general information, user input */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+/* textarea only (chat, console) */
+@font-face {
+    font-family: 'Roboto Mono', monospace;
+    src: url("../fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+
+.button {
+    -fx-background-color: #FFDEAD;
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: Martel;
+    -fx-font-size: 20px;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+.button:hover {
+    -fx-background-color: #c8ae88;
+}
+
+.button:focused {
+    -fx-background-color: #FFDEAD, -fx-focus-color, -fx-inner-border;
+    -fx-background-insets: -0.2, 1, 2, -1.4, 2.6;
+    -fx-background-radius: 3, 2, 1, 4, 1;
+}
+
+.check-box {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFDEAD;
+}
+
+.combo-box {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 20px;
+}
+
+.text-area {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: 'Roboto Mono';
+    -fx-font-size: 10px;
+}
+
+.text-field {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 20px;
+}
+
+.label {
+    /*-fx-background-color: #FFDEAD;*/
+    -fx-text-fill: #FFDEAD;
+    -fx-font-family: Martel;
+    -fx-font-size: 20px;
+}
+
+.text-area .content {
+    -fx-background-color: #FFDEAD;
+}
+
+.check-box .box {
+    -fx-background-color: #FFDEAD;
+}
+
+.root {
+    -fx-focus-color: #bca67d;
+    -fx-inner-border: #e7c99c;
+}
+
+#play {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../icons/ic_play_circle.png");
+    -fx-background-size: cover;
+}
+
+#stop {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../icons/ic_pause_circle.png");
+    -fx-background-size: cover;
+}

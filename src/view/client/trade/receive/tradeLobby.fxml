@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--suppress XmlPathReference -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" prefHeight="227.0" prefWidth="612.0" spacing="2.0"
+      xmlns="http://javafx.com/javafx/8.0.60" fx:controller="view.client.trade.receive.tradeLobbyController">
+    <children>
+        <HBox fx:id="playerOne" alignment="CENTER" prefHeight="32.0" prefWidth="612.0" spacing="5.0">
+            <children>
+                <Label maxHeight="55.0" minHeight="42.0" minWidth="55.0" prefHeight="55.0" text="Name"/>
+                <Label fx:id="player1" maxHeight="42.0" maxWidth="90.0" minHeight="42.0" minWidth="90.0"
+                       prefHeight="42.0" prefWidth="90.0"/>
+                <Label maxHeight="42.0" maxWidth="30.0" minHeight="42.0" minWidth="30.0" prefHeight="42.0"
+                       prefWidth="30.0" text="ID"/>
+                <Label fx:id="id1" maxHeight="42.0" maxWidth="80.0" minHeight="42.0" minWidth="80.0" prefHeight="42.0"
+                       prefWidth="80.0"/>
+                <Label maxHeight="42.0" maxWidth="60.0" minHeight="42.0" minWidth="60.0" prefHeight="42.0"
+                       prefWidth="60.0" text="Status"/>
+                <Label fx:id="status1" maxHeight="42.0" maxWidth="100.0" minHeight="42.0" minWidth="100.0"
+                       prefHeight="42.0" prefWidth="100.0"/>
+                <!--<fx:include source="client.fxml"/>-->
+                <Button fx:id="tradeP1" maxHeight="42.0" maxWidth="75.0" minHeight="42.0" minWidth="85.0"
+                        mnemonicParsing="false" onAction="#handleTrade" prefHeight="42.0" prefWidth="75.0"
+                        text="Trade"/>
+            </children>
+        </HBox>
+        <HBox fx:id="playerTwo" alignment="CENTER" prefHeight="18.0" prefWidth="612.0" spacing="5.0">
+            <children>
+                <Label maxHeight="55.0" minHeight="42.0" minWidth="55.0" prefHeight="55.0" text="Name"/>
+                <Label fx:id="player2" maxHeight="42.0" maxWidth="90.0" minHeight="42.0" minWidth="90.0"
+                       prefHeight="42.0" prefWidth="90.0"/>
+                <Label maxHeight="42.0" maxWidth="30.0" minHeight="42.0" minWidth="30.0" prefHeight="42.0"
+                       prefWidth="30.0" text="ID"/>
+                <Label fx:id="id2" maxHeight="42.0" maxWidth="80.0" minHeight="42.0" minWidth="80.0" prefHeight="42.0"
+                       prefWidth="80.0"/>
+                <Label maxHeight="42.0" maxWidth="60.0" minHeight="42.0" minWidth="60.0" prefHeight="42.0"
+                       prefWidth="60.0" text="Status"/>
+                <Label fx:id="status2" maxHeight="42.0" maxWidth="100.0" minHeight="42.0" minWidth="100.0"
+                       prefHeight="42.0" prefWidth="100.0"/>
+                <Button fx:id="tradeP2" maxHeight="42.0" maxWidth="75.0" minHeight="42.0" minWidth="85.0"
+                        mnemonicParsing="false" onAction="#handleTrade" prefHeight="42.0" prefWidth="75.0"
+                        text="Trade"/>
+            </children>
+        </HBox>
+        <HBox fx:id="playerThree" alignment="CENTER" prefHeight="25.0" prefWidth="612.0" spacing="5.0">
+            <children>
+                <Label maxHeight="55.0" minHeight="42.0" minWidth="55.0" prefHeight="55.0" text="Name"/>
+                <Label fx:id="player3" maxHeight="42.0" maxWidth="90.0" minHeight="42.0" minWidth="90.0"
+                       prefHeight="42.0" prefWidth="90.0"/>
+                <Label maxHeight="42.0" maxWidth="30.0" minHeight="42.0" minWidth="30.0" prefHeight="42.0"
+                       prefWidth="30.0" text="ID"/>
+                <Label fx:id="id3" maxHeight="42.0" maxWidth="80.0" minHeight="42.0" minWidth="80.0" prefHeight="42.0"
+                       prefWidth="80.0"/>
+                <Label maxHeight="42.0" maxWidth="60.0" minHeight="42.0" minWidth="60.0" prefHeight="42.0"
+                       prefWidth="60.0" text="Status"/>
+                <Label fx:id="status3" maxHeight="42.0" maxWidth="100.0" minHeight="42.0" minWidth="100.0"
+                       prefHeight="42.0" prefWidth="100.0"/>
+                <Button fx:id="tradeP3" maxHeight="42.0" maxWidth="75.0" minHeight="42.0" minWidth="85.0"
+                        mnemonicParsing="false" onAction="#handleTrade" prefHeight="42.0" prefWidth="75.0"
+                        text="Trade"/>
+            </children>
+        </HBox>
+        <VBox alignment="BOTTOM_CENTER">
+            <children>
+                <Button mnemonicParsing="false" onAction="#cancelTrade" prefHeight="26.0" prefWidth="83.0"
+                        text="Cancel"/>
+            </children>
+        </VBox>
+    </children>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</VBox>

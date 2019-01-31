@@ -1,0 +1,10 @@
+2017-11-09 16:34:46.686 INFO  network.client.Client 147 connect - Socket[addr=localhost/127.0.0.1,port=10003,localport=50332]
+2017-11-09 16:34:46.688 INFO  network.client.Client 158 connect - Connected to localhost, 10003
+2017-11-09 16:34:46.693 INFO  network.client.Client 239 receiveMsg - {"Hallo":{"Protokoll":"1.0","Version":"Catan-Server (DichteFideleForste"}}
+2017-11-09 16:34:46.722 INFO  network.client.Client 208 sendMsg - {"Hallo":{"Version":"JavaFXClient 1.0 (DichteFideleLurche)"}}
+2017-11-09 16:34:46.819 INFO  network.client.Client 239 receiveMsg - {"Willkommen":{"id":3}}
+2017-11-09 16:34:46.823 INFO  network.client.ClientListener 830 myId - Human.
+2017-11-09 16:34:46.924 INFO  network.client.Client 239 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":3,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Größte Rittermacht":false}}}
+2017-11-09 16:34:47.032 INFO  network.client.Client 239 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-11-09 16:34:47.127 INFO  network.client.Client 239 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-11-09 16:35:34.894 INFO  network.client.Client 208 sendMsg - {"Spieler":{"Farbe":"Orange","Name":"Andi"}}

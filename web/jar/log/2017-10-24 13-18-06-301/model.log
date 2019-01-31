@@ -1,0 +1,388 @@
+2017-10-24 13:19:06.969 TRACE model.players.Human 11 <init> - Enter model.players.Human@19ce8bd3
+2017-10-24 13:19:06.972 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:06.975 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:07.051 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:07.056 DEBUG model.players.Player 233 setGrain - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:07.057 DEBUG model.players.Player 255 setWool - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:07.057 DEBUG model.players.Player 189 setLumber - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:07.057 DEBUG model.players.Player 167 setBrick - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:07.057 DEBUG model.players.Player 211 setOre - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:07.057 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: 
+2017-10-24 13:19:07.063 TRACE model.players.Human 11 <init> - Enter model.players.Human@20cbceab
+2017-10-24 13:19:07.065 DEBUG model.players.Player 62 printPlayer - model.players.Human@20cbceab
+id        1         color     BLUE      name      KI (1)    status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:07.067 DEBUG model.players.Player 62 printPlayer - model.players.Human@20cbceab
+id        1         color     BLUE      name      KI (1)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:07.146 TRACE model.players.Human 11 <init> - Enter model.players.Human@60e6e2
+2017-10-24 13:19:07.147 DEBUG model.players.Player 62 printPlayer - model.players.Human@60e6e2
+id        2         color     RED       name      KI (2)    status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:07.149 DEBUG model.players.Player 62 printPlayer - model.players.Human@60e6e2
+id        2         color     RED       name      KI (2)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:13.863 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     ORANGE    name      chris     status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:13.864 DEBUG model.players.Player 233 setGrain - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:13.864 DEBUG model.players.Player 255 setWool - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:13.864 DEBUG model.players.Player 189 setLumber - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:13.864 DEBUG model.players.Player 167 setBrick - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:13.864 DEBUG model.players.Player 211 setOre - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:13.865 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: chris
+2017-10-24 13:19:15.673 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     ORANGE    name      chris     status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:15.674 DEBUG model.players.Player 233 setGrain - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:15.674 DEBUG model.players.Player 255 setWool - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:15.674 DEBUG model.players.Player 189 setLumber - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:15.674 DEBUG model.players.Player 167 setBrick - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:15.674 DEBUG model.players.Player 211 setOre - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:15.674 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: chris
+2017-10-24 13:19:15.775 INFO  model.board.Board 263 printBoardIDs - 
+  null  null  null   {0}   {1}   {2}   {3}
+  null  null   {4}   {5}   {6}   {7}   {8}
+  null   {9}  {10}  {11}  {12}  {13}  {14}
+  {15}  {16}  {17}  {18}  {19}  {20}  {21}
+  {22}  {23}  {24}  {25}  {26}  {27}  null
+  {28}  {29}  {30}  {31}  {32}  null  null
+  {33}  {34}  {35}  {36}  null  null  null
+
+2017-10-24 13:19:15.776 INFO  model.board.Board 340 printNumberTokens - 
+  null  null  null  null  null  null  null
+  null  null  null    10     2     9  null
+  null  null    12     6     4    10  null
+  null     9    11     0     3     8  null
+  null     8     3     4     5  null  null
+  null     5     6    11  null  null  null
+  null  null  null  null  null  null  null
+
+2017-10-24 13:19:15.778 INFO  model.board.Board 281 printBoardSpecialCo - 
+(     )(     )(     )( 0,-3)( 1,-3)( 2,-3)( 3,-3)
+(     )(     )(-1,-2)( 0,-2)( 1,-2)( 2,-2)( 3,-2)
+(     )(-2,-1)(-1,-1)( 0,-1)( 1,-1)( 2,-1)( 3,-1)
+(-3, 0)(-2, 0)(-1, 0)( 0, 0)( 1, 0)( 2, 0)( 3, 0)
+(-3, 1)(-2, 1)(-1, 1)( 0, 1)( 1, 1)( 2, 1)(     )
+(-3, 2)(-2, 2)(-1, 2)( 0, 2)( 1, 2)(     )(     )
+(-3, 3)(-2, 3)(-1, 3)( 0, 3)(     )(     )(     )
+
+2017-10-24 13:19:15.782 INFO  model.board.Board 301 printTileNeighbors - 
+Row: 0
+                          null : 
+                          null : 
+                          null : 
+      model.board.Sea@606d78ce : [model.board.Sea@1d67227a, model.board.Mountain@270f839e, model.board.Sea@56301f34]
+      model.board.Sea@1d67227a : [model.board.Pasture@5d10b634, model.board.Mountain@270f839e, model.board.Sea@606d78ce, model.board.Sea@79402b1e]
+      model.board.Sea@79402b1e : [model.board.Sea@1d67227a, model.board.Forest@220854db, model.board.Pasture@5d10b634, model.board.Sea@74173611]
+      model.board.Sea@74173611 : [model.board.Sea@2cee8fb1, model.board.Forest@220854db, model.board.Sea@79402b1e]
+Row: 1
+                          null : 
+                          null : 
+      model.board.Sea@56301f34 : [model.board.Mountain@270f839e, model.board.Field@540e49e9, model.board.Sea@3440713f, model.board.Sea@606d78ce]
+ model.board.Mountain@270f839e : [model.board.Sea@1d67227a, model.board.Pasture@5d10b634, model.board.Hill@792a6e18, model.board.Field@540e49e9, model.board.Sea@56301f34, model.board.Sea@606d78ce]
+  model.board.Pasture@5d10b634 : [model.board.Sea@1d67227a, model.board.Forest@220854db, model.board.Pasture@21e1e58b, model.board.Hill@792a6e18, model.board.Mountain@270f839e, model.board.Sea@79402b1e]
+   model.board.Forest@220854db : [model.board.Sea@2cee8fb1, model.board.Hill@706b15f, model.board.Pasture@21e1e58b, model.board.Pasture@5d10b634, model.board.Sea@79402b1e, model.board.Sea@74173611]
+      model.board.Sea@2cee8fb1 : [model.board.Sea@30f8f109, model.board.Hill@706b15f, model.board.Forest@220854db, model.board.Sea@74173611]
+Row: 2
+                          null : 
+      model.board.Sea@3440713f : [model.board.Sea@56301f34, model.board.Field@540e49e9, model.board.Sea@1a0803a0, model.board.Field@346b60d7]
+    model.board.Field@540e49e9 : [model.board.Forest@6d5a34c, model.board.Sea@56301f34, model.board.Mountain@270f839e, model.board.Hill@792a6e18, model.board.Sea@3440713f, model.board.Field@346b60d7]
+     model.board.Hill@792a6e18 : [model.board.Forest@6d5a34c, model.board.Mountain@270f839e, model.board.Pasture@5d10b634, model.board.Pasture@21e1e58b, model.board.Field@540e49e9, model.board.Desert@71526a26]
+  model.board.Pasture@21e1e58b : [model.board.Pasture@5d10b634, model.board.Forest@220854db, model.board.Hill@706b15f, model.board.Hill@792a6e18, model.board.Desert@71526a26, model.board.Forest@2b9d62af]
+      model.board.Hill@706b15f : [model.board.Forest@220854db, model.board.Sea@2cee8fb1, model.board.Sea@30f8f109, model.board.Mountain@449fd2d3, model.board.Pasture@21e1e58b, model.board.Forest@2b9d62af]
+      model.board.Sea@30f8f109 : [model.board.Sea@2cee8fb1, model.board.Sea@6ffbd6cf, model.board.Mountain@449fd2d3, model.board.Hill@706b15f]
+Row: 3
+      model.board.Sea@1a0803a0 : [model.board.Sea@3440713f, model.board.Sea@d9a924c, model.board.Field@346b60d7]
+    model.board.Field@346b60d7 : [model.board.Forest@6d5a34c, model.board.Sea@3440713f, model.board.Field@540e49e9, model.board.Forest@4dd2114a, model.board.Sea@d9a924c, model.board.Sea@1a0803a0]
+    model.board.Forest@6d5a34c : [model.board.Field@540e49e9, model.board.Hill@792a6e18, model.board.Mountain@77615b69, model.board.Forest@4dd2114a, model.board.Field@346b60d7, model.board.Desert@71526a26]
+   model.board.Desert@71526a26 : [model.board.Forest@6d5a34c, model.board.Hill@792a6e18, model.board.Pasture@21e1e58b, model.board.Field@461da6e4, model.board.Mountain@77615b69, model.board.Forest@2b9d62af]
+   model.board.Forest@2b9d62af : [model.board.Pasture@21e1e58b, model.board.Hill@706b15f, model.board.Mountain@449fd2d3, model.board.Pasture@1f4c4499, model.board.Field@461da6e4, model.board.Desert@71526a26]
+ model.board.Mountain@449fd2d3 : [model.board.Hill@706b15f, model.board.Sea@30f8f109, model.board.Sea@6ffbd6cf, model.board.Sea@42c94e7b, model.board.Pasture@1f4c4499, model.board.Forest@2b9d62af]
+      model.board.Sea@6ffbd6cf : [model.board.Sea@30f8f109, model.board.Sea@42c94e7b, model.board.Mountain@449fd2d3]
+Row: 4
+       model.board.Sea@d9a924c : [model.board.Sea@1a0803a0, model.board.Forest@4dd2114a, model.board.Sea@3f8eef58, model.board.Field@346b60d7]
+   model.board.Forest@4dd2114a : [model.board.Forest@6d5a34c, model.board.Mountain@77615b69, model.board.Hill@148f54cb, model.board.Sea@3f8eef58, model.board.Sea@d9a924c, model.board.Field@346b60d7]
+ model.board.Mountain@77615b69 : [model.board.Forest@6d5a34c, model.board.Field@461da6e4, model.board.Field@691aa24f, model.board.Hill@148f54cb, model.board.Forest@4dd2114a, model.board.Desert@71526a26]
+    model.board.Field@461da6e4 : [model.board.Pasture@1f4c4499, model.board.Pasture@61a88381, model.board.Field@691aa24f, model.board.Mountain@77615b69, model.board.Desert@71526a26, model.board.Forest@2b9d62af]
+  model.board.Pasture@1f4c4499 : [model.board.Mountain@449fd2d3, model.board.Sea@42c94e7b, model.board.Pasture@61a88381, model.board.Field@461da6e4, model.board.Sea@299454c3, model.board.Forest@2b9d62af]
+      model.board.Sea@42c94e7b : [model.board.Mountain@449fd2d3, model.board.Sea@6ffbd6cf, model.board.Pasture@1f4c4499, model.board.Sea@299454c3]
+                          null : 
+Row: 5
+      model.board.Sea@3f8eef58 : [model.board.Sea@47536436, model.board.Sea@d9a924c, model.board.Forest@4dd2114a, model.board.Hill@148f54cb]
+     model.board.Hill@148f54cb : [model.board.Sea@47536436, model.board.Forest@4dd2114a, model.board.Mountain@77615b69, model.board.Field@691aa24f, model.board.Sea@3f8eef58, model.board.Sea@7be7be49]
+    model.board.Field@691aa24f : [model.board.Mountain@77615b69, model.board.Field@461da6e4, model.board.Pasture@61a88381, model.board.Hill@148f54cb, model.board.Sea@7be7be49, model.board.Sea@5e769e3f]
+  model.board.Pasture@61a88381 : [model.board.Field@461da6e4, model.board.Pasture@1f4c4499, model.board.Sea@554ffb7e, model.board.Field@691aa24f, model.board.Sea@299454c3, model.board.Sea@5e769e3f]
+      model.board.Sea@299454c3 : [model.board.Pasture@1f4c4499, model.board.Sea@42c94e7b, model.board.Sea@554ffb7e, model.board.Pasture@61a88381]
+                          null : 
+                          null : 
+Row: 6
+      model.board.Sea@47536436 : [model.board.Sea@3f8eef58, model.board.Hill@148f54cb, model.board.Sea@7be7be49]
+      model.board.Sea@7be7be49 : [model.board.Sea@47536436, model.board.Hill@148f54cb, model.board.Field@691aa24f, model.board.Sea@5e769e3f]
+      model.board.Sea@5e769e3f : [model.board.Field@691aa24f, model.board.Pasture@61a88381, model.board.Sea@554ffb7e, model.board.Sea@7be7be49]
+      model.board.Sea@554ffb7e : [model.board.Pasture@61a88381, model.board.Sea@299454c3, model.board.Sea@5e769e3f]
+                          null : 
+                          null : 
+                          null : 
+
+2017-10-24 13:19:15.784 INFO  model.board.Board 322 printPorts - 
+        {33} : GENERIC
+         {9} : LUMBER
+        {22} : BRICK
+         {8} : ORE
+         {0} : GENERIC
+        {32} : WOOL
+         {2} : GRAIN
+        {35} : GENERIC
+        {21} : GENERIC
+
+{22, 23, 28} : BRICK
+{16, 22, 23} : BRICK
+   {1, 2, 6} : GRAIN
+   {2, 6, 7} : GRAIN
+  {4, 9, 10} : LUMBER
+{28, 29, 33} : GENERIC
+  {7, 8, 13} : ORE
+ {8, 13, 14} : ORE
+ {9, 10, 16} : LUMBER
+{26, 27, 32} : WOOL
+{26, 31, 32} : WOOL
+{29, 33, 34} : GENERIC
+{30, 31, 35} : GENERIC
+{30, 34, 35} : GENERIC
+{14, 20, 21} : GENERIC
+{20, 21, 27} : GENERIC
+   {0, 4, 5} : GENERIC
+   {0, 1, 5} : GENERIC
+
+2017-10-24 13:19:18.981 DEBUG model.players.Player 62 printPlayer - model.players.Human@60e6e2
+id        2         color     RED       name      KI (2)    status    WAIT      
+vp        0         road      false     army      false     
+dev       0         dice      6         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:18.981 DEBUG model.players.Player 62 printPlayer - model.players.Human@20cbceab
+id        1         color     BLUE      name      KI (1)    status    WAIT      
+vp        0         road      false     army      false     
+dev       0         dice      8         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:18.983 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:18.983 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:19.071 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     ORANGE    name      chris     status    BUILD_SETTLEMENT
+vp        0         road      false     army      false     
+dev       0         dice      11        
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:19.072 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:19.074 DEBUG model.players.Player 233 setGrain - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:19.074 DEBUG model.players.Player 255 setWool - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:19.074 DEBUG model.players.Player 189 setLumber - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:19.074 DEBUG model.players.Player 167 setBrick - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:19.074 DEBUG model.players.Player 211 setOre - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:19.075 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: chris
+2017-10-24 13:19:19.075 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-10-24 13:19:19.078 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-10-24 13:19:32.862 INFO  model.players.Player 892 getBuildableSettlements - start settlement 54
+2017-10-24 13:19:32.896 INFO  model.players.Player 945 buildSettlementFORCE - chris: {10, 11, 17}
+2017-10-24 13:19:32.971 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     ORANGE    name      chris     status    BUILD_STREET
+vp        0         road      false     army      false     
+dev       0         dice      11        
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      4         built     [{10, 11, 17}]
+Cities         left      4         built     []
+2017-10-24 13:19:32.972 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:32.973 DEBUG model.players.Player 233 setGrain - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:32.973 DEBUG model.players.Player 255 setWool - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:32.974 DEBUG model.players.Player 189 setLumber - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:32.974 DEBUG model.players.Player 167 setBrick - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:32.974 DEBUG model.players.Player 211 setOre - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:32.976 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: chris
+2017-10-24 13:19:34.316 INFO  model.players.Player 979 buildStreetFORCE - chris: {11, 17}
+2017-10-24 13:19:34.388 DEBUG model.players.Player 62 printPlayer - model.players.Human@19ce8bd3
+id        3         color     ORANGE    name      chris     status    WAIT      
+vp        1         road      false     army      false     
+dev       0         dice      11        
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{11, 17}]
+Settlements    left      4         built     [{10, 11, 17}]
+Cities         left      4         built     []
+2017-10-24 13:19:34.389 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:34.389 DEBUG model.players.Player 233 setGrain - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:34.390 DEBUG model.players.Player 255 setWool - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:34.390 DEBUG model.players.Player 189 setLumber - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:34.390 DEBUG model.players.Player 167 setBrick - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:34.391 DEBUG model.players.Player 211 setOre - model.players.Human@19ce8bd3 [ id: 3 ] old: 0, new: 0
+2017-10-24 13:19:34.391 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: chris
+2017-10-24 13:19:34.406 DEBUG model.players.Player 62 printPlayer - model.players.Human@20cbceab
+id        1         color     BLUE      name      KI (1)    status    BUILD_SETTLEMENT
+vp        0         road      false     army      false     
+dev       0         dice      8         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-10-24 13:19:34.406 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:34.586 INFO  model.players.Player 945 buildSettlementFORCE - KI (1): {13, 19, 20}
+2017-10-24 13:19:34.598 DEBUG model.players.Player 62 printPlayer - model.players.Human@20cbceab
+id        1         color     BLUE      name      KI (1)    status    BUILD_STREET
+vp        0         road      false     army      false     
+dev       0         dice      8         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      4         built     [{13, 19, 20}]
+Cities         left      4         built     []
+2017-10-24 13:19:34.599 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        
+2017-10-24 13:19:34.940 INFO  model.players.Player 979 buildStreetFORCE - KI (1): {13, 19}
+2017-10-24 13:19:34.956 DEBUG model.players.Player 62 printPlayer - model.players.Human@20cbceab
+id        1         color     BLUE      name      KI (1)    status    WAIT      
+vp        1         road      false     army      false     
+dev       0         dice      8         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      14        built     [{13, 19}]
+Settlements    left      4         built     [{13, 19, 20}]
+Cities         left      4         built     []
+2017-10-24 13:19:34.956 DEBUG model.Management 43 printManagement - model.Management@4de4e44a
+KI (1)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+KI (2)    sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+chris     sum       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+[ M ]     sum       95        lumber    19        brick     19        grain     19        wool      19        ore       19        

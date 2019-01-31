@@ -1,0 +1,119 @@
+2017-02-12 16:10:12.205 INFO  view.client.Controller 727 buildSettlement - entered buildSettlement()
+2017-02-12 16:10:12.370 INFO  view.client.CanvasBoard 934 lambda$setRobber$8 - Robber is drawn at new position: 23
+2017-02-12 16:10:12.375 INFO  view.client.CanvasBoard 670 lambda$showPossibleSettlements$3 - buildable settlements empty /not empty?[model.board.Corner@398f85ac, model.board.Corner@4cfbe884, model.board.Corner@56a200f2, model.board.Corner@1c3c84e2, model.board.Corner@595bd02c, model.board.Corner@4a77ac4b, model.board.Corner@c948067, model.board.Corner@74f71e83, model.board.Corner@73aa6a81, model.board.Corner@4c8854b, model.board.Corner@2c77aa0d, model.board.Corner@6038aa06, model.board.Corner@40e63ae2, model.board.Corner@440d68, model.board.Corner@11f2e8af, model.board.Corner@343f080d, model.board.Corner@457f1542, model.board.Corner@65707fc8, model.board.Corner@63c15459, model.board.Corner@2f72474c, model.board.Corner@121a82e5, model.board.Corner@74723151, model.board.Corner@1d78d01a, model.board.Corner@200dacde, model.board.Corner@66c61f90, model.board.Corner@35b52a0, model.board.Corner@58f8aad1, model.board.Corner@155e964c, model.board.Corner@433221e8, model.board.Corner@1a25a57c, model.board.Corner@7162acb, model.board.Corner@669b2093, model.board.Corner@34f460c9, model.board.Corner@3cd3d6e, model.board.Corner@35bb1fae, model.board.Corner@a1b2e32, model.board.Corner@1dfee590, model.board.Corner@77329d0c, model.board.Corner@1a19ba2b, model.board.Corner@49206de4, model.board.Corner@2398d335, model.board.Corner@40a1f0b7, model.board.Corner@17bec26a, model.board.Corner@5dbbc234, model.board.Corner@385fb3cd, model.board.Corner@77b4c839, model.board.Corner@16f8f937, model.board.Corner@15d123be, model.board.Corner@50553b12, model.board.Corner@171c421, model.board.Corner@5011a479, model.board.Corner@4c41a116, model.board.Corner@35358e27, model.board.Corner@3a6a046c]
+2017-02-12 16:10:12.376 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@67054d34
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@260d09d3
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3f50ef83
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@55f3d561
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.377 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@18525e06
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@56df9f4e
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6ecb4ee1
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@2558c684
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@2ff01e47
+2017-02-12 16:10:12.378 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@57fc118
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@31f73b10
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@52f8b74c
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7dd59972
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.379 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@659e0d1
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@efe64b1
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@192bf0f5
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@48e4f4ab
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1f2ca0e
+2017-02-12 16:10:12.380 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7cd4fd6d
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3abe165a
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@5590fc0a
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@42a5ee0c
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.381 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@19c15ca0
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@53078504
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1a553c2
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6c9d1874
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7f2a6d1b
+2017-02-12 16:10:12.382 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@106af85f
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3bfa92d3
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3f207360
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@13ce932a
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@54a1390c
+2017-02-12 16:10:12.383 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3b224541
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7258a36
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@60150e3b
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3da1226c
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.384 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@148060d4
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@3f5f2c48
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@7773894e
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@43f5678e
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@546439e4
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.385 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@121f724c
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@794da0b8
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@11ec6108
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@64b2c1c8
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@d565200
+2017-02-12 16:10:12.386 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@198a7b72
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6b9cad6a
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@19d29d50
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@26ab1a38
+2017-02-12 16:10:12.387 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6c30a474
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6249b365
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@6f7c9a61
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 673 lambda$showPossibleSettlements$3 - jumps into the method;possible settlementview.client.Point@1178376c
+2017-02-12 16:10:12.388 INFO  view.client.CanvasBoard 679 lambda$showPossibleSettlements$3 -  possible settlement drawing methods have been activated
+2017-02-12 16:10:12.397 INFO  view.client.Controller 422 lambda$deactivateButtons$3 - Case not covered!
+2017-02-12 16:10:12.397 INFO  view.client.Controller 422 lambda$deactivateButtons$3 - Case not covered!
+2017-02-12 16:10:12.397 INFO  view.client.Controller 422 lambda$deactivateButtons$3 - Case not covered!
+2017-02-12 16:10:12.398 INFO  view.client.Controller 422 lambda$deactivateButtons$3 - Case not covered!
+2017-02-12 16:10:12.399 INFO  view.client.build.BuildController 105 lambda$deactivateButtons$0 - Case not covered!
+2017-02-12 16:10:12.399 INFO  view.client.build.BuildController 105 lambda$deactivateButtons$0 - Case not covered!
+2017-02-12 16:10:12.399 INFO  view.client.build.BuildController 105 lambda$deactivateButtons$0 - Case not covered!
+2017-02-12 16:10:12.400 INFO  view.client.build.BuildController 105 lambda$deactivateButtons$0 - Case not covered!

@@ -1,0 +1,14 @@
+2017-02-12 17:14:36.073 DEBUG controller.Register 155 setViewStartServerController - view.startServer.Controller@2484defe
+2017-02-12 17:14:36.074 DEBUG controller.Register 194 setRelevantTextArea - 2
+2017-02-12 17:14:43.429 DEBUG controller.Register 104 setNtwrkServer - network.server.Server@f12d154
+2017-02-12 17:14:43.430 INFO  controller.Controller 28 <init> - controller.Controller@2dc3769e
+2017-02-12 17:14:43.431 DEBUG controller.Register 60 setController - controller.Controller@2dc3769e
+2017-02-12 17:14:43.445 TRACE controller.Controller 149 setBoard - Enter
+2017-02-12 17:14:43.458 INFO  controller.Controller 46 setManagement - model.Management@2777349c
+2017-02-12 17:27:24.143 INFO  controller.DomesticTradeObj 27 <init> - 1, 3, [LUMBER, LUMBER], [GRAIN], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 4=model.players.Human@71906054}
+2017-02-12 17:28:42.367 INFO  controller.DomesticTradeObj 27 <init> - 2, 4, [LUMBER], [WOOL], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 3=model.players.Human@4acdabc8}
+2017-02-12 17:31:07.484 INFO  controller.DomesticTradeObj 27 <init> - 3, 3, [WOOL, BRICK, BRICK], [GRAIN], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 4=model.players.Human@71906054}
+2017-02-12 17:35:15.961 INFO  controller.DomesticTradeObj 27 <init> - 4, 4, [LUMBER, LUMBER], [GRAIN], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 3=model.players.Human@4acdabc8}
+2017-02-12 17:42:13.974 INFO  controller.DomesticTradeObj 27 <init> - 5, 3, [GRAIN, GRAIN, GRAIN, GRAIN, GRAIN, GRAIN], [LUMBER], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 4=model.players.Human@71906054}
+2017-02-12 17:55:53.949 INFO  controller.DomesticTradeObj 27 <init> - 6, 4, [LUMBER], [BRICK], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 3=model.players.Human@4acdabc8}
+2017-02-12 17:58:12.345 INFO  controller.DomesticTradeObj 27 <init> - 7, 4, [GRAIN], [ORE], {1=model.players.Ai@20cc9106, 2=model.players.Ai@513143b3, 3=model.players.Human@4acdabc8}

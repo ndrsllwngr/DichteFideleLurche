@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" prefHeight="271.0" prefWidth="656.0" spacing="10.0"
+      xmlns="http://javafx.com/javafx/8.0.112" fx:controller="view.client.robberPopUp.robberController">
+   <children>
+       <HBox alignment="CENTER" prefHeight="238.0" prefWidth="656.0">
+           <children>
+               <VBox maxWidth="100.0" minWidth="100.0" prefHeight="170.0" prefWidth="100.0" spacing="30.0">
+                   <children>
+                       <ImageView fx:id="arrowOut" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                  preserveRatio="true"/>
+                       <Label prefHeight="30.0" prefWidth="121.0" text="Possession:"/>
+                   </children>
+               </VBox>
+               <VBox alignment="TOP_CENTER" prefHeight="217.0" prefWidth="586.0" spacing="2.0">
+                   <children>
+                       <VBox alignment="CENTER" spacing="3.0">
+                           <children>
+                               <HBox alignment="CENTER" prefHeight="30.0" prefWidth="586.0" spacing="20.0">
+                                   <children>
+                                       <ImageView fx:id="lumberImgV" fitHeight="75.0" fitWidth="75.0" layoutX="383.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                       <ImageView fx:id="brickImgV" fitHeight="75.0" fitWidth="75.0" layoutX="208.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                       <ImageView fx:id="grainImgV" fitHeight="75.0" fitWidth="75.0" layoutX="278.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                       <ImageView fx:id="woolImgV" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                                                  preserveRatio="true"/>
+                                       <ImageView fx:id="oreImgV" fitHeight="75.0" fitWidth="75.0" layoutX="313.0"
+                                                  layoutY="14.0" pickOnBounds="true" preserveRatio="true"/>
+                                   </children>
+                               </HBox>
+                               <HBox alignment="CENTER" spacing="20.0">
+                                   <children>
+                                       <Spinner fx:id="lumberCnt" layoutX="353.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                       <Spinner fx:id="brickCnt" layoutX="328.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                       <Spinner fx:id="grainCnt" layoutX="278.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                       <Spinner fx:id="woolCnt" prefHeight="25.0" prefWidth="75.0"/>
+                                       <Spinner fx:id="oreCnt" layoutX="303.0" layoutY="10.0" prefHeight="25.0"
+                                                prefWidth="75.0"/>
+                                   </children>
+                               </HBox>
+                               <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="586.0" spacing="20.0">
+                                   <children>
+                                       <Label fx:id="lumberLabel" alignment="CENTER" contentDisplay="CENTER"
+                                              layoutX="10.0" layoutY="10.0" prefWidth="75.0" text="x 0"/>
+                                       <Label fx:id="brickLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0"
+                                              prefWidth="75.0" text="x 0"/>
+                                       <Label fx:id="grainLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0"
+                                              prefWidth="75.0" text="x 0"/>
+                                       <Label fx:id="woolLabel" alignment="CENTER" prefWidth="75.0" text="x 0"/>
+                                       <Label fx:id="oreLabel" alignment="CENTER" layoutX="10.0" layoutY="10.0"
+                                              prefWidth="75.0" text="x 0"/>
+                                   </children>
+                               </HBox>
+                           </children>
+                       </VBox>
+                   </children>
+                   <HBox.margin>
+                       <Insets/>
+                   </HBox.margin>
+               </VBox>
+               <VBox maxWidth="100.0" minWidth="100.0" prefHeight="200.0" prefWidth="100.0" spacing="2.0"/>
+           </children>
+       </HBox>
+       <VBox alignment="TOP_CENTER" prefHeight="98.0" prefWidth="586.0" spacing="4.0">
+           <children>
+               <HBox alignment="TOP_CENTER" prefHeight="72.0" prefWidth="586.0">
+                   <children>
+                       <VBox alignment="CENTER_LEFT" maxWidth="100.0" minWidth="100.0" prefHeight="76.0"
+                             prefWidth="100.0">
+                           <children>
+                               <Label prefWidth="100.0" text="Sum:"/>
+                               <Label prefWidth="100.0" text="Selected:"/>
+                               <Label prefWidth="100.0" text="Left:"/>
+                           </children>
+                       </VBox>
+                       <VBox alignment="CENTER_LEFT" maxWidth="100.0" minWidth="100.0" prefHeight="76.0"
+                             prefWidth="100.0">
+                           <children>
+                               <Label fx:id="sumLabel" prefWidth="50.0"/>
+                               <Label fx:id="selectedLabel" prefWidth="50.0"/>
+                               <Label fx:id="leftLabel" prefWidth="50.0"/>
+                           </children>
+                       </VBox>
+                   </children>
+               </HBox>
+           </children>
+       </VBox>
+       <Button fx:id="confirmButton" maxHeight="40.0" maxWidth="100.0" minHeight="40.0" minWidth="100.0"
+               mnemonicParsing="false" onAction="#confirm" prefHeight="40.0" prefWidth="100.0" text="OK">
+           <font>
+               <Font size="9.0"/>
+           </font>
+       </Button>
+   </children>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</VBox>

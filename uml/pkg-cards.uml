@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.cards.DevelopmentCard</OriginalElement>
+  <nodes>
+    <node x="243.0" y="825.0">model.cards.ProgressCard</node>
+    <node x="118.5" y="515.0">model.cards.VictoryPointCardType</node>
+    <node x="0.0" y="102.0">java.lang.Enum</node>
+    <node x="797.0" y="802.0">model.cards.KnightCard</node>
+    <node x="520.0" y="700.0">model.cards.DevelopmentCard</node>
+    <node x="411.0" y="802.0">model.cards.VictoryPointCard</node>
+    <node x="199.25" y="0.0">java.lang.Comparable</node>
+    <node x="218.0" y="950.0">model.cards.RoadBuildingCard</node>
+    <node x="436.0" y="950.0">model.cards.MonopolyCard</node>
+    <node x="77.25" y="11.0">java.io.Serializable</node>
+    <node x="0.0" y="950.0">model.cards.YearOfPlentyCard</node>
+    <node x="0.0" y="1070.0">model.cards.DevelopmentCardFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.cards.RoadBuildingCard" target="model.cards.ProgressCard">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="model.cards.VictoryPointCard" target="model.cards.DevelopmentCard">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="model.cards.YearOfPlentyCard" target="model.cards.ProgressCard">
+      <point x="0.0" y="-37.5" />
+      <point x="99.0" y="925.0" />
+      <point x="267.6666666666667" y="925.0" />
+      <point x="-49.333333333333314" y="26.0" />
+    </edge>
+    <edge source="model.cards.ProgressCard" target="model.cards.DevelopmentCard">
+      <point x="0.0" y="-26.0" />
+      <point x="317.0" y="777.0" />
+      <point x="544.6666666666666" y="777.0" />
+      <point x="-49.33333333333337" y="26.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-102.0" y="-181.5" />
+      <point x="102.0" y="77.0" />
+      <point x="128.25" y="77.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.cards.MonopolyCard" target="model.cards.ProgressCard">
+      <point x="0.0" y="-37.5" />
+      <point x="525.0" y="925.0" />
+      <point x="366.33333333333337" y="925.0" />
+      <point x="49.33333333333337" y="26.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="102.0" y="-181.5" />
+      <point x="306.0" y="77.0" />
+      <point x="279.75" y="77.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="model.cards.KnightCard" target="model.cards.DevelopmentCard">
+      <point x="0.0" y="-49.0" />
+      <point x="891.5" y="777.0" />
+      <point x="643.3333333333334" y="777.0" />
+      <point x="49.33333333333337" y="26.0" />
+    </edge>
+    <edge source="model.cards.VictoryPointCardType" target="java.lang.Enum">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9054161066096484" x="492.9999999999999" y="782.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

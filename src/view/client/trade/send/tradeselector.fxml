@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" maxHeight="540.0" maxWidth="640.0" minHeight="540.0"
+      minWidth="640.0" prefHeight="540.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.112"
+      fx:controller="view.client.trade.send.TradeSelectorController">
+    <children>
+        <Label alignment="CENTER" prefHeight="47.0" prefWidth="586.0" text="Select whom you want to trade with" />
+        <VBox>
+            <children>
+                <HBox alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="630.0" spacing="30.0">
+                    <children>
+                        <Label alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0" prefHeight="40.0"
+                               prefWidth="170.0"/>
+                        <Label alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0" prefHeight="40.0"
+                               prefWidth="170.0" text="4:1"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" minHeight="60.0" prefHeight="60.0" prefWidth="630.0" spacing="30.0">
+                    <children>
+                        <Button fx:id="player" alignment="CENTER" mnemonicParsing="false" onAction="#trade"
+                                prefHeight="60.0" prefWidth="170.0" text="Player"/>
+                        <Button fx:id="bank" alignment="CENTER" mnemonicParsing="false" onAction="#trade"
+                                prefHeight="60.0" prefWidth="170.0" text="Bank"/>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox>
+            <children>
+                <HBox alignment="BOTTOM_CENTER" minHeight="40.0" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <Label fx:id="lumberRatio" alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0"
+                               prefHeight="40.0" prefWidth="150.0" text="2:1"/>
+                        <Label fx:id="brickRatio" alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0"
+                               prefHeight="40.0" prefWidth="150.0" text="2:1"/>
+                        <Label fx:id="grainRatio" alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0"
+                               prefHeight="40.0" prefWidth="150.0" text="2:1"/>
+               </children>
+            </HBox>
+                <HBox alignment="CENTER" prefHeight="40.0" prefWidth="0.0" spacing="5.0">
+               <children>
+                   <Button fx:id="lumberHarbor" mnemonicParsing="false" onAction="#trade" prefHeight="40.0"
+                           prefWidth="150.0" text="Lumber Harbor"/>
+                   <Button fx:id="brickHarbor" mnemonicParsing="false" onAction="#trade" prefHeight="40.0"
+                           prefWidth="150.0" text="Brick Harbor"/>
+                   <Button fx:id="grainHarbor" mnemonicParsing="false" onAction="#trade" prefHeight="40.0"
+                           prefWidth="150.0" text="Grain Harbor"/>
+               </children>
+                </HBox>
+                <HBox alignment="BOTTOM_CENTER" minHeight="40.0" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+                    <children>
+                        <Label fx:id="woolRatio" alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0"
+                               prefHeight="40.0" prefWidth="150.0" text="2:1"/>
+                        <Label fx:id="oreRatio" alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0"
+                               prefHeight="40.0" prefWidth="150.0" text="2:1"/>
+                        <Label fx:id="genRatio" alignment="BOTTOM_RIGHT" maxHeight="40.0" maxWidth="170.0"
+                               prefHeight="40.0" prefWidth="150.0" text="3:1"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="40.0" prefWidth="0.0" spacing="5.0">
+                    <children>
+                        <Button fx:id="woolHarbor" mnemonicParsing="false" onAction="#trade" prefHeight="40.0"
+                                prefWidth="150.0" text="Wool Harbor"/>
+                        <Button fx:id="oreHarbor" mnemonicParsing="false" onAction="#trade" prefHeight="40.0"
+                                prefWidth="150.0" text="Ore Harbor"/>
+                        <Button fx:id="genericHarbor" mnemonicParsing="false" onAction="#trade" prefHeight="40.0"
+                                prefWidth="150.0" text="Generic"/>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+    </children>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</VBox>

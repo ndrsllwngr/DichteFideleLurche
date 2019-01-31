@@ -1,0 +1,16 @@
+package model.players;
+
+public enum Status {
+    START_GAME,
+    WAIT_FOR_GAME_START,
+    BUILD_SETTLEMENT,
+    BUILD_STREET,
+    ROLL_DICE,
+    HAND_IN_CARDS_BECAUSE_OF_ROBBER,
+    MOVE_ROBBER,
+    TRADE_OR_BUILD,
+    BUILD,
+    WAIT,
+    CONNECTION_LOST,
+    BOOBS
+}

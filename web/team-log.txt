@@ -1,0 +1,644 @@
+# Copyright 2016-17 DichteFideleLurche
+================================================================
+2017-02-12:
+-- general:
+    - cleaning up
+    - icons
+-- view:
+    - gui: build fxml, trade_ratio
+    - javadoc
+-- network
+    - javadoc
+-- model
+    - javadoc
+    - refactoring
+================================================================
+2017-02-11:
+-- general:
+    - icons and pictures
+-- view:
+    - animation and fix
+    - sound and fix
+    - pop up
+    - gui fixes
+-- network:
+    - java doc
+-- model:
+    - java doc
+    - refactoring
+================================================================
+2017-02-10:
+-- general:
+    - icons
+-- view:
+    - sounds
+    - animation fix
+================================================================
+2017-02-09:
+-- view:
+    - mediaButton
+    - re-arrangements
+    - robber
+    - animation
+    - pop ups
+    - jetty added
+    - trade: lobby and request
+-- network:
+    - minor fixes, adjustments
+    - server logger
+    - robber
+    - mouse-listener
+    - javadoc
+-- model:
+    - robber ai
+    - ai fixes
+================================================================
+2017-02-08:
+-- general:
+    - minor log fix
+-- view:
+    - gui
+    - robber (fix, tranparency)
+    - trade
+    - stage style
+-- model
+    - ai fix and making move
+-- network:
+    - development for ai
+================================================================
+2017-02-07:
+-- model:
+    - ai fixes and making move
+================================================================
+2017-02-06:
+-- view:
+    - trade
+-- network:
+    - status
+    - speed fix
+-- model:
+    - ai devCard
+================================================================
+2017-02-05:
+-- general:
+    - cleaned up
+-- view:
+    - sound fix for jar
+    - sound
+    - trading
+-- network:
+    - singleplayer
+================================================================
+2017-02-04:
+-- general:
+    - pictures
+-- view:
+    - animation
+    - sounds
+================================================================
+2017-02-03:
+-- general:
+    - pictures
+-- view:
+    - css
+    - animation
+    - re-arrangments
+    - sounds
+-- network:
+    - resource list
+    - ai fix
+================================================================
+2017-02-02:
+-- general:
+    - restructering
+-- view:
+    - new fonts
+    - trigger
+    - css
+-- network:
+    - development
+    - res list
+-- model:
+    - longest road fix
+    - ai
+================================================================
+2017-02-01:
+-- general:
+    - pictures (icons)
+-- view:
+    - background added
+    - css
+    - added pictures to gui
+================================================================
+2017-01-31:
+-- view:
+    - css
+-- network:
+    - domestic trade rule
+================================================================
+2017-01-30:
+-- general:
+    - updated beta report
+    - updated logger
+-- view:
+    - numberTokens, robber
+    - settlement
+    - changes and fixes
+-- model:
+    - ai fix
+    - big harvest fix
+    - slowing down ai
+================================================================
+2017-01-29:
+-- general:
+    - pictures
+-- view:
+    - rob from others
+================================================================
+2017-01-28:
+-- general:
+    - pictures
+-- view:
+    - devCard: bug fixes
+================================================================
+2017-01-27:
+-- model:
+    - Ai: shortest way
+================================================================
+2017-01-26:
+-- general:
+    - pictures
+    - betaTest
+-- view:
+    - bug fix
+================================================================
+2017-01-25:
+-- view:
+    - draw street
+================================================================
+2017-01-24:
+-- general:
+    - roadBuildingCard
+    - JavaDoc
+-- view:
+   - robbing
+-- network:
+    - helper methods
+    - year of plenty
+    - cheat for monopoly card
+================================================================
+2017-01-23:
+-- view:
+    - devCard: KnightCard done, started monopoly
+    - reduced player amount to max. 4
+    - bug fixing
+-- network
+    - reduced player amount to max. 4
+    - robber
+    - year of plenty, monopoly
+    - trading with opponents
+    - largest army and knightCards enabled
+    - longest street -> road building card
+-- model:
+    - largest Army fix
+    - ai: better street building
+    - road-building
+================================================================
+2017-01-22:
+-- view:
+    - trade, generic, lobby
+    - devCard, knightcard game-play, new pop ups
+    - fixes
+-- network:
+    - domestic trade, sea trade
+    - robber
+    - server logic
+    - minor fixes, bug fixing
+================================================================
+2017-01-21:
+-- general:
+    - new pictures
+-- view:
+    - restructering
+    - trade
+    - devCard
+    - connected trade to network
+    - listener deactivated when ok from server
+    - longes street
+-- network:
+    - compatibility
+    - robber
+    - trade
+================================================================
+2017-01-20:
+-- general:
+    - cleaning up, restructering
+    - new pictures and icons
+-- view:
+    - trading
+    - bug fixing
+    - robber pop up and fixes
+    - devCards
+    - number tokens
+-- network:
+
+-- model:
+    - longest road
+    - buildings
+================================================================
+2017-01-19: Teamwork & tutor meeting
+
+-- view:
+    - devCards stack
+    - minor fixes
+-- network
+    - fixes
+    - output
+-- model
+    - ai restrictions, moving robber
+================================================================
+2017-01-18: Teamwork
+
+-- view:
+   - implemented robber observer pattern
+   - fully implementing moving robber and choosing an oponent
+   - dices got visualized
+   - implemented end game popup as soon as one player won
+   - fixed show possible settlements & cities
+-- fixed some major bugs (network)
+
+================================================================
+2017-01-17: Teamwork
+
+-- view:
+   - fixed minor bugs
+   - fully implemented hand in cards popup and validation
+
+================================================================
+2017-01-11: Teamwork
+
+-- started redesigning view
+-- network:
+   - client evolved to protocol version 1.0 only
+   - server evolved to protocol version 1.0 only
+   - some features are still missing, but axial coordinates are
+     fully implemented
+   - continued implementing development cards
+
+================================================================
+2017-01-10: Teamwork
+
+-- implemented method to convert network 1.0 axial coordinates
+   to model axial coordinates
+-- ai:
+   - throttled ai
+   - enabled move robber and hand in cards
+-- network:
+   - refactored network package
+   - updated javadoc
+   - continued implementing methods
+
+================================================================
+2017-01-09: Teamwork
+
+-- added homemade graphics to view
+-- integrated ai into network logic and view
+-- network:
+   - server and client reached v0.1 network protocol
+   - implemented gain and cost methods
+   - continued work at v0.2 network logic
+
+================================================================
+2017-01-08: Individual work
+
+-- fixed longest street bug
+-- implemented method to return all lists of resources each
+   player receives after a dice roll
+
+================================================================
+2017-01-07: Teamwork
+
+-- continued work at server
+-- started integrating ai
+
+================================================================
+2017-01-06: Teamwork
+
+-- continued work at server
+
+================================================================
+2017-01-05: Teamwork
+
+--
+
+================================================================
+2017-01-04:
+
+-- continued work at server logic
+
+================================================================
+2017-01-04: Teamwork
+
+-- continued work at server logic
+-- view:
+   - fixed "build streets"
+   - tidied up code
+
+================================================================
+2017-01-03: Individual work
+
+-- continued working at network
+-- sketched visual design elements for gui
+
+================================================================
+2017-01-02: Individual work
+
+--
+
+================================================================
+2017-01-01: day off
+
+================================================================
+2016-12-31: day off (new year's eve)
+
+================================================================
+2016-12-30: Teamwork
+
+-- tried to fix build streets listener (view)
+-- continued work at client and server
+
+================================================================
+2016-12-29: Teamwork
+
+-- reset show possible building spots
+-- build buttons get only active when client is allowed to build
+-- improved draw possible streets
+-- network:
+   - passed network protocol 0.1 milestone (client side)
+   - print only to textarea of active stage
+   - rewrote message to display actions in textarea
+-- updated jar
+
+================================================================
+2016-12-28: Teamwork
+
+-- started rewriting build street listener
+-- moved images to dedicated res folder
+-- improved view code structure
+-- network:
+   - completed javadoc
+   - restricted privacy of all network methods and variables
+   - changed order of methods for better understanding
+-- updated time reports (dropbox) & jar
+
+================================================================
+2016-12-27: Teamwork
+
+-- major update to view and client network
+   - added pictures to view
+   - improved view structure
+   - implemented roll the dice and end turn
+   - passed first 2 rounds
+   - improved listener at view
+
+================================================================
+2016-12-26: holiday
+
+================================================================
+2016-12-25: holiday
+
+================================================================
+2016-12-24: holiday (christmas)
+
+================================================================
+2016-12-23: day off
+
+================================================================
+2016-12-22: Teamwork and tutor meeting
+
+-- tutor meeting via skype
+-- continued work at server, implemented broadcasting map and
+   max count of clients
+--
+
+================================================================
+2016-12-21: Teamwork
+
+-- major upgrade to server
+-- client: end game, roll dices, update vps
+-- gui: changes according to amount of players
+-- gui: res, vp, names are changing with the help of observer
+
+================================================================
+2016-12-20: Teamwork
+
+-- continued working at client and server
+-- improved gui
+-- implemented rudimentary ai
+
+================================================================
+2016-12-19:
+
+--
+
+================================================================
+2016-12-18:
+
+--
+
+================================================================
+2016-12-17:
+
+--
+
+================================================================
+2016-12-16:
+
+--
+
+================================================================
+2016-12-15: Teamwork
+
+-- view works now with network - yay :)
+-- view auto opens automatically client view as soon as
+   game starts
+-- visualized ports in gui
+-- implemented network reading map from server and display it
+   in view
+
+================================================================
+2016-12-14: Teamwork
+
+-- observer pattern model
+-- implemented development cards carosuell
+-- implemented resource cards in view
+-- implemented chat
+-- continued to work at view (join server)
+
+================================================================
+2016-12-13: Teamwork
+
+-- finished build and trade
+-- fixed minor bugs (ie harbor)
+-- continued java documentation
+-- tried to implement methods for cards
+-- finsihed work at draw streets
+
+================================================================
+2016-12-12: Teamwork
+
+-- started to implement trade cards
+-- implemented build and trade window, integrated it into view
+-- continued work at observer pattern
+
+================================================================
+2016-12-11: Individual work
+
+-- implemented start sequence (rolling dice, first two rounds)
+
+================================================================
+2016-12-10: Individual work
+
+-- tried to fix draw streets
+
+================================================================
+2016-12-09: Teamwork
+
+-- continued work at observer pattern
+-- continued work at view
+
+================================================================
+2016-12-08: Teamwork and tutor meeting
+
+-- started implementing "start server" view
+-- talked with tutor about network, view, observer, model
+-- implemented observer pattern (model - view)
+-- attended ProfessorenCafé 2016 at Café Gumbel as team building
+   activity
+
+================================================================
+2016-12-07: Teamwork
+
+-- implemented client settings view with console
+-- redesigned view
+-- continued work at mouse click listener at board
+
+================================================================
+2016-12-06: Teamwork
+
+-- continued work at model, network and view
+-- discussed further ideas about how model, view and network
+   should interact
+
+================================================================
+2016-12-05: Teamwork
+
+-- started working in groups:
+   Logic:       Ha-Vy Ha & Lisa Stephan
+   Network:     Andreas Ellwanger & Christian Reiner
+   View:        Thi Y Nhi Nguyen
+-- established first successful exchange of json objects with
+   test server
+-- continued work at model
+-- discussed further ideas about how model, view and network
+   should interact
+
+================================================================
+2016-12-04: Individual work
+
+-- continued work at listener and gui
+-- continued work at model
+
+================================================================
+2016-12-03: Teamwork
+
+-- continued working at view (listener and structure)
+-- experimenting with network
+
+================================================================
+2016-12-02: Teamwork
+
+-- finished utilization of logger instead of system.out.print
+-- expanded gui
+-- started implementing mouse listener
+-- started discussing network
+
+================================================================
+2016-12-01: Teamwork and tutor meeting
+
+-- first contact with logger
+-- talked with tutor about roadmap
+-- number tokens and harbors visualized in gui
+-- refactored some view logic
+-- only one main left
+-- first jar went online at our website
+
+================================================================
+2016-11-30: Teamwork
+
+-- continued work at turn logic
+-- landscapes visualized in gui
+
+================================================================
+2016-11-29: Teamwork
+
+-- continued work at view
+-- continued work at catan logic
+-- finished number token distribution (random board)
+-- finished longest street calculation
+-- finished harbor distribution (random board)
+-- started work at controller, player, management (logic)
+-- renamed harbor to port, created new uml diagrams
+
+================================================================
+2016-11-28: Last plenum and teamwork afterwards
+
+-- short scrum
+-- continued work at board and gui
+-- refined website, invited tutor to trello
+
+================================================================
+2016-11-27: Individual work from home
+
+-- studied fxml via tic tac toe
+-- created UML diagram (model package)
+-- added harbors to defaultBoard
+
+================================================================
+2016-11-26: Individual work from home
+
+-- studied fxml via tutorials
+
+================================================================
+2016-11-25: Teamwork
+
+-- finished development cards factory
+-- refined Tile - Terrain/Sea - Desert/Hill/Forest .. structure
+-- introduced abstract classes to model.board package
+-- created default- and randomBoard
+
+================================================================
+2016-11-24: First tutor meeting as DichteFideleLurche
+
+-- reworked board data structure by introducing HashMap<K,V>
+   Key : BitSet, Value : Tile
+-- displayed first working hexagon at canvas
+-- discussed ideas with tutor
+
+================================================================
+2016-11-23: Teamwork
+
+-- added BitSet to data structure
+-- implemented first attributes/methods of player, management
+
+================================================================
+2016-11-22: Compared UML diagrams
+
+-- discussed logic issues and resolved them
+-- designed rough new UML diagram
+
+================================================================
+2016-11-21: First get-together
+
+-- met for the first time as "Dichte Fidele Lurche" in person,
+   but slack, trello, toggl, dropbox were already in use

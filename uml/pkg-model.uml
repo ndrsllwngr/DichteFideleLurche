@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model</OriginalElement>
+  <nodes>
+    <node x="2474.2500000000005" y="436.0">model.board.Field</node>
+    <node x="381.00000000000006" y="3408.5">model.cards.ProgressCard</node>
+    <node x="3095.2500000000005" y="436.0">model.board.Hill</node>
+    <node x="626.5" y="3306.0">model.cards.DevelopmentCard</node>
+    <node x="2091.0" y="3306.0">model.board.Edge</node>
+    <node x="1375.0" y="864.0">model.board.DefaultBoard</node>
+    <node x="565.0" y="3511.0">model.cards.MonopolyCard</node>
+    <node x="2888.2500000000005" y="436.0">model.board.Mountain</node>
+    <node x="2324.0" y="3306.0">model.cards.VictoryPointCardType</node>
+    <node x="535.0" y="3386.0">model.cards.VictoryPointCard</node>
+    <node x="2681.2500000000005" y="436.0">model.board.Forest</node>
+    <node x="2789.2500000000005" y="267.5">model.board.Sea</node>
+    <node x="903.0" y="720.0">model.board.RandomBoard</node>
+    <node x="351.00000000000006" y="3534.0">model.cards.RoadBuildingCard</node>
+    <node x="2267.2500000000005" y="436.0">model.board.Desert</node>
+    <node x="897.0" y="3397.5">model.cards.KnightCard</node>
+    <node x="2651.7500000000005" y="0.0">model.board.Tile</node>
+    <node x="620.0" y="2657.0">model.players.Human</node>
+    <node x="1601.25" y="0.0">model.Management</node>
+    <node x="1030.25" y="0.0">model.board.Board</node>
+    <node x="0.0" y="3511.0">model.cards.YearOfPlentyCard</node>
+    <node x="296.0" y="0.0">model.players.Player</node>
+    <node x="2573.2500000000005" y="257.0">model.board.Terrain</node>
+    <node x="2060.25" y="436.0">model.board.Pasture</node>
+    <node x="1940.0" y="3306.0">model.board.PortType</node>
+    <node x="1754.0" y="3306.0">model.Resource</node>
+    <node x="0.0" y="2128.0">model.players.Ai</node>
+    <node x="1096.0" y="3306.0">model.Robber</node>
+    <node x="1504.0" y="3306.0">model.board.Corner</node>
+    <node x="2554.0" y="3306.0">model.cards.DevelopmentCardFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.cards.VictoryPointCard" target="model.cards.DevelopmentCard">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.board.Mountain" target="model.board.Terrain">
+      <point x="5.6843418860808015E-14" y="-26.0" />
+      <point x="2981.7500000000005" y="406.0" />
+      <point x="2720.2500000000005" y="406.0" />
+      <point x="49.0" y="59.5" />
+    </edge>
+    <edge source="model.players.Ai" target="model.players.Player">
+      <point x="0.0" y="-566.5" />
+      <point x="300.0" y="2103.0" />
+      <point x="407.75" y="2103.0" />
+      <point x="-111.75" y="1039.0" />
+    </edge>
+    <edge source="model.cards.ProgressCard" target="model.cards.DevelopmentCard">
+      <point x="0.0" y="-15.0" />
+      <point x="448.00000000000006" y="3361.0" />
+      <point x="653.0" y="3361.0" />
+      <point x="-53.0" y="15.0" />
+    </edge>
+    <edge source="model.cards.YearOfPlentyCard" target="model.cards.ProgressCard">
+      <point x="0.0" y="-49.0" />
+      <point x="165.5" y="3486.0" />
+      <point x="403.33333333333337" y="3486.0" />
+      <point x="-44.666666666666686" y="15.0" />
+    </edge>
+    <edge source="model.board.Field" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="2567.7500000000005" y="416.0" />
+      <point x="2654.916666666667" y="416.0" />
+      <point x="-16.33333333333337" y="59.5" />
+    </edge>
+    <edge source="model.cards.MonopolyCard" target="model.cards.ProgressCard">
+      <point x="0.0" y="-49.0" />
+      <point x="698.0" y="3486.0" />
+      <point x="492.6666666666667" y="3486.0" />
+      <point x="44.66666666666663" y="15.0" />
+    </edge>
+    <edge source="model.board.DefaultBoard" target="model.board.Board">
+      <point x="0.0" y="-26.0" />
+      <point x="1457.5" y="695.0" />
+      <point x="1424.75" y="695.0" />
+      <point x="131.5" y="335.0" />
+    </edge>
+    <edge source="model.board.Terrain" target="model.board.Tile">
+      <point x="0.0" y="-59.5" />
+      <point x="2671.2500000000005" y="232.0" />
+      <point x="2714.2500000000005" y="232.0" />
+      <point x="-62.5" y="103.5" />
+    </edge>
+    <edge source="model.cards.RoadBuildingCard" target="model.cards.ProgressCard">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.board.Forest" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="2774.7500000000005" y="416.0" />
+      <point x="2687.5833333333335" y="416.0" />
+      <point x="16.33333333333337" y="59.5" />
+    </edge>
+    <edge source="model.players.Human" target="model.players.Player">
+      <point x="0.0" y="-37.5" />
+      <point x="739.0" y="2103.0" />
+      <point x="631.25" y="2103.0" />
+      <point x="111.75" y="1039.0" />
+    </edge>
+    <edge source="model.board.RandomBoard" target="model.board.Board">
+      <point x="0.0" y="-170.0" />
+      <point x="1129.0" y="695.0" />
+      <point x="1161.75" y="695.0" />
+      <point x="-131.5" y="335.0" />
+    </edge>
+    <edge source="model.board.Pasture" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="2153.75" y="396.0" />
+      <point x="2589.5833333333335" y="396.0" />
+      <point x="-81.66666666666663" y="59.5" />
+    </edge>
+    <edge source="model.board.Desert" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="2360.7500000000005" y="406.0" />
+      <point x="2622.2500000000005" y="406.0" />
+      <point x="-49.0" y="59.5" />
+    </edge>
+    <edge source="model.board.Hill" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="3188.7500000000005" y="396.0" />
+      <point x="2752.916666666667" y="396.0" />
+      <point x="81.66666666666663" y="59.5" />
+    </edge>
+    <edge source="model.board.Sea" target="model.board.Tile">
+      <point x="0.0" y="-49.0" />
+      <point x="2882.2500000000005" y="232.0" />
+      <point x="2839.2500000000005" y="232.0" />
+      <point x="62.5" y="103.5" />
+    </edge>
+    <edge source="model.cards.KnightCard" target="model.cards.DevelopmentCard">
+      <point x="0.0" y="-26.0" />
+      <point x="974.0" y="3361.0" />
+      <point x="759.0" y="3361.0" />
+      <point x="53.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4430785297950279" x="447.4151973871444" y="352.592134328965" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

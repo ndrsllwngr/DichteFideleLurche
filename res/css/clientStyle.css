@@ -1,0 +1,193 @@
+/* buttons */
+@font-face {
+    font-family: Martel, serif;
+    src: url("../fonts/martel/Martel-Regular.ttf");
+}
+
+/* labels, general information, user input */
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/open_sans/OpenSans-Regular.ttf");
+}
+
+/* textarea only (chat, console) */
+@font-face {
+    font-family: 'Roboto Mono', monospace;
+    src: url("../fonts/roboto_mono/RobotoMono-Regular.ttf");
+}
+
+#pane {
+    -fx-background-image: url("../sb2.png");
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: Martel;
+    -fx-font-size: 18px;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+.button:hover {
+    -fx-background-color: #c8ae88;
+}
+
+.button:focused {
+    -fx-background-color: #FFDEAD, -fx-focus-color, -fx-inner-border;
+    -fx-background-insets: -0.2, 1, 2, -1.4, 2.6;
+    -fx-background-radius: 3, 2, 1, 4, 1;
+}
+
+.label {
+    /*-fx-background-color: #FFDEAD;*/
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 18px;
+}
+
+/*
+#name, #pl1 {
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 14px;
+}
+*/
+
+.text-area .content {
+    -fx-background-color: #FFDEAD;
+}
+
+.text-area {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: 'Roboto Mono';
+    -fx-font-size: 10px;
+}
+
+.text-field {
+    -fx-background-color: #FFDEAD;
+}
+
+.root {
+    -fx-focus-color: #bca67d;
+    -fx-inner-border: #e7c99c;
+}
+
+#play {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../icons/ic_play_circle.png");
+    -fx-background-size: cover;
+}
+
+#stop {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../icons/ic_pause_circle.png");
+    -fx-background-size: cover;
+}
+
+#tradeButton {
+    -fx-background-insets: 100%;
+    -fx-border-image-insets: 0%;
+    -fx-background-color: #FFDEAD;
+    -fx-background-image: url("../icons/tradeButton.png");
+    -fx-background-size: cover;
+}
+
+#rollButton {
+    -fx-background-insets: 100%;
+    -fx-border-image-insets: 0%;
+    -fx-background-color: #FFDEAD;
+    -fx-background-image: url("../icons/rollDicesButton.png");
+    -fx-background-size: cover;
+}
+
+#endButton {
+    -fx-background-color: #FFDEAD;
+    -fx-background-image: url("../icons/endTurnArrowButton.png");
+    -fx-background-size: cover;
+    -fx-background-insets: 50%;
+    -fx-border-image-insets: 50%;
+}
+
+#devButton {
+    -fx-background-image: url("../icons/buyDevCardButton.png");
+    -fx-background-color: #FFDEAD;
+    -fx-background-size: cover;
+    -fx-background-insets: 0%;
+    -fx-border-image-insets: 100%;
+}
+
+#sendButton {
+    -fx-background-color: #FFDEAD;
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: Martel;
+    -fx-font-size: 14px;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+#chatField {
+    -fx-background-color: #FFDEAD;
+    -fx-text-fill: black;
+    -fx-font-family: Martel;
+    -fx-font-size: 14px;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+#brickImg {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../Ressourcen/rs_brick2.png");
+    -fx-background-size: cover;
+}
+
+#grainImg {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../Ressourcen/rs_grain2.png");
+    -fx-background-size: cover;
+}
+
+#lumberImg {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../Ressourcen/rs_lumber2.png");
+    -fx-background-size: cover;
+}
+
+#oreImg {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../Ressourcen/rs_ore2.png");
+    -fx-background-size: cover;
+}
+
+#woolImg {
+    -fx-background-insets: 0;
+    -fx-border-image-insets: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url("../Ressourcen/rs_wool2.png");
+    -fx-background-size: cover;
+}
+
+#clientBox {
+    /*-fx-background-color: rgba(255,222,173,0.7);*/
+    -fx-background-color: rgba(255, 225, 225, 0.15);
+}

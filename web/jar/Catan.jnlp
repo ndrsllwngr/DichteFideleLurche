@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp xmlns:jfx="http://javafx.com" spec="1.0" href="Catan.jnlp">
+  <information>
+    <title>Catan by DichteFideleLurche</title>
+    <vendor>Andreas Ellwanger, Ha-Vy Ha ,Thi Y Nhi Nguyen, Christian Reiner, Lisa Stephan</vendor>
+    <description>Catan</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+      <jar href="Catan.jar" size="23429004" download="eager"/>
+  </resources>
+    <security>
+        <all-permissions/>
+    </security>
+  <jfx:javafx-desc  width="1000" height="700" main-class="Catan"  name="Catan" />
+  <update check="background"/>
+</jnlp>

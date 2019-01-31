@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" maxWidth="650.0" minHeight="550.0" minWidth="650.0"
+      prefHeight="550.0" prefWidth="650.0" spacing="30.0" xmlns="http://javafx.com/javafx/8.0.112"
+      fx:controller="view.client.trade.send.TradeController">
+   <children>
+       <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="100.0" spacing="20.0">
+         <children>
+             <Button maxHeight="40.0" maxWidth="100.0" minHeight="40.0" minWidth="100.0" mnemonicParsing="false"
+                     onAction="#goBack" prefHeight="40.0" prefWidth="100.0" text="Go Back"/>
+         </children>
+       </HBox>
+       <HBox prefHeight="415.0" prefWidth="640.0">
+           <children>
+               <VBox alignment="TOP_CENTER" minWidth="75.0" prefHeight="200.0" prefWidth="90.0" spacing="85.0">
+               <children>
+                   <ImageView fx:id="arrowIn" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                              preserveRatio="true"/>
+                   <ImageView fx:id="arrowOut" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true"
+                              preserveRatio="true"/>
+               </children>
+                   <padding>
+                       <Insets right="5.0" top="60.0"/>
+                   </padding>
+            </VBox>
+               <VBox alignment="CENTER" maxWidth="458.0" minWidth="458.0" prefHeight="350.0" prefWidth="458.0"
+                     spacing="60.0">
+                   <children>
+                       <VBox alignment="CENTER" maxWidth="458.0" prefHeight="110.0" prefWidth="458.0">
+                           <children>
+                               <HBox alignment="CENTER" prefHeight="17.0" prefWidth="294.0" spacing="2.0">
+                                   <children>
+                                       <Button fx:id="lumberOppButton" mnemonicParsing="false"
+                                               onAction="#tradeWithAnything" prefHeight="15.0" prefWidth="90.0"
+                                               text="Lumber">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="brickOppButton" mnemonicParsing="false"
+                                               onAction="#tradeWithAnything" prefHeight="15.0" prefWidth="90.0"
+                                               text="Brick">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="grainOppButton" mnemonicParsing="false"
+                                               onAction="#tradeWithAnything" prefHeight="15.0" prefWidth="90.0"
+                                               text="Grain">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="woolOppButton" mnemonicParsing="false"
+                                               onAction="#tradeWithAnything" prefHeight="15.0" prefWidth="90.0"
+                                               text="Wool">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="oreOppButton" mnemonicParsing="false"
+                                               onAction="#tradeWithAnything" prefHeight="15.0" prefWidth="90.0"
+                                               text="Ore">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                   </children>
+                               </HBox>
+                               <AnchorPane prefHeight="50.0" prefWidth="458.0">
+                                   <children>
+                                       <Canvas fx:id="oppLayer" height="50.0" width="458.0"/>
+                                   </children>
+                               </AnchorPane>
+                           </children>
+                       </VBox>
+                       <VBox maxWidth="458.0" prefHeight="110.0" prefWidth="458.0">
+                           <children>
+                               <HBox alignment="CENTER" maxWidth="458.0" prefHeight="17.0" prefWidth="458.0"
+                                     spacing="2.0">
+                                   <children>
+                                       <Button fx:id="myLumber" mnemonicParsing="false" onAction="#tradeWithAnything"
+                                               prefHeight="15.0" prefWidth="90.0" text="Lumber">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="myBrick" mnemonicParsing="false" onAction="#tradeWithAnything"
+                                               prefHeight="15.0" prefWidth="90.0" text="Brick">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="myGrain" mnemonicParsing="false" onAction="#tradeWithAnything"
+                                               prefHeight="15.0" prefWidth="90.0" text="Grain">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="myWool" mnemonicParsing="false" onAction="#tradeWithAnything"
+                                               prefHeight="15.0" prefWidth="90.0" text="Wool">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                       <Button fx:id="myOre" mnemonicParsing="false" onAction="#tradeWithAnything"
+                                               prefHeight="15.0" prefWidth="90.0" text="Ore">
+                                           <font>
+                                               <Font size="10.0"/>
+                                           </font>
+                                       </Button>
+                                   </children>
+                               </HBox>
+                               <AnchorPane prefHeight="50.0" prefWidth="200.0">
+                                   <children>
+                                       <Canvas fx:id="myLayer" height="50.0" width="458.0"/>
+                                   </children>
+                               </AnchorPane>
+                           </children>
+                       </VBox>
+                   </children>
+               </VBox>
+               <VBox alignment="TOP_CENTER" minWidth="75.0" prefHeight="200.0" prefWidth="90.0" spacing="60.0">
+                   <children>
+                       <VBox alignment="TOP_CENTER" prefHeight="231.0" prefWidth="90.0" spacing="120.0">
+                           <children>
+                               <Button fx:id="delOppButton" maxHeight="40.0" maxWidth="40.0" minHeight="40.0"
+                                       minWidth="40.0" mnemonicParsing="false" onAction="#undoOppCard" prefHeight="40.0"
+                                       prefWidth="40.0">
+                                   <font>
+                                       <Font size="6.0"/>
+                                   </font>
+                                   <VBox.margin>
+                                       <Insets/>
+                                   </VBox.margin>
+                               </Button>
+                               <Button fx:id="delMyButton" maxHeight="40.0" maxWidth="40.0" mnemonicParsing="false"
+                                       onAction="#undoMyCard" prefHeight="40.0" prefWidth="40.0">
+                                   <font>
+                                       <Font size="6.0"/>
+                                   </font>
+                                   <VBox.margin>
+                                       <Insets/>
+                                   </VBox.margin>
+                               </Button>
+                           </children>
+                       </VBox>
+                       <Button fx:id="clearButton" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0"
+                               mnemonicParsing="false" onAction="#clearBothExchangeField" prefHeight="40.0"
+                               prefWidth="40.0">
+                           <font>
+                               <Font size="9.0"/>
+                           </font>
+                       </Button>
+                   </children>
+                   <HBox.margin>
+                       <Insets top="68.0"/>
+                   </HBox.margin>
+               </VBox>
+           </children>
+       </HBox>
+       <Button fx:id="confirmButton" maxHeight="40.0" maxWidth="100.0" minHeight="40.0" minWidth="100.0"
+               mnemonicParsing="false" onAction="#sendOut" prefHeight="40.0" prefWidth="100.0" text="OK">
+           <font>
+               <Font size="9.0"/>
+           </font>
+       </Button>
+   </children>
+    <stylesheets>
+        <URL value="@/css/catanBoxes.css"/>
+    </stylesheets>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+</VBox>

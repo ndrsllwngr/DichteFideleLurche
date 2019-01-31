@@ -1,0 +1,83 @@
+receiveMsg - {"Hallo":{"Version":"Catan-Testserver (TeureUnternehmensBeratung GmkH)","Protokoll":"0.1"}}
+sendMsg - {"Hallo":{"Version":"JavaFXClient 0.1 (DichteFideleLurche)"}}
+receiveMsg - {"Willkommen":{"id":6}}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":4,"Farbe":"Blau","Name":"Andreas","Status":"Wartet auf Spielbeginn","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":5,"Name":null,"Status":"Spiel starten","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Name":null,"Status":"Spiel starten","Siegpunkte":0,"Rohstoffe":{}}}}
+
+sendMsg - {"Spieler":{"Farbe":"Orange","Name":"Tobi"}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Spiel starten","Siegpunkte":0,"Rohstoffe":{}}}}
+receiveMsg - {"Serverantwort":"OK"}
+
+sendMsg - {"Spiel starten":{}}
+receiveMsg - {"Serverantwort":"OK"}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Wartet auf Spielbeginn","Siegpunkte":0,"Rohstoffe":{}}}}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":4,"Farbe":"Blau","Name":"Andreas","Status":"Verbindung verloren","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Name":null,"Status":"Spiel starten","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Wartet auf Spielbeginn","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":5,"Farbe":"Blau","Name":"blauu","Status":"Wartet auf Spielbeginn","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+
+receiveMsg - {"Spiel gestartet":{"Karte":{"Felder":[{"Ort":"a","Typ":"Meer"},{"Ort":"b","Typ":"Meer"},{"Ort":"c","Typ":"Meer"},{"Ort":"d","Typ":"Meer"},{"Ort":"e","Typ":"Meer"},{"Ort":"A","Typ":"Gebirge","Zahl":5},{"Ort":"B","Typ":"Ackerland","Zahl":10},{"Ort":"C","Typ":"Weideland","Zahl":8},{"Ort":"f","Typ":"Meer"},{"Ort":"g","Typ":"Meer"},{"Ort":"D","Typ":"Gebirge","Zahl":2},{"Ort":"E","Typ":"Weideland","Zahl":9},{"Ort":"F","Typ":"Wald","Zahl":11},{"Ort":"G","Typ":"Weideland","Zahl":4},{"Ort":"h","Typ":"Meer"},{"Ort":"i","Typ":"Meer"},{"Ort":"H","Typ":"Weideland","Zahl":6},{"Ort":"I","Typ":"Gebirge","Zahl":4},{"Ort":"J","Typ":"Wüste"},{"Ort":"K","Typ":"Hügelland","Zahl":3},{"Ort":"L","Typ":"Ackerland","Zahl":11},{"Ort":"j","Typ":"Meer"},{"Ort":"k","Typ":"Meer"},{"Ort":"M","Typ":"Ackerland","Zahl":3},{"Ort":"N","Typ":"Ackerland","Zahl":5},{"Ort":"O","Typ":"Wald","Zahl":6},{"Ort":"P","Typ":"Wald","Zahl":12},{"Ort":"l","Typ":"Meer"},{"Ort":"m","Typ":"Meer"},{"Ort":"Q","Typ":"Hügelland","Zahl":8},{"Ort":"R","Typ":"Hügelland","Zahl":10},{"Ort":"S","Typ":"Wald","Zahl":9},{"Ort":"n","Typ":"Meer"},{"Ort":"o","Typ":"Meer"},{"Ort":"p","Typ":"Meer"},{"Ort":"q","Typ":"Meer"},{"Ort":"r","Typ":"Meer"}],"Gebäude":[],"Häfen":[{"Typ":"Hafen","Ort":"dC"},{"Typ":"Hafen","Ort":"bA"},{"Typ":"Hafen","Ort":"eA"},{"Typ":"Getreide Hafen","Ort":"hG"},{"Typ":"Hafen","Ort":"iH"},{"Typ":"Holz Hafen","Ort":"lP"},{"Typ":"Erz Hafen","Ort":"mM"},{"Typ":"Wolle Hafen","Ort":"rS"},{"Typ":"Lehm Hafen","Ort":"pR"}]}}}
+
+receiveMsg - {"Würfelwurf":{"Spieler":5,"Wurf":7}}
+receiveMsg - {"Würfelwurf":{"Spieler":6,"Wurf":8}}
+receiveMsg - {"Würfelwurf":{"Spieler":7,"Wurf":9}}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":5,"Farbe":"Blau","Name":"blauu","Status":"Warten","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Warten","Siegpunkte":0,"Rohstoffe":{}}}}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Dorf bauen","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":7,"Typ":"Dorf","Ort":"IJN"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Straße bauen","Siegpunkte":1,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":7,"Typ":"Straße","Ort":"JN"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Warten","Siegpunkte":1,"Rohstoffe":{"Unbekannt":0}}}}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":5,"Farbe":"Blau","Name":"blauu","Status":"Dorf bauen","Siegpunkte":0,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":5,"Typ":"Dorf","Ort":"FJK"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":5,"Farbe":"Blau","Name":"blauu","Status":"Straße bauen","Siegpunkte":1,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":5,"Typ":"Straße","Ort":"JK"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":5,"Farbe":"Blau","Name":"blauu","Status":"Warten","Siegpunkte":1,"Rohstoffe":{"Unbekannt":0}}}}
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Dorf bauen","Siegpunkte":0,"Rohstoffe":{}}}}
+sendMsg - {"Bauen":{"Ort":"HkM","Typ":"Dorf"}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":6,"Typ":"Dorf","Ort":"HkM"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Straße bauen","Siegpunkte":1,"Rohstoffe":{}}}}
+receiveMsg - {"Serverantwort":"OK"}
+sendMsg - {"Bauen":{"Ort":"Hk","Typ":"Straße"}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":6,"Typ":"Straße","Ort":"Hk"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Warten","Siegpunkte":1,"Rohstoffe":{}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Dorf bauen","Siegpunkte":1,"Rohstoffe":{}}}}
+
+...
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Dorf bauen","Siegpunkte":1,"Rohstoffe":{"Unbekannt":0}}}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":7,"Typ":"Dorf","Ort":"MNQ"}}}
+receiveMsg - {"Ertrag":{"Spieler":7,"Rohstoffe":{"Lehm":1,"Getreide":2}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Straße bauen","Siegpunkte":2,"Rohstoffe":{"Unbekannt":3}}}}
+
+...
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Würfeln","Siegpunkte":2,"Rohstoffe":{"Unbekannt":3}}}}
+receiveMsg - {"Würfelwurf":{"Spieler":7,"Wurf":7}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Handeln oder Bauen","Siegpunkte":2,"Rohstoffe":{"Unbekannt":3}}}}
+
+...
+
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Würfeln","Siegpunkte":2,"Rohstoffe":{"Holz":3,"Lehm":1,"Wolle":1}}}}
+sendMsg - {"Würfeln":{}}
+receiveMsg - {"Würfelwurf":{"Spieler":6,"Wurf":11}}
+receiveMsg - {"Ertrag":{"Spieler":5,"Rohstoffe":{"Holz":1}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Handeln oder Bauen","Siegpunkte":2,"Rohstoffe":{"Holz":3,"Lehm":1,"Wolle":1}}}}
+receiveMsg - {"Serverantwort":"OK"}
+sendMsg - {"Bauen":{"Ort":"OP","Typ":"Straße"}}
+receiveMsg - {"Kosten":{"Spieler":6,"Rohstoffe":{"Holz":1,"Lehm":1}}}
+receiveMsg - {"Bauvorgang":{"Gebäude":{"Eigentümer":6,"Typ":"Straße","Ort":"OP"}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Handeln oder Bauen","Siegpunkte":2,"Rohstoffe":{"Holz":2,"Wolle":1}}}}
+receiveMsg - {"Serverantwort":"OK"}
+sendMsg - {"Zug beenden":{}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":6,"Farbe":"Orange","Name":"Tobi","Status":"Warten","Siegpunkte":2,"Rohstoffe":{"Holz":2,"Wolle":1}}}}
+receiveMsg - {"Statusupdate":{"Spieler":{"id":7,"Farbe":"Weiß","Name":"Andreas","Status":"Würfeln","Siegpunkte":2,"Rohstoffe":{"Unbekannt":3}}}}
+receiveMsg - {"Serverantwort":"OK"}

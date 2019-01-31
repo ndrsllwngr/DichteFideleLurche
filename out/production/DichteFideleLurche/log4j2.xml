@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+    <Properties>
+        <Property name="log-path">log/${date:yyyy-MM-dd HH-mm-ss-SSS}</Property>
+        <Property name="archive">${log-path}/archive</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console-Appender" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    %d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n
+                </pattern>>
+            </PatternLayout>
+        </Console>
+        <File name="File-Appender-controller" fileName="${log-path}/controller.log">
+            <PatternLayout>
+                <pattern>
+                    %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n
+                </pattern>
+            </PatternLayout>
+        </File>
+        <File name="File-Appender-model" fileName="${log-path}/model.log">
+            <PatternLayout>
+                <pattern>
+                    %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n
+                </pattern>
+            </PatternLayout>
+        </File>
+        <File name="File-Appender-network" fileName="${log-path}/network.log">
+            <PatternLayout>
+                <pattern>
+                    %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n
+                </pattern>
+            </PatternLayout>
+        </File>
+        <File name="File-Appender-view" fileName="${log-path}/view.log">
+            <PatternLayout>
+                <pattern>
+                    %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n
+                </pattern>
+            </PatternLayout>
+        </File>
+        <File name="File-Appender-Catan" fileName="${log-path}/Catan.log">
+            <PatternLayout>
+                <pattern>
+                    %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n
+                </pattern>
+            </PatternLayout>
+        </File>
+        <RollingFile name="RollingFile-Appender"
+                     fileName="${log-path}/rollingfile.log"
+                     filePattern="${archive}/rollingfile.log.%d{yyyy-MM-dd@HH-mm}.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="30 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="controller" level="trace" additivity="false">
+            <AppenderRef ref="File-Appender-controller" level="all"/>
+            <AppenderRef ref="Console-Appender" level="info"/>
+        </Logger>
+        <Logger name="model" level="trace" additivity="false">
+            <AppenderRef ref="File-Appender-model" level="all"/>
+            <AppenderRef ref="Console-Appender" level="info"/>
+        </Logger>
+        <Logger name="model.board" level="trace" additivity="false">
+            <AppenderRef ref="File-Appender-model" level="all"/>
+            <AppenderRef ref="Console-Appender" level="warn"/>
+        </Logger>
+        <Logger name="network" level="trace" additivity="false">
+            <AppenderRef ref="File-Appender-network" level="all"/>
+            <AppenderRef ref="Console-Appender" level="info"/>
+        </Logger>
+        <Logger name="view" level="trace" additivity="false">
+            <AppenderRef ref="File-Appender-view" level="all"/>
+            <AppenderRef ref="Console-Appender" level="info"/>
+        </Logger>
+        <Logger name="Catan" level="trace" additivity="false">
+            <AppenderRef ref="File-Appender-Catan" level="all"/>
+            <AppenderRef ref="Console-Appender" level="info"/>
+        </Logger>
+        <Root level="debug">
+            <AppenderRef ref="Console-Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>

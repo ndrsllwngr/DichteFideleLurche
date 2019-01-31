@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.board.Board</OriginalElement>
+  <nodes>
+    <node x="594.0" y="1319.0">model.board.Field</node>
+    <node x="990.0" y="1319.0">model.board.Hill</node>
+    <node x="197.99999999999994" y="1319.0">model.board.Desert</node>
+    <node x="0.0" y="1416.0">model.board.Edge</node>
+    <node x="504.0" y="906.0">model.board.Tile</node>
+    <node x="426.0" y="698.0">model.board.DefaultBoard</node>
+    <node x="395.99999999999994" y="1319.0">model.board.Mountain</node>
+    <node x="60.75" y="0.0">model.board.Board</node>
+    <node x="765.0" y="11.0">java.io.Serializable</node>
+    <node x="465.0" y="1140.0">model.board.Terrain</node>
+    <node x="687.75" y="102.0">java.lang.Enum</node>
+    <node x="792.0" y="1319.0">model.board.Pasture</node>
+    <node x="0.0" y="1319.0">model.board.Forest</node>
+    <node x="793.75" y="515.0">model.board.PortType</node>
+    <node x="723.0" y="1162.0">model.board.Sea</node>
+    <node x="0.0" y="587.0">model.board.RandomBoard</node>
+    <node x="887.0" y="0.0">java.lang.Comparable</node>
+    <node x="1213.0" y="906.0">model.board.Corner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.board.Mountain" target="model.board.Terrain">
+      <point x="5.6843418860808015E-14" y="-26.0" />
+      <point x="485.0" y="1299.0" />
+      <point x="564.1666666666666" y="1299.0" />
+      <point x="-19.83333333333337" y="59.5" />
+    </edge>
+    <edge source="model.board.Field" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="683.0" y="1299.0" />
+      <point x="603.8333333333334" y="1299.0" />
+      <point x="19.83333333333337" y="59.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="102.0" y="-181.5" />
+      <point x="993.75" y="77.0" />
+      <point x="967.5" y="77.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="model.board.DefaultBoard" target="model.board.Board">
+      <point x="0.0" y="-26.0" />
+      <point x="500.5" y="562.0" />
+      <point x="497.25" y="562.0" />
+      <point x="145.5" y="268.5" />
+    </edge>
+    <edge source="model.board.Terrain" target="model.board.Tile">
+      <point x="0.0" y="-59.5" />
+      <point x="584.0" y="1115.0" />
+      <point x="592.5" y="1115.0" />
+      <point x="-88.5" y="92.0" />
+    </edge>
+    <edge source="model.board.RandomBoard" target="model.board.Board">
+      <point x="0.0" y="-137.0" />
+      <point x="203.0" y="562.0" />
+      <point x="206.25" y="562.0" />
+      <point x="-145.5" y="268.5" />
+    </edge>
+    <edge source="model.board.Forest" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="89.0" y="1279.0" />
+      <point x="484.83333333333337" y="1279.0" />
+      <point x="-99.16666666666663" y="59.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-102.0" y="-181.5" />
+      <point x="789.75" y="77.0" />
+      <point x="816.0" y="77.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.board.Pasture" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="881.0" y="1289.0" />
+      <point x="643.5" y="1289.0" />
+      <point x="59.5" y="59.5" />
+    </edge>
+    <edge source="model.board.Desert" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="286.99999999999994" y="1289.0" />
+      <point x="524.5" y="1289.0" />
+      <point x="-59.5" y="59.5" />
+    </edge>
+    <edge source="model.board.Sea" target="model.board.Tile">
+      <point x="0.0" y="-37.5" />
+      <point x="778.0" y="1115.0" />
+      <point x="769.5" y="1115.0" />
+      <point x="88.5" y="92.0" />
+    </edge>
+    <edge source="model.board.Hill" target="model.board.Terrain">
+      <point x="0.0" y="-26.0" />
+      <point x="1079.0" y="1279.0" />
+      <point x="683.1666666666666" y="1279.0" />
+      <point x="99.16666666666663" y="59.5" />
+    </edge>
+    <edge source="model.board.PortType" target="java.lang.Enum">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="539.5" y="1158.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

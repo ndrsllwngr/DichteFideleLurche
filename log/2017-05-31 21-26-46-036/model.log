@@ -1,0 +1,86 @@
+2017-05-31 21:27:04.128 TRACE model.players.Ai 34 <init> - Enter model.players.Ai@1eac39a3
+2017-05-31 21:27:04.131 DEBUG model.players.Player 62 printPlayer - model.players.Ai@1eac39a3
+id        3         color     NULL      name                status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-05-31 21:27:04.219 DEBUG model.players.Player 62 printPlayer - model.players.Ai@1eac39a3
+id        3         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-05-31 21:27:04.310 DEBUG model.players.Player 62 printPlayer - model.players.Ai@1eac39a3
+id        3         color     NULL      name                status    START_GAME
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-05-31 21:27:04.314 DEBUG model.players.Player 233 setGrain - model.players.Ai@1eac39a3 [ id: 3 ] old: 0, new: 0
+2017-05-31 21:27:04.314 DEBUG model.players.Player 255 setWool - model.players.Ai@1eac39a3 [ id: 3 ] old: 0, new: 0
+2017-05-31 21:27:04.315 DEBUG model.players.Player 189 setLumber - model.players.Ai@1eac39a3 [ id: 3 ] old: 0, new: 0
+2017-05-31 21:27:04.315 DEBUG model.players.Player 167 setBrick - model.players.Ai@1eac39a3 [ id: 3 ] old: 0, new: 0
+2017-05-31 21:27:04.315 DEBUG model.players.Player 211 setOre - model.players.Ai@1eac39a3 [ id: 3 ] old: 0, new: 0
+2017-05-31 21:27:04.315 INFO  model.players.Player 489 setKnightsDev - 0, 0 old and new value of knightDev Card. Knight card which is on the hand of ClientName: 
+2017-05-31 21:27:04.406 TRACE model.players.Human 11 <init> - Enter model.players.Human@45702c28
+2017-05-31 21:27:04.407 DEBUG model.players.Player 62 printPlayer - model.players.Human@45702c28
+id        1         color     BLUE      name      KI (1)    status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-05-31 21:27:04.408 DEBUG model.players.Player 62 printPlayer - model.players.Human@45702c28
+id        1         color     BLUE      name      KI (1)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-05-31 21:27:04.499 TRACE model.players.Human 11 <init> - Enter model.players.Human@2dfb3221
+2017-05-31 21:27:04.500 DEBUG model.players.Player 62 printPlayer - model.players.Human@2dfb3221
+id        2         color     RED       name      KI (2)    status    null      
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []
+2017-05-31 21:27:04.501 DEBUG model.players.Player 62 printPlayer - model.players.Human@2dfb3221
+id        2         color     RED       name      KI (2)    status    WAIT_FOR_GAME_START
+vp        0         road      false     army      false     
+dev       0         dice      0         
+res       0         lumber    0         brick     0         grain     0         wool      0         ore       0         
+dev       []
+dev BLOCK []
+Harbors   []
+Roads          left      15        built     []
+Settlements    left      5         built     []
+Cities         left      4         built     []

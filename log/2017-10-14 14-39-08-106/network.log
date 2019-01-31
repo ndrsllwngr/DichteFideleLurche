@@ -1,0 +1,80 @@
+2017-10-14 14:42:44.064 INFO  network.server.Server 113 startUp - Started server...
+hostname:   ChrisMacBookPro2016
+ip:         fe80:0:0:0:7020:a1ff:fe06:30a3%12
+port:       10003
+2017-10-14 14:42:44.071 INFO  network.client.Client 147 connect - Socket[addr=localhost/127.0.0.1,port=10003,localport=53956]
+2017-10-14 14:42:44.071 INFO  network.server.Server 138 run - 0
+2017-10-14 14:42:44.071 WARN  network.client.ClientListener 673 writeToConsole - Case not covered!
+2017-10-14 14:42:44.071 INFO  network.client.Client 158 connect - Connected to localhost, 10003
+2017-10-14 14:42:44.073 INFO  network.server.ClientThread 223 setClientID - clientID: 1
+2017-10-14 14:42:44.074 INFO  network.server.Server 144 run - Id: 1, Socket: Socket[addr=/127.0.0.1,port=53956,localport=10003]
+2017-10-14 14:42:44.074 TRACE network.server.ClientThread 43 run - Enter
+2017-10-14 14:42:44.081 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Hallo":{"Protokoll":"1.0","Version":"Catan-Server (DichteFideleForste"}}
+2017-10-14 14:42:44.081 INFO  network.client.Client 224 receiveMsg - {"Hallo":{"Protokoll":"1.0","Version":"Catan-Server (DichteFideleForste"}}
+2017-10-14 14:42:44.084 INFO  network.client.Client 208 sendMsg - {"Hallo":{"Version":"JavaFXClient 1.0 (DichteFideleLurche) (KI)"}}
+2017-10-14 14:42:44.084 INFO  network.server.ClientThread 60 run -  < 1   {"Hallo":{"Version":"JavaFXClient 1.0 (DichteFideleLurche) (KI)"}}
+2017-10-14 14:42:44.087 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Willkommen":{"id":1}}
+2017-10-14 14:42:44.095 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":1,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.153 INFO  network.server.Server 138 run - 1
+2017-10-14 14:42:44.153 INFO  network.client.Client 147 connect - Socket[addr=localhost/127.0.0.1,port=10003,localport=53957]
+2017-10-14 14:42:44.153 INFO  network.server.ClientThread 223 setClientID - clientID: 2
+2017-10-14 14:42:44.153 WARN  network.client.ClientListener 673 writeToConsole - Case not covered!
+2017-10-14 14:42:44.153 INFO  network.server.Server 144 run - Id: 2, Socket: Socket[addr=/127.0.0.1,port=53957,localport=10003]
+2017-10-14 14:42:44.153 INFO  network.client.Client 158 connect - Connected to localhost, 10003
+2017-10-14 14:42:44.153 TRACE network.server.ClientThread 43 run - Enter
+2017-10-14 14:42:44.154 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Hallo":{"Protokoll":"1.0","Version":"Catan-Server (DichteFideleForste"}}
+2017-10-14 14:42:44.154 INFO  network.client.Client 224 receiveMsg - {"Hallo":{"Protokoll":"1.0","Version":"Catan-Server (DichteFideleForste"}}
+2017-10-14 14:42:44.154 INFO  network.client.Client 208 sendMsg - {"Hallo":{"Version":"JavaFXClient 1.0 (DichteFideleLurche) (KI)"}}
+2017-10-14 14:42:44.155 INFO  network.server.ClientThread 60 run -  < 2   {"Hallo":{"Version":"JavaFXClient 1.0 (DichteFideleLurche) (KI)"}}
+2017-10-14 14:42:44.155 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Willkommen":{"id":2}}
+2017-10-14 14:42:44.157 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":2,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.158 INFO  network.server.ClientThread 188 msgAllButThisClient -    1 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.164 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.174 INFO  network.client.Client 224 receiveMsg - {"Willkommen":{"id":1}}
+2017-10-14 14:42:44.244 INFO  network.client.Client 224 receiveMsg - {"Willkommen":{"id":2}}
+2017-10-14 14:42:44.262 INFO  network.client.ClientListener 231 handleMsg - model.players.Ai@7518aba9
+2017-10-14 14:42:44.329 INFO  network.client.ClientListener 231 handleMsg - model.players.Ai@3c52a748
+2017-10-14 14:42:44.352 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":1,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.353 INFO  network.client.Client 208 sendMsg - {"Spieler":{"Farbe":"Blau","Name":"KI (1)"}}
+2017-10-14 14:42:44.353 INFO  network.server.ClientThread 60 run -  < 1   {"Spieler":{"Farbe":"Blau","Name":"KI (1)"}}
+2017-10-14 14:42:44.354 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Serverantwort":"OK"}
+2017-10-14 14:42:44.355 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":1,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.355 INFO  network.server.ClientThread 188 msgAllButThisClient -    2 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.414 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":2,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.415 INFO  network.client.Client 208 sendMsg - {"Spieler":{"Farbe":"Rot","Name":"KI (2)"}}
+2017-10-14 14:42:44.415 INFO  network.server.ClientThread 60 run -  < 2   {"Spieler":{"Farbe":"Rot","Name":"KI (2)"}}
+2017-10-14 14:42:44.416 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Serverantwort":"OK"}
+2017-10-14 14:42:44.417 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":2,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.417 INFO  network.server.ClientThread 188 msgAllButThisClient -    1 > {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.443 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.504 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Größte Rittermacht":false}}}
+2017-10-14 14:42:44.533 INFO  network.client.Client 224 receiveMsg - {"Serverantwort":"OK"}
+2017-10-14 14:42:44.534 WARN  network.client.ClientListener 253 handleMsg - Case not covered!
+2017-10-14 14:42:44.593 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.621 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":1,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.622 INFO  network.client.Client 208 sendMsg - {"Spiel starten":{}}
+2017-10-14 14:42:44.622 INFO  network.server.ClientThread 60 run -  < 1   {"Spiel starten":{}}
+2017-10-14 14:42:44.625 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Serverantwort":"OK"}
+2017-10-14 14:42:44.626 INFO  network.server.ClientThread 128 msgThisClient -    1 > {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":1,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.626 INFO  network.server.ClientThread 188 msgAllButThisClient -    2 > {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.683 INFO  network.client.Client 224 receiveMsg - {"Serverantwort":"OK"}
+2017-10-14 14:42:44.683 WARN  network.client.ClientListener 253 handleMsg - Case not covered!
+2017-10-14 14:42:44.711 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.771 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":2,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.772 INFO  network.client.Client 208 sendMsg - {"Spiel starten":{}}
+2017-10-14 14:42:44.772 INFO  network.server.ClientThread 60 run -  < 2   {"Spiel starten":{}}
+2017-10-14 14:42:44.775 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Serverantwort":"OK"}
+2017-10-14 14:42:44.775 INFO  network.server.ClientThread 128 msgThisClient -    2 > {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":2,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.776 INFO  network.server.ClientThread 188 msgAllButThisClient -    1 > {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.802 INFO  network.client.Client 224 receiveMsg - {"Serverantwort":"OK"}
+2017-10-14 14:42:44.802 WARN  network.client.ClientListener 253 handleMsg - Case not covered!
+2017-10-14 14:42:44.862 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.863 WARN  network.client.ClientListener 1098 internalAi - Case not covered!
+2017-10-14 14:42:44.892 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":1,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.893 WARN  network.client.ClientListener 1098 internalAi - Case not covered!
+2017-10-14 14:42:44.954 INFO  network.client.Client 224 receiveMsg - {"Serverantwort":"OK"}
+2017-10-14 14:42:44.954 WARN  network.client.ClientListener 253 handleMsg - Case not covered!
+2017-10-14 14:42:44.981 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:44.982 WARN  network.client.ClientListener 1098 internalAi - Case not covered!
+2017-10-14 14:42:45.043 INFO  network.client.Client 224 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":2,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-10-14 14:42:45.044 WARN  network.client.ClientListener 1098 internalAi - Case not covered!

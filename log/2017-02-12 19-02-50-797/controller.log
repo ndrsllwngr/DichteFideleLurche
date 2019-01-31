@@ -1,0 +1,15 @@
+2017-02-12 19:03:16.562 DEBUG controller.Register 138 setViewJoinServerController - view.joinServer.Controller@43d78387
+2017-02-12 19:03:16.563 DEBUG controller.Register 194 setRelevantTextArea - 0
+2017-02-12 19:03:19.435 INFO  controller.Controller 28 <init> - controller.Controller@7102c6f0
+2017-02-12 19:03:19.436 DEBUG controller.Register 60 setController - controller.Controller@7102c6f0
+2017-02-12 19:03:19.439 DEBUG controller.Register 121 setNtwrkClient - network.client.Client@b5d3894
+2017-02-12 19:03:24.757 TRACE controller.Controller 178 initCustomisedBoard - Enter
+2017-02-12 19:03:24.782 INFO  controller.Controller 46 setManagement - model.Management@2d820d39
+2017-02-12 19:03:24.782 INFO  controller.Controller 130 setSequence - 4, chris, WHITE, WAIT_FOR_GAME_START
+2017-02-12 19:03:24.783 INFO  controller.Controller 130 setSequence - 1, KI (1), BLUE, WAIT_FOR_GAME_START
+2017-02-12 19:03:24.783 INFO  controller.Controller 130 setSequence - 2, KI (2), RED, WAIT_FOR_GAME_START
+2017-02-12 19:03:24.783 INFO  controller.Controller 130 setSequence - 3, KI (3), ORANGE, WAIT_FOR_GAME_START
+2017-02-12 19:03:25.544 DEBUG controller.Register 213 setViewBuildController - view.client.build.BuildController@5dab11d9
+2017-02-12 19:03:25.544 DEBUG controller.Register 172 setViewClientController - view.client.Controller@f85e506
+2017-02-12 19:03:25.544 DEBUG controller.Register 194 setRelevantTextArea - 1
+2017-02-12 19:03:25.829 DEBUG controller.Register 76 setCanvasBoard - view.client.CanvasBoard@70ddd884

@@ -1,0 +1,182 @@
+2017-02-12 18:56:30.596 INFO  network.client.Client 93 connect - Socket[addr=localhost/127.0.0.1,port=10003,localport=56117]
+2017-02-12 18:56:30.600 INFO  network.client.Client 104 connect - Connected to localhost, 10003
+2017-02-12 18:56:30.623 INFO  network.client.Client 153 sendMsg - {"Hallo":{"Version":"JavaFXClient 1.0 (DichteFideleLurche)"}}
+2017-02-12 18:56:30.623 INFO  network.client.Client 180 receiveMsg - {"Hallo":{"Protokoll":"1.0","Version":"Catan-Server (DichteFideleForste"}}
+2017-02-12 18:56:30.625 INFO  network.client.ClientListener 504 myId - Human.
+2017-02-12 18:56:30.634 INFO  network.client.Client 180 receiveMsg - {"Willkommen":{"id":4}}
+2017-02-12 18:56:30.720 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Größte Rittermacht":false}}}
+2017-02-12 18:56:30.727 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:30.808 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:30.815 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:37.265 INFO  network.client.Client 153 sendMsg - {"Spieler":{"Farbe":"Weiß","Name":"chris"}}
+2017-02-12 18:56:37.266 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:37.269 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Spiel starten","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:38.924 INFO  network.client.Client 153 sendMsg - {"Spiel starten":{}}
+2017-02-12 18:56:38.926 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:38.932 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Wartet auf Spielbeginn","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:39.019 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":1,"Wurf":[5,6]}}
+2017-02-12 18:56:39.027 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":-2},{"x":0,"y":-3}]. {29, 33}
+2017-02-12 18:56:39.029 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-3,"y":1},{"x":-2,"y":1}]. {9, 10}
+2017-02-12 18:56:39.029 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":2},{"x":1,"y":2}]. {7, 8}
+2017-02-12 18:56:39.030 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":0},{"x":-2,"y":-1}]. {16, 22}
+2017-02-12 18:56:39.030 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-3,"y":3},{"x":-2,"y":2}]. {0, 5}
+2017-02-12 18:56:39.030 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":2,"y":-1},{"x":3,"y":-2}]. {26, 32}
+2017-02-12 18:56:39.031 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":3},{"x":-1,"y":2}]. {2, 6}
+2017-02-12 18:56:39.031 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":2,"y":-2},{"x":2,"y":-3}]. {31, 35}
+2017-02-12 18:56:39.031 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":2,"y":0},{"x":3,"y":0}]. {20, 21}
+2017-02-12 18:56:39.051 INFO  network.client.Client 180 receiveMsg - {"Spiel gestartet":{"Karte":{"Felder":[{"Ort":{"x":-3,"y":2},"Typ":"Meer"},{"Ort":{"x":2,"y":0},"Zahl":8,"Typ":"Wald"},{"Ort":{"x":3,"y":-3},"Typ":"Meer"},{"Ort":{"x":-2,"y":3},"Typ":"Meer"},{"Ort":{"x":-1,"y":0},"Zahl":3,"Typ":"Ackerland"},{"Ort":{"x":0,"y":-3},"Typ":"Meer"},{"Ort":{"x":2,"y":1},"Typ":"Meer"},{"Ort":{"x":-3,"y":1},"Typ":"Meer"},{"Ort":{"x":-1,"y":2},"Zahl":12,"Typ":"Wald"},{"Ort":{"x":0,"y":2},"Zahl":9,"Typ":"Ackerland"},{"Ort":{"x":1,"y":2},"Typ":"Meer"},{"Ort":{"x":-2,"y":1},"Zahl":4,"Typ":"Hügelland"},{"Ort":{"x":2,"y":-2},"Zahl":6,"Typ":"Gebirge"},{"Ort":{"x":-1,"y":1},"Zahl":6,"Typ":"Wald"},{"Ort":{"x":0,"y":1},"Typ":"Wüste"},{"Ort":{"x":1,"y":1},"Zahl":10,"Typ":"Hügelland"},{"Ort":{"x":-3,"y":0},"Typ":"Meer"},{"Ort":{"x":-2,"y":-1},"Typ":"Meer"},{"Ort":{"x":-1,"y":-1},"Zahl":10,"Typ":"Weideland"},{"Ort":{"x":0,"y":-1},"Zahl":9,"Typ":"Weideland"},{"Ort":{"x":1,"y":-1},"Zahl":4,"Typ":"Ackerland"},{"Ort":{"x":2,"y":-1},"Zahl":3,"Typ":"Wald"},{"Ort":{"x":3,"y":-1},"Typ":"Meer"},{"Ort":{"x":-1,"y":-2},"Typ":"Meer"},{"Ort":{"x":0,"y":-2},"Zahl":5,"Typ":"Weideland"},{"Ort":{"x":1,"y":-2},"Zahl":2,"Typ":"Gebirge"},{"Ort":{"x":-3,"y":3},"Typ":"Meer"},{"Ort":{"x":-2,"y":0},"Zahl":8,"Typ":"Ackerland"},{"Ort":{"x":3,"y":-2},"Typ":"Meer"},{"Ort":{"x":-1,"y":3},"Typ":"Meer"},{"Ort":{"x":0,"y":0},"Zahl":11,"Typ":"Gebirge"},{"Ort":{"x":1,"y":-3},"Typ":"Meer"},{"Ort":{"x":0,"y":3},"Typ":"Meer"},{"Ort":{"x":1,"y":0},"Zahl":5,"Typ":"Weideland"},{"Ort":{"x":2,"y":-3},"Typ":"Meer"},{"Ort":{"x":-2,"y":2},"Zahl":11,"Typ":"Hügelland"},{"Ort":{"x":3,"y":0},"Typ":"Meer"}],"Gebäude":[],"Häfen":[{"Ort":[{"x":0,"y":-2},{"x":0,"y":-3}],"Typ":"Hafen"},{"Ort":[{"x":-3,"y":1},{"x":-2,"y":1}],"Typ":"Hafen"},{"Ort":[{"x":0,"y":2},{"x":1,"y":2}],"Typ":"Wolle Hafen"},{"Ort":[{"x":-2,"y":0},{"x":-2,"y":-1}],"Typ":"Erz Hafen"},{"Ort":[{"x":-3,"y":3},{"x":-2,"y":2}],"Typ":"Hafen"},{"Ort":[{"x":2,"y":-1},{"x":3,"y":-2}],"Typ":"Holz Hafen"},{"Ort":[{"x":-1,"y":3},{"x":-1,"y":2}],"Typ":"Getreide Hafen"},{"Ort":[{"x":2,"y":-2},{"x":2,"y":-3}],"Typ":"Hafen"},{"Ort":[{"x":2,"y":0},{"x":3,"y":0}],"Typ":"Lehm Hafen"}],"Räuber":{"x":0,"y":1}}}}
+2017-02-12 18:56:41.711 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":3,"Wurf":[6,3]}}
+2017-02-12 18:56:41.711 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":2,"Wurf":[2,6]}}
+2017-02-12 18:56:41.800 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":4,"Wurf":[5,4]}}
+2017-02-12 18:56:41.800 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":1,"Wurf":[2,2]}}
+2017-02-12 18:56:41.889 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":2,"Wurf":[3,1]}}
+2017-02-12 18:56:41.889 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":1,"Wurf":[3,6]}}
+2017-02-12 18:56:41.979 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":2,"Wurf":[4,6]}}
+2017-02-12 18:56:41.979 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":3,"Wurf":[3,4]}}
+2017-02-12 18:56:42.068 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":4,"Wurf":[4,6]}}
+2017-02-12 18:56:42.068 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":1,"Wurf":[4,2]}}
+2017-02-12 18:56:42.158 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":1,"Wurf":[5,5]}}
+2017-02-12 18:56:42.158 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":2,"Wurf":[5,1]}}
+2017-02-12 18:56:42.246 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":2,"Wurf":[4,1]}}
+2017-02-12 18:56:42.246 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":3,"Wurf":[6,5]}}
+2017-02-12 18:56:42.336 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":4,"Wurf":[1,1]}}
+2017-02-12 18:56:42.340 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.425 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.431 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.514 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.521 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":1},{"x":-1,"y":0},{"x":0,"y":0}]. {11, 17, 18}
+2017-02-12 18:56:42.521 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":1},{"x":-1,"y":0},{"x":0,"y":0}]. {11, 17, 18}
+2017-02-12 18:56:42.522 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":-1,"y":1},{"x":-1,"y":0},{"x":0,"y":0}] - {11, 17, 18}
+2017-02-12 18:56:42.522 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-1,"y":1},{"x":-1,"y":0},{"x":0,"y":0}],"Eigentümer":3,"Typ":"Dorf"}}}
+2017-02-12 18:56:42.604 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.610 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":0},{"x":0,"y":0}]. {17, 18}
+2017-02-12 18:56:42.611 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":0},{"x":0,"y":0}]. {17, 18}
+2017-02-12 18:56:42.611 INFO  network.client.ClientListener 1102 build - Straße - [{"x":-1,"y":0},{"x":0,"y":0}] - {17, 18}
+2017-02-12 18:56:42.611 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-1,"y":0},{"x":0,"y":0}],"Eigentümer":3,"Typ":"Straße"}}}
+2017-02-12 18:56:42.693 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.700 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.780 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":-1},{"x":2,"y":-1},{"x":2,"y":-2}]. {25, 26, 31}
+2017-02-12 18:56:42.781 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":-1},{"x":2,"y":-1},{"x":2,"y":-2}]. {25, 26, 31}
+2017-02-12 18:56:42.781 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":1,"y":-1},{"x":2,"y":-1},{"x":2,"y":-2}] - {25, 26, 31}
+2017-02-12 18:56:42.781 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":1,"y":-1},{"x":2,"y":-1},{"x":2,"y":-2}],"Eigentümer":1,"Typ":"Dorf"}}}
+2017-02-12 18:56:42.790 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.870 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":-1},{"x":2,"y":-2}]. {25, 31}
+2017-02-12 18:56:42.871 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":-1},{"x":2,"y":-2}]. {25, 31}
+2017-02-12 18:56:42.871 INFO  network.client.ClientListener 1102 build - Straße - [{"x":1,"y":-1},{"x":2,"y":-2}] - {25, 31}
+2017-02-12 18:56:42.872 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":1,"y":-1},{"x":2,"y":-2}],"Eigentümer":1,"Typ":"Straße"}}}
+2017-02-12 18:56:42.881 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.959 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:42.967 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":1},{"x":1,"y":0},{"x":2,"y":0}]. {13, 19, 20}
+2017-02-12 18:56:42.968 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":1},{"x":1,"y":0},{"x":2,"y":0}]. {13, 19, 20}
+2017-02-12 18:56:42.968 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":1,"y":1},{"x":1,"y":0},{"x":2,"y":0}] - {13, 19, 20}
+2017-02-12 18:56:42.968 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":1,"y":1},{"x":1,"y":0},{"x":2,"y":0}],"Eigentümer":2,"Typ":"Dorf"}}}
+2017-02-12 18:56:43.046 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:43.056 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":0},{"x":2,"y":0}]. {19, 20}
+2017-02-12 18:56:43.057 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":1,"y":0},{"x":2,"y":0}]. {19, 20}
+2017-02-12 18:56:43.058 INFO  network.client.ClientListener 1102 build - Straße - [{"x":1,"y":0},{"x":2,"y":0}] - {19, 20}
+2017-02-12 18:56:43.058 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":1,"y":0},{"x":2,"y":0}],"Eigentümer":2,"Typ":"Straße"}}}
+2017-02-12 18:56:43.133 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:43.147 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":0,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:48.170 INFO  network.client.Client 153 sendMsg - {"Bauen":{"Ort":[{"x":-2,"y":2},{"x":-1,"y":2},{"x":-1,"y":1}],"Typ":"Dorf"}}
+2017-02-12 18:56:48.171 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:48.190 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":2},{"x":-1,"y":2},{"x":-1,"y":1}]. {5, 6, 11}
+2017-02-12 18:56:48.191 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":2},{"x":-1,"y":2},{"x":-1,"y":1}]. {5, 6, 11}
+2017-02-12 18:56:48.191 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":-2,"y":2},{"x":-1,"y":2},{"x":-1,"y":1}] - {5, 6, 11}
+2017-02-12 18:56:48.192 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-2,"y":2},{"x":-1,"y":2},{"x":-1,"y":1}],"Eigentümer":4,"Typ":"Dorf"}}}
+2017-02-12 18:56:48.262 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:48.958 INFO  network.client.Client 153 sendMsg - {"Bauen":{"Ort":[{"x":-2,"y":2},{"x":-1,"y":2}],"Typ":"Straße"}}
+2017-02-12 18:56:48.959 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:48.979 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":2},{"x":-1,"y":2}]. {5, 6}
+2017-02-12 18:56:48.979 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":2},{"x":-1,"y":2}]. {5, 6}
+2017-02-12 18:56:48.980 INFO  network.client.ClientListener 1102 build - Straße - [{"x":-2,"y":2},{"x":-1,"y":2}] - {5, 6}
+2017-02-12 18:56:48.980 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-2,"y":2},{"x":-1,"y":2}],"Eigentümer":4,"Typ":"Straße"}}}
+2017-02-12 18:56:49.051 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Getreide":0,"Wolle":0,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:51.405 INFO  network.client.Client 153 sendMsg - {"Bauen":{"Ort":[{"x":-1,"y":-1},{"x":0,"y":-1},{"x":0,"y":-2}],"Typ":"Dorf"}}
+2017-02-12 18:56:51.406 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:51.428 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":-1},{"x":0,"y":-1},{"x":0,"y":-2}]. {23, 24, 29}
+2017-02-12 18:56:51.428 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":-1},{"x":0,"y":-1},{"x":0,"y":-2}]. {23, 24, 29}
+2017-02-12 18:56:51.429 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":-1,"y":-1},{"x":0,"y":-1},{"x":0,"y":-2}] - {23, 24, 29}
+2017-02-12 18:56:51.429 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-1,"y":-1},{"x":0,"y":-1},{"x":0,"y":-2}],"Eigentümer":4,"Typ":"Dorf"}}}
+2017-02-12 18:56:51.497 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Wolle":3},"Spieler":4}}
+2017-02-12 18:56:51.520 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Getreide":0,"Wolle":3,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:52.285 INFO  network.client.Client 153 sendMsg - {"Bauen":{"Ort":[{"x":-1,"y":-1},{"x":0,"y":-1}],"Typ":"Straße"}}
+2017-02-12 18:56:52.286 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:52.304 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":-1},{"x":0,"y":-1}]. {23, 24}
+2017-02-12 18:56:52.305 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-1,"y":-1},{"x":0,"y":-1}]. {23, 24}
+2017-02-12 18:56:52.305 INFO  network.client.ClientListener 1102 build - Straße - [{"x":-1,"y":-1},{"x":0,"y":-1}] - {23, 24}
+2017-02-12 18:56:52.305 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-1,"y":-1},{"x":0,"y":-1}],"Eigentümer":4,"Typ":"Straße"}}}
+2017-02-12 18:56:52.374 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Getreide":0,"Wolle":3,"Holz":0,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:52.392 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:52.596 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":-1},{"x":1,"y":-1},{"x":1,"y":-2}]. {24, 25, 30}
+2017-02-12 18:56:52.597 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":-1},{"x":1,"y":-1},{"x":1,"y":-2}]. {24, 25, 30}
+2017-02-12 18:56:52.597 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":0,"y":-1},{"x":1,"y":-1},{"x":1,"y":-2}] - {24, 25, 30}
+2017-02-12 18:56:52.597 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":0,"y":-1},{"x":1,"y":-1},{"x":1,"y":-2}],"Eigentümer":2,"Typ":"Dorf"}}}
+2017-02-12 18:56:52.621 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Getreide":1,"Wolle":1,"Erz":1},"Spieler":2}}
+2017-02-12 18:56:52.686 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:53.026 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":-1},{"x":1,"y":-1}]. {24, 25}
+2017-02-12 18:56:53.027 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":-1},{"x":1,"y":-1}]. {24, 25}
+2017-02-12 18:56:53.027 INFO  network.client.ClientListener 1102 build - Straße - [{"x":0,"y":-1},{"x":1,"y":-1}] - {24, 25}
+2017-02-12 18:56:53.027 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":0,"y":-1},{"x":1,"y":-1}],"Eigentümer":2,"Typ":"Straße"}}}
+2017-02-12 18:56:53.046 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:53.114 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:53.298 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":1},{"x":-2,"y":0},{"x":-1,"y":0}]. {10, 16, 17}
+2017-02-12 18:56:53.299 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":1},{"x":-2,"y":0},{"x":-1,"y":0}]. {10, 16, 17}
+2017-02-12 18:56:53.300 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":-2,"y":1},{"x":-2,"y":0},{"x":-1,"y":0}] - {10, 16, 17}
+2017-02-12 18:56:53.300 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-2,"y":1},{"x":-2,"y":0},{"x":-1,"y":0}],"Eigentümer":1,"Typ":"Dorf"}}}
+2017-02-12 18:56:53.322 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Getreide":2,"Lehm":1},"Spieler":1}}
+2017-02-12 18:56:53.390 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:53.726 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":1},{"x":-1,"y":0}]. {10, 17}
+2017-02-12 18:56:53.726 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":-2,"y":1},{"x":-1,"y":0}]. {10, 17}
+2017-02-12 18:56:53.726 INFO  network.client.ClientListener 1102 build - Straße - [{"x":-2,"y":1},{"x":-1,"y":0}] - {10, 17}
+2017-02-12 18:56:53.727 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":-2,"y":1},{"x":-1,"y":0}],"Eigentümer":1,"Typ":"Straße"}}}
+2017-02-12 18:56:53.745 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:53.816 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Dorf bauen","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":1,"Rohstoffe":{"Unbekannt":0},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:54.010 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":2},{"x":0,"y":1},{"x":1,"y":1}]. {7, 12, 13}
+2017-02-12 18:56:54.010 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":2},{"x":0,"y":1},{"x":1,"y":1}]. {7, 12, 13}
+2017-02-12 18:56:54.010 INFO  network.client.ClientListener 1102 build - Dorf - [{"x":0,"y":2},{"x":0,"y":1},{"x":1,"y":1}] - {7, 12, 13}
+2017-02-12 18:56:54.011 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":0,"y":2},{"x":0,"y":1},{"x":1,"y":1}],"Eigentümer":3,"Typ":"Dorf"}}}
+2017-02-12 18:56:54.045 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Getreide":1,"Lehm":1},"Spieler":3}}
+2017-02-12 18:56:54.097 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Straße bauen","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":2},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:54.442 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":2},{"x":0,"y":1}]. {7, 12}
+2017-02-12 18:56:54.443 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":2},{"x":0,"y":1}]. {7, 12}
+2017-02-12 18:56:54.443 INFO  network.client.ClientListener 1102 build - Straße - [{"x":0,"y":2},{"x":0,"y":1}] - {7, 12}
+2017-02-12 18:56:54.443 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":0,"y":2},{"x":0,"y":1}],"Eigentümer":3,"Typ":"Straße"}}}
+2017-02-12 18:56:54.463 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Würfeln","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":2},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:54.692 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":3,"Wurf":[4,2]}}
+2017-02-12 18:56:54.715 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Holz":1},"Spieler":4}}
+2017-02-12 18:56:54.782 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Erz":1},"Spieler":1}}
+2017-02-12 18:56:54.806 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Holz":1},"Spieler":3}}
+2017-02-12 18:56:54.869 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Handeln oder Bauen","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:55.377 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":1},{"x":1,"y":1}]. {12, 13}
+2017-02-12 18:56:55.378 INFO  network.Interpreter 328 axialToEdgeOrCorner - [{"x":0,"y":1},{"x":1,"y":1}]. {12, 13}
+2017-02-12 18:56:55.378 INFO  network.client.ClientListener 1102 build - Straße - [{"x":0,"y":1},{"x":1,"y":1}] - {12, 13}
+2017-02-12 18:56:55.378 INFO  network.client.Client 180 receiveMsg - {"Bauvorgang":{"Gebäude":{"Ort":[{"x":0,"y":1},{"x":1,"y":1}],"Eigentümer":3,"Typ":"Straße"}}}
+2017-02-12 18:56:55.394 INFO  network.client.Client 180 receiveMsg - {"Kosten":{"Rohstoffe":{"Unbekannt":2},"Spieler":3}}
+2017-02-12 18:56:55.466 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Handeln oder Bauen","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":1},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:55.871 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":1},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:55.898 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Würfeln","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":4},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:55.962 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":1,"Wurf":[6,1]}}
+2017-02-12 18:56:55.989 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":4},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:56.051 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:56.075 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Orange","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":1},"id":3,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (3)","Größte Rittermacht":false}}}
+2017-02-12 18:56:56.141 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Getreide":0,"Wolle":3,"Holz":1,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:56.161 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Räuber versetzen","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":4},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:56.623 INFO  network.client.Client 180 receiveMsg - {"Kosten":{"Rohstoffe":{"Unbekannt":1},"Spieler":2}}
+2017-02-12 18:56:56.640 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Unbekannt":1},"Spieler":1}}
+2017-02-12 18:56:56.713 INFO  network.client.Client 180 receiveMsg - {"Räuber versetzt":{"Ort":{"x":1,"y":1},"Spieler":1,"Ziel":2}}
+2017-02-12 18:56:56.726 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Handeln oder Bauen","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":5},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:57.290 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Blau","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":5},"id":1,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (1)","Größte Rittermacht":false}}}
+2017-02-12 18:56:57.309 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Würfeln","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":2},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:57.379 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":2,"Wurf":[4,4]}}
+2017-02-12 18:56:57.404 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Holz":1},"Spieler":2}}
+2017-02-12 18:56:57.465 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Getreide":1},"Spieler":1}}
+2017-02-12 18:56:57.495 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Handeln oder Bauen","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:57.954 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Warten","Rittermacht":0,"Farbe":"Rot","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Unbekannt":3},"id":2,"Entwicklungskarten":{"Unbekannt":0},"Name":"KI (2)","Größte Rittermacht":false}}}
+2017-02-12 18:56:57.962 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Würfeln","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Getreide":0,"Wolle":3,"Holz":1,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}
+2017-02-12 18:56:58.533 INFO  network.client.Client 153 sendMsg - {"Würfeln":{}}
+2017-02-12 18:56:58.534 INFO  network.client.Client 180 receiveMsg - {"Serverantwort":"OK"}
+2017-02-12 18:56:58.551 INFO  network.client.Client 180 receiveMsg - {"Würfelwurf":{"Spieler":4,"Wurf":[1,5]}}
+2017-02-12 18:56:58.622 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Holz":1},"Spieler":4}}
+2017-02-12 18:56:58.639 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Erz":1},"Spieler":1}}
+2017-02-12 18:56:58.712 INFO  network.client.Client 180 receiveMsg - {"Ertrag":{"Rohstoffe":{"Holz":1},"Spieler":3}}
+2017-02-12 18:56:58.726 INFO  network.client.Client 180 receiveMsg - {"Statusupdate":{"Spieler":{"Status":"Handeln oder Bauen","Rittermacht":0,"Farbe":"Weiß","Längste Handelsstraße":false,"Siegpunkte":2,"Rohstoffe":{"Getreide":0,"Wolle":3,"Holz":2,"Lehm":0,"Erz":0},"id":4,"Entwicklungskarten":{"Straßenbau":0,"Erfindung":0,"Monopol":0,"Ritter":0,"Siegpunkt":0},"Name":"chris","Größte Rittermacht":false}}}

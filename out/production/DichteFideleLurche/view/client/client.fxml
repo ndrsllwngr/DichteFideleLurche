@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0"
+            xmlns="http://javafx.com/javafx/8.0.60" fx:controller="view.client.Controller">
+    <center>
+        <StackPane BorderPane.alignment="CENTER">
+            <children>
+                <Canvas fx:id="layer1" height="480.0" width="580.0">
+                    <StackPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </StackPane.margin>
+                </Canvas>
+                <Canvas fx:id="layer2road" height="480.0" width="580.0">
+                    <StackPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </StackPane.margin>
+                </Canvas>
+                <Canvas fx:id="layer2settlement" height="480.0" width="580.0">
+                    <StackPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </StackPane.margin>
+                </Canvas>
+                <Canvas fx:id="layer2city" height="480.0" width="580.0">
+                    <StackPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </StackPane.margin>
+                </Canvas>
+                <Canvas fx:id="layer3" height="480.0" width="580.0">
+                    <StackPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                    </StackPane.margin>
+                </Canvas>
+                <Canvas fx:id="layer4" height="480.0" width="580.0" />
+                <!--<Canvas fx:id="layer4" height="500.0" width="400.0" />-->
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </StackPane>
+    </center>
+    <right>
+        <VBox fx:id="rightBox" prefHeight="503.0" prefWidth="200.0" spacing="40.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox fx:id="pl5Box" prefHeight="100.0" prefWidth="185.0" spacing="2.0">
+                    <children>
+                        <HBox prefHeight="35.0" prefWidth="172.0">
+                            <children>
+                                <Label fx:id="pl5" alignment="CENTER" prefHeight="17.0" prefWidth="185.0" text="Name 5" />
+                                <Circle fx:id="status5" fill="RED" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                            </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="VPImg5" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="vp5" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="RSImg5" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="rs5" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="DCImg5" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="dv5" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="KNImg5" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="kn5" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="PLSImg5" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="ls5" prefWidth="20.0" text="--" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Rectangle fx:id="army5" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                                <Rectangle fx:id="street5" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </VBox>
+                <VBox fx:id="pl6Box" prefHeight="100.0" prefWidth="185.0" spacing="2.0">
+                    <children>
+                        <HBox prefHeight="35.0" prefWidth="172.0">
+                            <children>
+                                <Label fx:id="pl6" alignment="CENTER" prefHeight="17.0" prefWidth="185.0" text="Name 6" />
+                                <Circle fx:id="status6" fill="RED" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                            </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="VPImg6" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="vp6" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="RSImg6" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="rs6" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="DCImg6" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="dv6" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="KNImg6" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="kn6" prefWidth="20.0" text="2" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="PLSImg6" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="ls6" prefWidth="20.0" text="--" />
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Rectangle fx:id="army6" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                                <Rectangle fx:id="street6" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </VBox>
+                <VBox fx:id="chatBox" prefHeight="242.0" prefWidth="184.0" spacing="2.0">
+                    <children>
+                        <TextArea fx:id="chatWindow" disable="true" editable="false" prefHeight="196.0" prefWidth="184.0" wrapText="true">
+                        </TextArea>
+                        <HBox alignment="CENTER" prefHeight="38.0" prefWidth="184.0" spacing="2.0">
+                            <children>
+                                <TextField fx:id="chatField" onKeyPressed="#sendEnterHandler" prefHeight="46.0"
+                                           prefWidth="111.0">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Button fx:id="sendButton" mnemonicParsing="false" onAction="#sendHandler"
+                                        prefHeight="33.0" prefWidth="70.0" text="Send">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <padding>
+                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+            </padding>
+        </VBox>
+    </right>
+    <left>
+        <VBox fx:id="leftBox" prefHeight="536.0" prefWidth="200.0" spacing="65.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox fx:id="pl2Box" prefHeight="100.0" prefWidth="185.0" spacing="2.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="35.0" prefWidth="172.0">
+                            <children>
+                                <Rectangle fx:id="pl2c" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0"
+                                           stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0"/>
+                                <Label fx:id="pl2" alignment="CENTER" prefHeight="17.0" prefWidth="185.0" text="Name 2">
+                                    <font>
+                                        <Font name="Helvetica Light" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Circle fx:id="status2" fill="RED" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                            </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="VPImg2" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="vp2" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="RSImg2" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="rs2" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="DCImg2" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="dv2" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="KNImg2" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="kn2" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="PLSImg2" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="ls2" minWidth="30.0" prefWidth="20.0" text="--"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Rectangle fx:id="army2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                                <Rectangle fx:id="street2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </VBox>
+                <VBox fx:id="pl3Box" prefHeight="100.0" prefWidth="185.0" spacing="2.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="35.0" prefWidth="172.0">
+                            <children>
+                                <Rectangle fx:id="pl3c" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0"
+                                           stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0"/>
+                                <Label fx:id="pl3" alignment="CENTER" prefHeight="17.0" prefWidth="185.0" text="Name 3" />
+                                <Circle fx:id="status3" fill="RED" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                            </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="VPImg3" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="vp3" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="RSImg3" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="rs3" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="DCImg3" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="dv3" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="KNImg3" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="kn3" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="PLSImg3" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="ls3" minWidth="30.0" prefWidth="20.0" text="--"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Rectangle fx:id="army3" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                                <Rectangle fx:id="street3" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </VBox>
+                <VBox fx:id="pl4Box" prefHeight="100.0" prefWidth="185.0" spacing="2.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="35.0" prefWidth="172.0">
+                            <children>
+                                <Rectangle fx:id="pl4c" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0"
+                                           stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="30.0"/>
+                                <Label fx:id="pl4" alignment="CENTER" prefHeight="17.0" prefWidth="185.0" text="Name 4" textAlignment="CENTER" />
+                                <Circle fx:id="status4" fill="RED" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+                            </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="VPImg4" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="vp4" minWidth="30.0" prefHeight="17.0" prefWidth="28.0"
+                                                       text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="RSImg4" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="rs4" minWidth="30.0" prefWidth="20.0" text="22"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="DCImg4" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="dv4" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="30.0" prefWidth="0.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="KNImg4" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="kn4" minWidth="30.0" prefWidth="20.0" text="2"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <ImageView fx:id="PLSImg4" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="ls4" minWidth="30.0" prefWidth="20.0" text="--"/>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                            <children>
+                                                <Rectangle fx:id="army4" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                                <Rectangle fx:id="street4" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" stroke="TRANSPARENT" strokeType="INSIDE" width="25.0" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </VBox>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <padding>
+                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+            </padding>
+        </VBox>
+    </left>
+    <bottom>
+        <HBox fx:id="clientBox" alignment="BOTTOM_CENTER" prefHeight="152.0" prefWidth="984.0" spacing="10.0">
+            <children>
+                <VBox alignment="TOP_CENTER" prefHeight="175.0" prefWidth="185.0" spacing="5.0">
+                    <children>
+                        <HBox prefHeight="67.0" prefWidth="175.0">
+                            <children>
+                                <AnchorPane prefHeight="82.0" prefWidth="175.0">
+                                    <children>
+                                        <Canvas fx:id="diceCanvas" height="80.0" layoutX="2.0" width="155.0"/>
+                              <ImageView fx:id="statusPop" fitHeight="80.0" fitWidth="80.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                            <padding>
+                                <Insets left="15.0"/>
+                            </padding>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                            <children>
+                                <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                    <Button fx:id="rollButton" maxHeight="68.0" maxWidth="68.0" minHeight="68.0"
+                                            minWidth="68.0" mnemonicParsing="false" onAction="#rollDicesHandler"
+                                            prefHeight="68.0" prefWidth="68.0">
+                                        <opaqueInsets>
+                                            <Insets />
+                                        </opaqueInsets>
+                                    </Button>
+                                    <!-- undo: delete next 5 lines and undo comment-->
+                                    <Button fx:id="endButton" contentDisplay="CENTER" maxHeight="68.0" maxWidth="68.0"
+                                            minHeight="68.0" minWidth="68.0" mnemonicParsing="false"
+                                            onAction="#endHandler" prefHeight="68.0" prefWidth="68.0">
+                                        <font>
+                                            <Font size="13.0" />
+                                        </font>
+                                    </Button>
+                                    <!--<Button fx:id="tradeButton" contentDisplay="CENTER" mnemonicParsing="false"
+                                            onAction="#buildHandler" prefHeight="29.0" prefWidth="75.0" text="Trade"
+                                                  textAlignment="CENTER">
+                                             <font>
+                                                <Font size="13.0"/>
+                                             </font>
+                                          </Button>
+                                       </HBox>
+                                       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                                          <children>
+                                             <Button fx:id="buildButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buildHandler" prefHeight="29.0" prefWidth="75.0" text="Build">
+                                                <font>
+                                                   <Font size="13.0" />
+                                                </font>
+                                             </Button>
+                                             <Button fx:id="endButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#endHandler" prefHeight="29.0" prefWidth="75.0" text="End Turn">
+                                                <font>
+                                                   <Font size="13.0" />
+                                                </font>
+                                             </Button>
+                                          </children>-->
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="15.0"/>
+                    </padding>
+                </VBox>
+                <VBox prefHeight="190.0" prefWidth="598.0">
+                    <children>
+                        <HBox alignment="CENTER_LEFT" spacing="5.0">
+                            <children>
+                                <HBox alignment="CENTER" prefHeight="30.0" prefWidth="211.0" spacing="5.0">
+                                    <children>
+                                        <Rectangle fx:id="myColor" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE"
+                                                   height="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0"
+                                                   width="30.0"/>
+                                        <Label fx:id="pl1" prefHeight="30.0" prefWidth="110.0" text="PlayerName">
+                                            <font>
+                                                <Font size="9.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <Circle fx:id="status1" fill="RED" radius="7.0" stroke="BLACK" strokeType="INSIDE"/>
+                                <Label fx:id="state" minWidth="280.0" prefHeight="25.0" prefWidth="319.0"
+                                       text="[Set-up phase] Build one settlement" textAlignment="CENTER"/>
+                            </children>
+                            <padding>
+                                <Insets left="2.0"/>
+                            </padding>
+                        </HBox>
+                        <HBox alignment="CENTER">
+                            <children>
+                                <VBox fx:id="bigBox" alignment="CENTER" prefHeight="175.0" prefWidth="595.0">
+                                    <children>
+                                        <VBox prefHeight="150.0" prefWidth="540.0">
+                                            <children>
+                                                <HBox alignment="CENTER" maxHeight="35.0" minHeight="35.0"
+                                                      minWidth="519.0" prefHeight="35.0" prefWidth="519.0">
+                                                    <children>
+                                                        <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                              minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                            <children>
+                                                                <ImageView fx:id="VPImg1" fitHeight="35.0"
+                                                                           fitWidth="35.0" pickOnBounds="true"
+                                                                           preserveRatio="true"/>
+                                                                <Label fx:id="vp1" maxHeight="35.0" maxWidth="25.0"
+                                                                       minHeight="35.0" minWidth="25.0"
+                                                                       prefHeight="35.0" prefWidth="25.0" text="22"/>
+                                                                <Label fx:id="vpTrans" maxHeight="35.0" maxWidth="34.0"
+                                                                       minHeight="35.0" minWidth="34.0"
+                                                                       prefHeight="35.0" prefWidth="34.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                              minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                            <children>
+                                                                <ImageView fx:id="RSImg1" fitHeight="35.0"
+                                                                           fitWidth="35.0" pickOnBounds="true"
+                                                                           preserveRatio="true"/>
+                                                                <Label fx:id="rs1" maxHeight="35.0" maxWidth="25.0"
+                                                                       minHeight="35.0" minWidth="25.0"
+                                                                       prefHeight="35.0" prefWidth="25.0" text="22"/>
+                                                                <Label fx:id="rsTrans" maxHeight="35.0" maxWidth="34.0"
+                                                                       minHeight="35.0" minWidth="34.0"
+                                                                       prefHeight="35.0" prefWidth="34.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                              minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                            <children>
+                                                                <ImageView fx:id="DCImg1" fitHeight="35.0"
+                                                                           fitWidth="35.0" pickOnBounds="true"
+                                                                           preserveRatio="true"/>
+                                                                <Label fx:id="dv1" maxHeight="35.0" maxWidth="25.0"
+                                                                       minHeight="35.0" minWidth="25.0"
+                                                                       prefHeight="35.0" prefWidth="25.0" text="22"/>
+                                                                <Label fx:id="dcTrans" maxHeight="35.0" maxWidth="34.0"
+                                                                       minHeight="35.0" minWidth="34.0"
+                                                                       prefHeight="35.0" prefWidth="34.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                              minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                            <children>
+                                                                <ImageView fx:id="KNImg1" fitHeight="35.0"
+                                                                           fitWidth="35.0" pickOnBounds="true"
+                                                                           preserveRatio="true"/>
+                                                                <Label fx:id="kn1" maxHeight="35.0" maxWidth="25.0"
+                                                                       minHeight="35.0" minWidth="25.0"
+                                                                       prefHeight="35.0" prefWidth="25.0" text="2"/>
+                                                                <Label fx:id="knTrans" maxHeight="35.0" maxWidth="34.0"
+                                                                       minHeight="35.0" minWidth="34.0"
+                                                                       prefHeight="35.0" prefWidth="34.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                              minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                            <children>
+                                                                <ImageView fx:id="PLSImg1" fitHeight="35.0"
+                                                                           fitWidth="35.0" pickOnBounds="true"
+                                                                           preserveRatio="true"/>
+                                                                <Label fx:id="ls1" maxHeight="35.0" maxWidth="25.0"
+                                                                       minHeight="35.0" minWidth="25.0"
+                                                                       prefHeight="35.0" prefWidth="25.0" text="0"/>
+                                                                <Label fx:id="stTrans" maxHeight="35.0" maxWidth="34.0"
+                                                                       minHeight="35.0" minWidth="34.0"
+                                                                       prefHeight="35.0" prefWidth="34.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                    </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="545.0"
+                                                      spacing="20.0">
+                                                    <children>
+                                                        <HBox alignment="CENTER" maxHeight="75.0" maxWidth="120.0"
+                                                              minHeight="75.0" minWidth="150.0" prefHeight="75.0"
+                                                              prefWidth="150.0" spacing="5.0">
+                                                            <children>
+                                                                <Rectangle fx:id="army1" arcHeight="5.0" arcWidth="5.0"
+                                                                           fill="#1f93ff00" height="70.0"
+                                                                           stroke="TRANSPARENT" strokeType="INSIDE"
+                                                                           width="70.0"/>
+                                                                <Rectangle fx:id="street1" arcHeight="5.0"
+                                                                           arcWidth="5.0" fill="#1f93ff00" height="70.0"
+                                                                           stroke="TRANSPARENT" strokeType="INSIDE"
+                                                                           width="70.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox alignment="CENTER_LEFT" prefHeight="95.0"
+                                                              prefWidth="221.0" spacing="5.0">
+                                                            <children>
+                                                                <Rectangle fx:id="fstDeve" arcHeight="5.0"
+                                                                           arcWidth="5.0" fill="rgba(38,104,161,0.1)"
+                                                                           height="95.0"
+                                                                           onMouseClicked="#switchChooseDevCard"
+                                                                           width="65.0"/>
+                                                                <Rectangle fx:id="scdDeve" arcHeight="5.0"
+                                                                           arcWidth="5.0" fill="rgba(38,104,161,0.1)"
+                                                                           height="95.0" width="65.0"/>
+                                                                <Rectangle fx:id="trdDeve" arcHeight="5.0"
+                                                                           arcWidth="5.0" fill="rgba(38,104,161,0.1)"
+                                                                           height="95.0"
+                                                                           onMouseClicked="#switchChooseDevCard"
+                                                                           width="65.0"/>
+                                                            </children>
+                                                        </HBox>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </VBox>
+                                        <HBox alignment="BOTTOM_CENTER" minHeight="35.0" minWidth="519.0"
+                                              prefHeight="35.0" prefWidth="519.0">
+                                            <children>
+                                                <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                      minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                    <children>
+                                                        <Label fx:id="lumberImg" maxHeight="35.0" maxWidth="35.0"
+                                                               minHeight="35.0" minWidth="35.0"/>
+                                                        <Label id="lumberAmount" fx:id="lumberAmount" maxHeight="35.0"
+                                                               maxWidth="35.0" minHeight="35.0" minWidth="35.0"
+                                                               prefHeight="35.0" prefWidth="35.0" text="99">
+                                                            <font>
+                                                                <Font size="13.0"/>
+                                                            </font>
+                                                        </Label>
+                                                        <Label fx:id="lumberTrans" maxHeight="35.0" maxWidth="34.0"
+                                                               minHeight="35.0" minWidth="34.0" prefHeight="35.0"
+                                                               prefWidth="34.0"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                      minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                    <children>
+                                                        <Label fx:id="brickImg" maxHeight="35.0" maxWidth="35.0"
+                                                               minHeight="35.0" minWidth="35.0"/>
+                                                        <Label id="brickAmount" fx:id="brickAmount" contentDisplay="TOP"
+                                                               maxHeight="35.0" maxWidth="35.0" minHeight="35.0"
+                                                               minWidth="35.0" prefHeight="35.0" prefWidth="35.0"
+                                                               text="99">
+                                                            <font>
+                                                                <Font size="13.0"/>
+                                                            </font>
+                                                        </Label>
+                                                        <Label fx:id="brickTrans" maxHeight="35.0" maxWidth="34.0"
+                                                               minHeight="35.0" minWidth="34.0" prefHeight="35.0"
+                                                               prefWidth="34.0"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                      minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                    <children>
+                                                        <Label fx:id="grainImg" maxHeight="35.0" maxWidth="35.0"
+                                                               minHeight="35.0" minWidth="35.0"/>
+                                                        <Label id="grainAmount" fx:id="grainAmount" maxHeight="35.0"
+                                                               maxWidth="35.0" minHeight="35.0" minWidth="35.0"
+                                                               prefHeight="35.0" prefWidth="35.0" text="99">
+                                                            <font>
+                                                                <Font size="13.0"/>
+                                                            </font>
+                                                        </Label>
+                                                        <Label fx:id="grainTrans" maxHeight="35.0" maxWidth="34.0"
+                                                               minHeight="35.0" minWidth="34.0" prefHeight="35.0"
+                                                               prefWidth="34.0"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                      minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                    <children>
+                                                        <Label fx:id="woolImg" maxHeight="35.0" maxWidth="35.0"
+                                                               minHeight="35.0" minWidth="35.0"/>
+                                                        <Label id="woolAmount" fx:id="woolAmount" maxHeight="35.0"
+                                                               maxWidth="35.0" minHeight="35.0" minWidth="35.0"
+                                                               prefHeight="35.0" prefWidth="35.0" text="99">
+                                                            <font>
+                                                                <Font size="13.0"/>
+                                                            </font>
+                                                        </Label>
+                                                        <Label fx:id="woolTrans" maxHeight="35.0" maxWidth="34.0"
+                                                               minHeight="35.0" minWidth="34.0" prefHeight="35.0"
+                                                               prefWidth="34.0"/>
+                                                    </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" maxWidth="104.0" minHeight="35.0"
+                                                      minWidth="104.0" prefHeight="35.0" prefWidth="104.0">
+                                                    <children>
+                                                        <Label fx:id="oreImg" maxHeight="35.0" maxWidth="35.0"
+                                                               minHeight="35.0" minWidth="35.0"/>
+                                                        <Label id="oreAmount" fx:id="oreAmount" maxHeight="35.0"
+                                                               maxWidth="35.0" minHeight="35.0" minWidth="35.0"
+                                                               prefHeight="35.0" prefWidth="35.0" text="99">
+                                                            <font>
+                                                                <Font size="13.0"/>
+                                                            </font>
+                                                        </Label>
+                                                        <Label fx:id="oreTrans" maxHeight="35.0" maxWidth="34.0"
+                                                               minHeight="35.0" minWidth="34.0" prefHeight="35.0"
+                                                               prefWidth="34.0"/>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                    </padding>
+                                </VBox>
+                                <VBox alignment="BOTTOM_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                                    <children>
+                                        <Button fx:id="devButton" contentDisplay="CENTER" maxHeight="68.0"
+                                                maxWidth="68.0" minHeight="68.0" minWidth="68.0" mnemonicParsing="false"
+                                                onMouseClicked="#switchChooseDevCard" prefHeight="68.0"
+                                                prefWidth="68.0">
+                                            <font>
+                                                <Font size="13.0"/>
+                                            </font>
+                                        </Button>
+                                        <Button fx:id="tradeButton" contentDisplay="CENTER" maxHeight="68.0"
+                                                maxWidth="68.0" minHeight="68.0" minWidth="68.0" mnemonicParsing="false"
+                                                onAction="#openTrade" prefHeight="68.0" prefWidth="68.0">
+                                            <font>
+                                                <Font size="13.0"/>
+                                            </font>
+                                        </Button>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="5.0"/>
+                                    </padding>
+                                </VBox>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <HBox fx:id="replace" prefHeight="207.0" prefWidth="185.0">
+                    <children>
+                        <Pane fx:id="replace1" prefHeight="187.0" prefWidth="185.0">
+                     <children>
+                        <Pane layoutX="14.0" layoutY="39.0" prefHeight="142.5" prefWidth="97.5">
+                           <children>
+                              <ImageView fx:id="devCardTrans" fitHeight="142.5" fitWidth="97.5" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </Pane>
+                     </children></Pane>
+                    </children>
+                </HBox>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="8.0" left="8.0" right="8.0" />
+            </BorderPane.margin>
+        </HBox>
+    </bottom>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+    <top>
+        <HBox alignment="CENTER_RIGHT" prefHeight="29.0" prefWidth="1010.0" spacing="5.0">
+            <children>
+                <Button fx:id="play" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0"
+                        mnemonicParsing="false"/>
+            </children>
+            <BorderPane.margin>
+                <Insets right="5.0" top="5.0"/>
+            </BorderPane.margin>
+        </HBox>
+    </top>
+    <stylesheets>
+        <URL value="@/css/clientStyle.css" />
+    </stylesheets>
+</BorderPane>

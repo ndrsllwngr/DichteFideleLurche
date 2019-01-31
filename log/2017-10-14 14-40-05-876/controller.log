@@ -1,0 +1,5 @@
+2017-10-14 14:42:54.174 DEBUG controller.Register 141 setViewJoinServerController - view.joinServer.Controller@36909166
+2017-10-14 14:42:54.174 DEBUG controller.Register 199 setRelevantTextArea - 0
+2017-10-14 14:42:59.675 INFO  controller.Controller 28 <init> - controller.Controller@3287a3db
+2017-10-14 14:42:59.675 DEBUG controller.Register 60 setController - controller.Controller@3287a3db
+2017-10-14 14:42:59.677 DEBUG controller.Register 123 setNtwrkClient - network.client.Client@2a67ab93
